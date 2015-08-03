@@ -35,7 +35,7 @@
  * 11-Mar-2004 : Made generic (CH);
  *
  */
-package org.jgrapht;
+package com.bona.Model;
 
 /**
  * A vertex factory used by graph algorithms for creating new vertices.

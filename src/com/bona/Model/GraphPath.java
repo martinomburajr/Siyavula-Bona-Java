@@ -34,7 +34,7 @@
  * 1-Jan-2008 : Initial revision (JVS);
  *
  */
-package org.jgrapht;
+package com.bona.Model;
 
 import java.util.*;
 

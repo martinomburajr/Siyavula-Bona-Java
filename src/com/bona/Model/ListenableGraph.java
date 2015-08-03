@@ -36,7 +36,7 @@
  * 11-Mar-2004 : Made generic (CH);
  *
  */
-package org.jgrapht;
+package com.bona.Model;
 
 import org.jgrapht.event.*;
 

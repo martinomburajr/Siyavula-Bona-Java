@@ -36,7 +36,7 @@
  * 07-May-2006 : Changed from List<Edge> to Set<Edge> (JVS);
  *
  */
-package org.jgrapht;
+package com.bona.Model;
 
 import java.util.*;
 
