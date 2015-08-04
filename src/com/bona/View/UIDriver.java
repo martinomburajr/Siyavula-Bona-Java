@@ -1,6 +1,6 @@
 package com.bona.View;
 
-public class Driver {
+public class UIDriver {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
