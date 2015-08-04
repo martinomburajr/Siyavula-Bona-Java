@@ -32,7 +32,7 @@
  * Changes
  * -------
  */
-package org.jgrapht.generate;
+package com.bona.Model.generate;
 
 import java.util.*;
 

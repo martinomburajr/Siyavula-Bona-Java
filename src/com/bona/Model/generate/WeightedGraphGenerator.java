@@ -10,7 +10,7 @@
  * (b) the terms of the Eclipse Public License v1.0 as published by
  * the Eclipse Foundation.
  */
-package org.jgrapht.generate;
+package com.bona.Model.generate;
 
 import org.jgrapht.*;
 

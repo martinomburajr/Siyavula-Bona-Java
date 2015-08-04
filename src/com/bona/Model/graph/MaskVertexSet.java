@@ -33,7 +33,7 @@
  * 05-Jun-2007 : Initial revision (GB);
  *
  */
-package org.jgrapht.graph;
+package com.bona.Model.graph;
 
 import java.util.*;
 

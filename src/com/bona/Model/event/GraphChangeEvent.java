@@ -34,7 +34,7 @@
  * 10-Aug-2003 : Initial revision (BN);
  *
  */
-package org.jgrapht.event;
+package com.bona.Model.event;
 
 import java.util.*;
 

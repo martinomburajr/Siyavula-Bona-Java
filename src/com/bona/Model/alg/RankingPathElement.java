@@ -35,7 +35,7 @@
  * 05-Jul-2007 : Added support for generics (JVS);
  *
  */
-package org.jgrapht.alg;
+package com.bona.Model.alg;
 
 import org.jgrapht.*;
 

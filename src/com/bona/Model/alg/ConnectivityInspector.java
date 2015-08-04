@@ -37,7 +37,7 @@
  * 07-Jun-2005 : Made generic (CH);
  *
  */
-package org.jgrapht.alg;
+package com.bona.Model.alg;
 
 import java.util.*;
 

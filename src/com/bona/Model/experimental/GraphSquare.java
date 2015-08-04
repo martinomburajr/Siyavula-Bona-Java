@@ -34,7 +34,7 @@
  * 14-Sep-2004 : Initial revision (MB);
  *
  */
-package org.jgrapht.experimental;
+package com.bona.Model.experimental;
 
 import java.util.*;
 

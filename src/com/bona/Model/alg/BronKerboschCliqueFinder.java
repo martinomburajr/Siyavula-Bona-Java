@@ -35,7 +35,7 @@
  * 26-Jul-2005 : Cleaned up and checked in (JVS);
  *
  */
-package org.jgrapht.alg;
+package com.bona.Model.alg;
 
 import java.util.*;
 

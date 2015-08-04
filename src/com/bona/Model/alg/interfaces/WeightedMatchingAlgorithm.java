@@ -27,7 +27,7 @@
  * Contributor(s):
  *
  */
-package org.jgrapht.alg.interfaces;
+package com.bona.Model.alg.interfaces;
 
 /**
  * Allows to derive weighted matching from <i>general</i> graph

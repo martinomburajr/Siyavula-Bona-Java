@@ -36,7 +36,7 @@
  * 28-May-2006 : Moved connectivity info from edge to graph (JVS);
  * 08-Apr-2013 : Added DirectedWeightedPseudograph (AG)
  */
-package org.jgrapht.graph;
+package com.bona.Model.graph;
 
 import org.jgrapht.*;
 import org.jgrapht.graph.builder.*;

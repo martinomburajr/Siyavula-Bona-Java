@@ -36,7 +36,7 @@
  * 11-Mar-2004 : Made generic (CH);
  *
  */
-package org.jgrapht.event;
+package com.bona.Model.event;
 
 /**
  * A listener on graph iterator or on a graph traverser.

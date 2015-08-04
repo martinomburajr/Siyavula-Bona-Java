@@ -35,7 +35,7 @@
  * 1-Apr-2008 : Reduced memory consumption (CS);
  *
  */
-package org.jgrapht.alg;
+package com.bona.Model.alg;
 
 import java.util.*;
 

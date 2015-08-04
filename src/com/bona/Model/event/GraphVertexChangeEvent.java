@@ -35,7 +35,7 @@
  * 11-Mar-2004 : Made generic (CH);
  *
  */
-package org.jgrapht.event;
+package com.bona.Model.event;
 
 /**
  * An event which indicates that a graph vertex has changed, or is about to

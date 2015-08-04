@@ -33,7 +33,7 @@
  * -------
  * 06-Sep-2013 : Initial revision (NO);
  */
-package org.jgrapht.alg.cycle;
+package com.bona.Model.alg.cycle;
 
 import java.util.*;
 

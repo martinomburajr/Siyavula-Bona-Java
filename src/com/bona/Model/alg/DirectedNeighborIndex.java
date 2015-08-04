@@ -33,7 +33,7 @@
  * 13-Dec-2005 : Initial revision (CF);
  *
  */
-package org.jgrapht.alg;
+package com.bona.Model.alg;
 
 import java.util.*;
 

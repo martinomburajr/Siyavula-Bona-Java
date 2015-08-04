@@ -39,7 +39,7 @@
  * 28-May-2006 : Moved connectivity info from edge to graph (JVS);
  *
  */
-package org.jgrapht;
+package com.bona.Model;
 
 /**
  * A collection of utilities to assist the working with graphs.

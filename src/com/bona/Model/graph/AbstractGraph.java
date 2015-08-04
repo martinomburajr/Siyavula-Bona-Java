@@ -39,7 +39,7 @@
  * 14-Jun-2012 : Added hashCode() and equals() methods implementation (VK);
  *
  */
-package org.jgrapht.graph;
+package com.bona.Model.graph;
 
 import java.util.*;
 

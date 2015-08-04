@@ -27,7 +27,7 @@
  * Contributor(s):
  *
  */
-package org.jgrapht.alg.interfaces;
+package com.bona.Model.alg.interfaces;
 
 import java.util.*;
 

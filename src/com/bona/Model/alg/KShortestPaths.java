@@ -36,7 +36,7 @@
  * 06-Dec-2010 : Bugfixes (GB);
  *
  */
-package org.jgrapht.alg;
+package com.bona.Model.alg;
 
 import java.util.*;
 

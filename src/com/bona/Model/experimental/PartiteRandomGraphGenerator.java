@@ -35,7 +35,7 @@
  *
  */
 // package org.jgrapht.generate;
-package org.jgrapht.experimental;
+package com.bona.Model.experimental;
 
 import java.util.*;
 

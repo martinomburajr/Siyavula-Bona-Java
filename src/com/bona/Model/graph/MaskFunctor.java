@@ -33,7 +33,7 @@
  * 05-Jun-2007 : Initial revision (GB);
  *
  */
-package org.jgrapht.graph;
+package com.bona.Model.graph;
 
 /**
  * A functor interface for masking out vertices and edges of a graph.

@@ -10,7 +10,7 @@
  * (b) the terms of the Eclipse Public License v1.0 as published by
  * the Eclipse Foundation.
  */
-package org.jgrapht.experimental;
+package com.bona.Model.experimental;
 
 import java.util.*;
 

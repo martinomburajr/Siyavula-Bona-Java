@@ -34,7 +34,7 @@
  * 3-Jan-2011 : Initial revision (AM);
  *
  */
-package org.jgrapht.generate;
+package com.bona.Model.generate;
 
 import java.util.*;
 

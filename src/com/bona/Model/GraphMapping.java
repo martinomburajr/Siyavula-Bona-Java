@@ -30,7 +30,7 @@
  * Changes
  * -------
  */
-package org.jgrapht;
+package com.bona.Model;
 
 /**
  * GraphMapping represents a bidirectional mapping between two graphs (called

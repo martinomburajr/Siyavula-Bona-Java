@@ -35,7 +35,7 @@
  * 03-Dec-2009 : Optimized and enhanced version (SD);
  *
  */
-package org.jgrapht.alg;
+package com.bona.Model.alg;
 
 import java.util.*;
 
