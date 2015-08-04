@@ -35,7 +35,7 @@
  * 2004-05-27 : Initial version (BN);
  *
  */
-package org.jgrapht.util;
+package com.bona.Model.util;
 
 /**
  * The <code>ModifiableInteger</code> class wraps a value of the primitive type

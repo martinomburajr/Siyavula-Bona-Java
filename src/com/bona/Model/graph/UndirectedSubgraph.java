@@ -35,7 +35,7 @@
  * 06-Aug-2005 : Made generic (CH);
  *
  */
-package org.jgrapht.graph;
+package com.bona.Model.graph;
 
 import java.util.*;
 

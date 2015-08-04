@@ -36,7 +36,7 @@
  * 04-May-2004 : Made generic (CH)
  *
  */
-package org.jgrapht.traverse;
+package com.bona.Model.traverse;
 
 import java.util.*;
 

@@ -33,7 +33,7 @@
  * 02-Feb-2009 : Initial revision (IR);
  *
  */
-package org.jgrapht.util;
+package com.bona.Model.util;
 
 /**
  * Binary operator for edge weights. There are some prewritten operators.

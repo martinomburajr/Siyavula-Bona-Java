@@ -34,7 +34,7 @@
  * 12-Jan-2015 : Initial revision (AC);
  *
  */
-package org.jgrapht.graph.builder;
+package com.bona.Model.graph.builder;
 
 import org.jgrapht.*;
 

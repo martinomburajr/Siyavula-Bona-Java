@@ -33,7 +33,7 @@
  * 03-Dec-2009 : Initial revision (SD);
  *
  */
-package org.jgrapht.util;
+package com.bona.Model.util;
 
 /**
  * Representation of a pair of vertices; to be replaced by Pair&lt;V,V&gt; if

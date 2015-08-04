@@ -32,7 +32,7 @@
  * Changes
  * -------
  */
-package org.jgrapht.util;
+package com.bona.Model.util;
 
 /**
  * Math Utilities. Currently contains the following:

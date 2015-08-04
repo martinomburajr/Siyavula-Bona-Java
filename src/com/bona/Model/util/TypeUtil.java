@@ -33,7 +33,7 @@
  * -------
  * 07-May-2006 : Initial version (JVS);
  */
-package org.jgrapht.util;
+package com.bona.Model.util;
 
 /**
  * TypeUtil isolates type-unsafety so that code which uses it for legitimate

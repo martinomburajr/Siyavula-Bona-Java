@@ -46,7 +46,7 @@
  *      JVS     06/24/06        Generics
  *
  */
-package org.jgrapht.util;
+package com.bona.Model.util;
 
 /**
  * Implements a node of the Fibonacci heap. It holds the information necessary

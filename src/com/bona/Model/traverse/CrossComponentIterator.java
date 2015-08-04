@@ -39,7 +39,7 @@
  * 07-May-2006 : Changed from List<Edge> to Set<Edge> (JVS);
  *
  */
-package org.jgrapht.traverse;
+package com.bona.Model.traverse;
 
 import java.util.*;
 

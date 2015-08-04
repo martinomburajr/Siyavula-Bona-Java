@@ -33,7 +33,7 @@
  * -------
  * 07-May-2006 : Initial version (JVS);
  */
-package org.jgrapht.util;
+package com.bona.Model.util;
 
 import java.util.*;
 

@@ -34,7 +34,7 @@
  * 22-Jan-2014 : Initial revision;
  * 29-Jan-2013 : Added weight parameter. Edge list is now stored when validating
  */
-package org.jgrapht.graph;
+package com.bona.Model.graph;
 
 import java.util.*;
 
