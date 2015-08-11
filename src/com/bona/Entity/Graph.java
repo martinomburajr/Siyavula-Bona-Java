@@ -5,10 +5,11 @@ import java.util.Collection;
 import java.util.List;
 import java.util.Set;
 
+import com.bona.Model.*;
 import com.bona.Model.DirectedGraph;
 import com.bona.Model.EdgeFactory;
 
-public class Graph implements DirectedGraph {
+public class Graph implements DirectedGraph, GraphPath {
 
 	List<Vertex> vertices = new ArrayList<Vertex>();
 	List<Edge> edges = new ArrayList<Edge>();
@@ -34,20 +35,37 @@ public class Graph implements DirectedGraph {
 
 	@Override
 	public Object addEdge(Object sourceVertex, Object targetVertex) {
-		// TODO Auto-generated method stub)
-		
+
 		int i = 0;
 		
-		Vertex source = (Vertex)sourceVertex;
-		Vertex target = (Vertex)targetVertex;
+		Vertex source = new Vertex();
+		Vertex target = new Vertex();
 		
-		Edge edge = new Edge(i,source, target);
+		source = this.searchList((Vertex)sourceVertex);
+		target = this.searchList((Vertex)targetVertex);
+		
+		Edge edge = new Edge(i ,source ,target);
+		source.getOutgoingEdges().add(edge);
+		
+		target.getIncomingEdges().add(edge);
 		edges.add(edge);
 		
 		i++;		
 		return edge;
 	}
 	
+	public Vertex searchList(Vertex vertex)
+	{
+		
+		for(int i = 0; i < vertices.size(); i++)
+		{
+			if(vertices.get(i).getId().equals(vertex.getId()))
+			{
+				return vertices.get(i);
+			}
+		}
+		return null;
+	}
 	
 	
 	
@@ -66,8 +84,9 @@ public class Graph implements DirectedGraph {
 	
 	public Vertex addVertex (String id, String type, String label)
 	{
-		Vertex v = new Vertex(id, type, label);
-		return v;
+		Vertex vertex = new Vertex(id, type, label);
+		vertices.add(vertex);
+		return vertex;
 	}
 
 	@Override
@@ -189,7 +208,10 @@ public class Graph implements DirectedGraph {
 	@Override
 	public int inDegreeOf(Object vertex) {
 		// TODO Auto-generated method stub
-		return 0;
+		
+		int inDegree = ((Vertex)vertex).getIncomingEdges().size();
+		
+		return inDegree;
 	}
 
 	@Override
@@ -201,7 +223,10 @@ public class Graph implements DirectedGraph {
 	@Override
 	public int outDegreeOf(Object vertex) {
 		// TODO Auto-generated method stub
-		return 0;
+		
+		int outDegree = ((Vertex)vertex).getOutgoingEdges().size();
+		
+		return outDegree;
 	}
 
 	@Override
@@ -209,6 +234,68 @@ public class Graph implements DirectedGraph {
 		// TODO Auto-generated method stub
 		return null;
 	}
+
+
+	/*
+	 * Implemented from the Graph Path section
+	 */
+	@Override
+	public Graph getGraph() {
+		// TODO Auto-generated method stub
+		return this;
+	}
+
+
+	@Override
+	public Object getStartVertex() {
+		// TODO Auto-generated method stub
+		
+		
+		return null;
+	}
+
+
+	@Override
+	public Object getEndVertex() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+
+	@Override
+	public List getEdgeList() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+
+	@Override
+	public double getWeight() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+
+	public List<Vertex> getVertices() {
+		return vertices;
+	}
+
+
+	public void setVertices(List<Vertex> vertices) {
+		this.vertices = vertices;
+	}
+
+
+	public List<Edge> getEdges() {
+		return edges;
+	}
+
+
+	public void setEdges(List<Edge> edges) {
+		this.edges = edges;
+	}
+	
+	
 
 
 }

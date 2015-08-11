@@ -1,5 +1,6 @@
 package com.bona.Entity;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class Vertex implements com.bona.Model.VertexFactory 
@@ -8,14 +9,19 @@ public class Vertex implements com.bona.Model.VertexFactory
 	private String type;
 	private String label;
 	
-	private List<Edge> incomingEdges;
-	private List<Edge> outgoingEdges;
+	private List<Edge> incomingEdges = new ArrayList<Edge>();
+	private List<Edge> outgoingEdges = new ArrayList<Edge>();
 	
 	public Vertex(String id, String type, String label)
 	{
 		this.id = id;
 		this.type = type;
 		this.label = label;
+	}
+	
+	public Vertex()
+	{
+		
 	}
 	
 	@Override
