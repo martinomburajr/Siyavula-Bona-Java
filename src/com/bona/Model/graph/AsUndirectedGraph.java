@@ -37,7 +37,7 @@
  * 28-May-2006 : Moved connectivity info from edge to graph (JVS);
  *
  */
-package com.bona.Model.graph;
+package com.bona.Model.graphaph;
 
 import java.io.*;
 

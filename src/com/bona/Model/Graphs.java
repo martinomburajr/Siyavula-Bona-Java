@@ -43,7 +43,7 @@ package com.bona.Model;
 
 import java.util.*;
 
-import org.jgrapht.graph.*;
+import com.bona.Model.graph.*;
 
 
 /**
@@ -366,17 +366,17 @@ public abstract class Graphs
      *
      * @see AsUndirectedGraph
      */
-    public static <V, E> UndirectedGraph<V, E> undirectedGraph(Graph<V, E> g)
+    /*public static <V, E> UndirectedGraph<V, E> undirectedGraph(Graph<V, E> g)
     {
         if (g instanceof DirectedGraph<?, ?>) {
-            return new AsUndirectedGraph<V, E>((DirectedGraph<V, E>) g);
+            return null; //new AsUndirectedGraph<V, E>((DirectedGraph<V, E>) g);
         } else if (g instanceof UndirectedGraph<?, ?>) {
             return (UndirectedGraph<V, E>) g;
         } else {
             throw new IllegalArgumentException(
                 "Graph must be either DirectedGraph or UndirectedGraph");
         }
-    }
+    }*/
 
     /**
      * Tests whether an edge is incident to a vertex.

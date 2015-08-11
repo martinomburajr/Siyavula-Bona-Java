@@ -103,6 +103,8 @@ public interface DirectedGraph<V, E>
      * @return a set of all edges outgoing from the specified vertex.
      */
     public Set<E> outgoingEdgesOf(V vertex);
+
+	Set getAllEdges(Object sourceVertex, Object targetVertex);
 }
 
 // End DirectedGraph.java
