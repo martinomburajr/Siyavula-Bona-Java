@@ -3,7 +3,9 @@ package com.bona.Entity;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Vertex implements com.bona.Model.VertexFactory 
+import org.jgrapht.VertexFactory;
+
+public class Vertex implements VertexFactory<Vertex>
 {
 	private String id;
 	private String type;
@@ -25,7 +27,7 @@ public class Vertex implements com.bona.Model.VertexFactory
 	}
 	
 	@Override
-	public Object createVertex() {
+	public Vertex createVertex() {
 		// TODO Auto-generated method stub
 		return null;
 	}
@@ -71,5 +73,4 @@ public class Vertex implements com.bona.Model.VertexFactory
 	}
 	
 	
-
 }

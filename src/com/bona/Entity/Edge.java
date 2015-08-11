@@ -1,6 +1,8 @@
 package com.bona.Entity;
 
-public class Edge implements com.bona.Model.EdgeFactory {
+import org.jgrapht.EdgeFactory;
+
+public class Edge implements EdgeFactory<Vertex,Edge> {
 
 	private int id;
 	private Vertex sourceVertex;
@@ -13,11 +15,6 @@ public class Edge implements com.bona.Model.EdgeFactory {
 		this.targetVertex = targetVertex;
 	}
 	
-	@Override
-	public Object createEdge(Object sourceVertex, Object targetVertex) {
-		// TODO Auto-generated method stub
-		return null;
-	}
 	
 	public Edge createEdge(Vertex sourceVertex, Vertex targetVertex) {
 		// TODO Auto-generated method stub
