@@ -87,19 +87,14 @@ public class Graph implements DirectedGraph<Vertex, Edge>{
 	
 	
 	
-	
-	
-	
-	
-	
-	
-	
+	/*
+	 * Implemented DirectedGraph<Methods>
+	 */
 	
 	/*
 	 * (non-Javadoc)
 	 * @see org.jgrapht.Graph#getAllEdges(java.lang.Object, java.lang.Object)
 	 */
-	
 	
 	@Override
 	public Set<Edge> getAllEdges(Vertex sourceVertex, Vertex targetVertex) {
@@ -319,7 +314,7 @@ public class Graph implements DirectedGraph<Vertex, Edge>{
 
 	@Override
 	public Vertex getEdgeSource(Edge e) {
-		return e.getTargetVertex();
+		return e.getSourceVertex();
 	}
 
 	@Override
