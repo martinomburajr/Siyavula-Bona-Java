@@ -2,6 +2,7 @@ package com.bona.Entity;
 
 import java.util.ArrayList;
 import java.util.Collection;
+import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
 
@@ -104,6 +105,16 @@ public class Graph implements DirectedGraph<Vertex, Edge>, GraphPath {
 	}
 
 
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	public List<Vertex> getVertices() {
 		return vertices;
 	}
@@ -134,9 +145,10 @@ public class Graph implements DirectedGraph<Vertex, Edge>, GraphPath {
 	
 	
 	
-	
-	
-	
+	/*
+	 * (non-Javadoc)
+	 * @see org.jgrapht.Graph#getAllEdges(java.lang.Object, java.lang.Object)
+	 */
 	
 	
 	@Override
@@ -169,11 +181,14 @@ public class Graph implements DirectedGraph<Vertex, Edge>, GraphPath {
 		target = this.searchList((Vertex)targetVertex);
 		
 		Edge edge = new Edge(i ,source ,target);
+		edge.setSourceVertex(sourceVertex);
 		source.getOutgoingEdges().add(edge);
 		
+		edge.setTargetVertex(targetVertex);
 		target.getIncomingEdges().add(edge);
-		edges.add(edge);
 		
+		
+		edges.add(edge);		
 		i++;		
 		return edge;
 	}
@@ -204,19 +219,31 @@ public class Graph implements DirectedGraph<Vertex, Edge>, GraphPath {
 
 	@Override
 	public boolean containsVertex(Vertex v) {
-		// TODO Auto-generated method stub
+		for(int i = 0; i <  vertices.size(); i++)
+		{
+			if(vertices.get(i).getId() == v.getId())
+			{
+				return true;
+			}
+		}
 		return false;
 	}
 
 	@Override
-	public Set<Edge> edgeSet() {
-		// TODO Auto-generated method stub
-		return null;
+	public Set<Edge> edgeSet() 
+	{
+		Set<Edge> edgeSet = new HashSet<Edge>();
+		
+		for(int i = 0; i < edges.size(); i++){
+			edgeSet.add(edges.get(i));
+		}
+		
+		return edgeSet;
 	}
 
 	@Override
 	public Set<Edge> edgesOf(Vertex vertex) {
-		// TODO Auto-generated method stub
+		
 		return null;
 	}
 
@@ -258,20 +285,25 @@ public class Graph implements DirectedGraph<Vertex, Edge>, GraphPath {
 
 	@Override
 	public Set<Vertex> vertexSet() {
-		// TODO Auto-generated method stub
-		return null;
+		
+		Set<Vertex> vertexSet = new HashSet<Vertex>(); 
+		
+		for(int i = 0; i < vertices.size(); i++)
+		{
+			vertexSet.add(vertices.get(i));
+		}
+		
+		return vertexSet;
 	}
 
 	@Override
 	public Vertex getEdgeSource(Edge e) {
-		// TODO Auto-generated method stub
-		return null;
+		return e.getTargetVertex();
 	}
 
 	@Override
 	public Vertex getEdgeTarget(Edge e) {
-		// TODO Auto-generated method stub
-		return null;
+		return e.getTargetVertex();
 	}
 
 	@Override
@@ -290,8 +322,14 @@ public class Graph implements DirectedGraph<Vertex, Edge>, GraphPath {
 
 	@Override
 	public Set<Edge> incomingEdgesOf(Vertex vertex) {
-		// TODO Auto-generated method stub
-		return null;
+		
+		Set<Edge> incomingEdges = new HashSet<Edge>();
+		
+		for(Edge edges : vertex.getIncomingEdges()){
+			incomingEdges.add(edges);
+		}
+		
+		return incomingEdges;
 	}
 
 	@Override
@@ -303,11 +341,18 @@ public class Graph implements DirectedGraph<Vertex, Edge>, GraphPath {
 
 	@Override
 	public Set<Edge> outgoingEdgesOf(Vertex vertex) {
-		// TODO Auto-generated method stub
-		return null;
+		
+		Set<Edge> outGoingEdges = new HashSet<Edge>();
+		
+		for(Edge edges : vertex.getOutgoingEdges()){
+			outGoingEdges.add(edges);
+		}
+		
+		return outGoingEdges;
 	}
 
 
+	
 
 
 	
