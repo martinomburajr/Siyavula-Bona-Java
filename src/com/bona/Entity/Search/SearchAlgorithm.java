@@ -1,4 +1,4 @@
-package com.bona.Services.Search;
+package com.bona.Entity.Search;
 
 public class SearchAlgorithm {
 	
