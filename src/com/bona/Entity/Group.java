@@ -1,7 +1,5 @@
-package com.bona.Model;
+package com.bona.Entity;
 import java.util.ArrayList;
-
-import com.bona.Entity.Vertex;
 
 
 public class Group {

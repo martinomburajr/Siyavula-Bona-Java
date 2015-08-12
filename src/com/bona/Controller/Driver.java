@@ -6,8 +6,8 @@ import java.io.IOException;
 import java.util.ArrayList;
 
 import com.bona.Entity.Graph;
+import com.bona.Entity.Group;
 import com.bona.Entity.Vertex;
-import com.bona.Model.Group;
 import com.jgraph.algebra.JGraphFibonacciHeap.Node;
 
 public class Driver {
