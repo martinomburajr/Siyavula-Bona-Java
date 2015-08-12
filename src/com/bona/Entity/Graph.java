@@ -11,7 +11,7 @@ import org.jgrapht.EdgeFactory;
 import org.jgrapht.GraphPath;
 
 
-public class Graph implements DirectedGraph<Vertex, Edge>, GraphPath {
+public class Graph implements DirectedGraph<Vertex, Edge>{
 
 	List<Vertex> vertices = new ArrayList<Vertex>();
 	List<Edge> edges = new ArrayList<Edge>();
@@ -64,56 +64,6 @@ public class Graph implements DirectedGraph<Vertex, Edge>, GraphPath {
 		return false;
 	}
 
-
-	/*
-	 * Implemented from the Graph Path section
-	 */
-	@Override
-	public Graph getGraph() {
-		// TODO Auto-generated method stub
-		return this;
-	}
-
-
-	@Override
-	public Object getStartVertex() {
-		// TODO Auto-generated method stub
-		
-		
-		return null;
-	}
-
-
-	@Override
-	public Object getEndVertex() {
-		// TODO Auto-generated method stub
-		return null;
-	}
-
-
-	@Override
-	public List getEdgeList() {
-		// TODO Auto-generated method stub
-		return null;
-	}
-
-
-	@Override
-	public double getWeight() {
-		// TODO Auto-generated method stub
-		return 0;
-	}
-
-
-	
-	
-	
-	
-	
-	
-	
-	
-	
 	
 	public List<Vertex> getVertices() {
 		return vertices;
@@ -196,7 +146,23 @@ public class Graph implements DirectedGraph<Vertex, Edge>, GraphPath {
 	@Override
 	public boolean addEdge(Vertex sourceVertex, Vertex targetVertex, Edge e) {
 		// TODO Auto-generated method stub
-		return false;
+		boolean hasWorked = false;
+		
+		try
+		{
+			e.setSourceVertex(sourceVertex);
+			e.setTargetVertex(targetVertex);
+			sourceVertex.getOutgoingEdges().add(e);
+			targetVertex.getIncomingEdges().add(e);
+			
+			hasWorked = true;
+		}
+		catch(Exception ex)
+		{
+			hasWorked = false;
+		}
+		
+		return hasWorked;
 	}
 
 	@Override
@@ -207,13 +173,30 @@ public class Graph implements DirectedGraph<Vertex, Edge>, GraphPath {
 
 	@Override
 	public boolean containsEdge(Vertex sourceVertex, Vertex targetVertex) {
-		// TODO Auto-generated method stub
+		
+		for(int i = 0; i < sourceVertex.getOutgoingEdges().size(); i++)
+		{
+			for(int j = 0; j < targetVertex.getIncomingEdges().size(); j++)
+			{
+				if(sourceVertex.getOutgoingEdges().get(i).equals(targetVertex.getIncomingEdges().get(j)))
+				{
+					return true;
+				}
+			}			
+		}
 		return false;
 	}
 
 	@Override
-	public boolean containsEdge(Edge e) {
-		// TODO Auto-generated method stub
+	public boolean containsEdge(Edge e) 
+	{
+		for(int i = 0; i <  edges.size(); i++)
+		{
+			if(edges.get(i).equals(e))
+			{
+				return true;
+			}
+		}
 		return false;
 	}
 
@@ -242,9 +225,18 @@ public class Graph implements DirectedGraph<Vertex, Edge>, GraphPath {
 	}
 
 	@Override
-	public Set<Edge> edgesOf(Vertex vertex) {
-		
-		return null;
+	public Set<Edge> edgesOf(Vertex vertex) 
+	{
+		Set<Edge> edgesOf = new HashSet<Edge>();
+		for(int i = 0; i < vertex.getIncomingEdges().size(); i++)
+		{
+			edgesOf.add(vertex.getIncomingEdges().get(i));
+		}
+		for(int i = 0; i < vertex.getOutgoingEdges().size(); i++)
+		{
+			edgesOf.add(vertex.getIncomingEdges().get(i));
+		}
+		return edgesOf;
 	}
 
 	@Override
@@ -273,18 +265,47 @@ public class Graph implements DirectedGraph<Vertex, Edge>, GraphPath {
 
 	@Override
 	public boolean removeEdge(Edge e) {
-		// TODO Auto-generated method stub
-		return false;
+		
+		try
+		{
+			if(edges.contains(e))
+			{
+				edges.remove(e);
+				return true;
+			}else
+			{
+				return false;
+			}
+		}catch(Exception ex)
+		{
+			return false;
+		}
+
 	}
 
 	@Override
 	public boolean removeVertex(Vertex v) {
-		// TODO Auto-generated method stub
-		return false;
+
+		try
+		{
+			if(vertices.contains(v))
+			{
+				vertices.remove(v);
+				return true;
+			}else
+			{
+				return false;
+			}
+		}
+		catch(Exception ex)
+		{
+			return false;
+		}
 	}
 
 	@Override
-	public Set<Vertex> vertexSet() {
+	public Set<Vertex> vertexSet() 
+	{
 		
 		Set<Vertex> vertexSet = new HashSet<Vertex>(); 
 		
@@ -350,13 +371,5 @@ public class Graph implements DirectedGraph<Vertex, Edge>, GraphPath {
 		
 		return outGoingEdges;
 	}
-
-
-	
-
-
-	
-	
-
 
 }

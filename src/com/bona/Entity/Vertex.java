@@ -72,5 +72,20 @@ public class Vertex implements VertexFactory<Vertex>
 		this.outgoingEdges = outgoingEdges;
 	}
 	
+	public boolean equals(Vertex v1, Vertex v2)
+	{
+		if(v1.getId() == v2.getId())
+		{
+			return true;
+		}
+		return false;
+	}
+	
+	public String toString()
+	{
+		return "Vertex Id: " + this.getId() + "\n" +
+				"Type: " + this.getType() + "\n" +
+				"Label: " + this.label+ "\n";				
+	}
 	
 }

@@ -21,10 +21,6 @@ public class Edge implements EdgeFactory<Vertex,Edge> {
 		return null;
 	}
 	
-	public String toString()
-	{
-		return null;		
-	}
 
 	public Vertex getSourceVertex() {
 		return sourceVertex;
@@ -48,6 +44,22 @@ public class Edge implements EdgeFactory<Vertex,Edge> {
 
 	public void setId(int id) {
 		this.id = id;
+	}
+	
+	public boolean equals(Edge e)
+	{
+		if(this.getId() == e.getId())
+		{
+			return true;
+		}
+		return false;
+	}
+	
+	public String toString()
+	{
+		return "Edge Id: " + this.getId() + "\n" +
+				"SourceVertexId: " + this.getSourceVertex().getId() + "\n" +
+				"TargetVertexId: " + this.getTargetVertex().getId()+ "\n";
 	}
 	
 }
