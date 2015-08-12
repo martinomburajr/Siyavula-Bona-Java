@@ -8,5 +8,6 @@
 	<classpathentry kind="lib" path="lib/jgrapht-ext-0.9.1-uber.jar"/>
 	<classpathentry kind="lib" path="lib/jgrapht-ext-0.9.1.jar"/>
 	<classpathentry kind="lib" path="lib/jgraphx-2.0.0.1.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
