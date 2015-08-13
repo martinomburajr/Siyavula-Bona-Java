@@ -99,7 +99,11 @@ public class Parser implements Runnable {
 		 }
 	}
 	
-	private static DirectedGraph<Vertex,Edge> addVerticesToGraph()
+	
+	/*
+	 * Creates the graph
+	 */
+	public static DirectedGraph<Vertex,Edge> addVerticesToGraph()
 	{
 		DirectedGraph<Vertex,Edge> graph = (DirectedGraph<Vertex,Edge>) new Graph();
 		
