@@ -80,7 +80,7 @@ public class Driver {
 		
 		 String id = getID(x);
 		 for (Group group: groups){
-			 if (id.equals(group.getID())){
+			 if (id.equals(group.getId())){
 				 while (true){
    				 x= in.readLine();
    				 if (x.contains("{"))

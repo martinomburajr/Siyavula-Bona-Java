@@ -15,7 +15,7 @@ public class Group {
 	public void AddToGroup(Vertex n){
 		vertices.add(n);
 	}
-	public String getID(){
+	public String getId(){
 		return this.id;
 	}
 	public String getLabel(){
