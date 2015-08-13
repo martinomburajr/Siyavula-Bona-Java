@@ -15,19 +15,17 @@ public class Parser implements Runnable {
 	private static ArrayList<Group> groups = new ArrayList<Group>();
 	private static ArrayList<Edge> edges = new ArrayList<Edge>();
 	
+	
 	public static void parseFile(String textFile) throws IOException
 	{
 		 //textFile = "00-chem_matter_source.map";
 		 BufferedReader in = new BufferedReader(new FileReader(textFile));		 
-		 String x;
-		 boolean exists = false;
-		 boolean adding = true;
-		 
-		 String label = null;
-		 String type = "default";
-		 String id = null;
-		 Vertex n;
+		 boolean exists = false,adding = true, grouping = true;
+		 String x,label = null,type = "default",id = null,dep;
+		 Vertex n= null,source = null,dest = null;
 		 Group g;
+		 Edge e;
+		 int edgeID=0;
 		 
         while (true)
         {
@@ -64,8 +62,29 @@ public class Parser implements Runnable {
        		 adding=false;
        	 }
        	 else if (x.contains("{")){
-       		 makeGroup(x,in);
-       		 
+       		 makeGroup(x,in); 
+       	 }
+
+       	 else if (x.contains("->")  && !(x.contains("<->"))){
+       		e = new Edge(edgeID);
+       		edgeID++;
+       		id=getID(x);
+       		dep=getDep(x);
+       		
+       		for (Vertex o: vertices){
+     			 if (id.equals(o.getId())){
+     				 e.setSourceVertex(o);
+     				 break;
+     			 }
+       		}
+       		for (Vertex o: vertices){
+     			 if (dep.equals(o.getId())){
+     				 e.setTargetVertex(o);
+     				 break;
+     			 }
+      		}
+       		edges.add(e);
+       		System.out.print(e);
        	 }
        	 
         }
@@ -122,6 +141,13 @@ public class Parser implements Runnable {
 	
 	public static String getID(String x){
 		 String id = x.substring(x.indexOf("CMA"));
+		 if (id.contains(" ")){
+			 id = ( id.substring(0, id.indexOf(" ")));
+		 }
+		return id;	 
+	 }
+	public static String getDep(String x){
+		 String id = x.substring(x.lastIndexOf("CMA"));
 		 if (id.contains(" ")){
 			 id = ( id.substring(0, id.indexOf(" ")));
 		 }

@@ -8,6 +8,10 @@ public class Edge implements EdgeFactory<Vertex,Edge> {
 	private Vertex sourceVertex;
 	private Vertex targetVertex;
 	
+	public Edge(int id)
+	{
+		this.id = id;
+	}
 	public Edge(int id, Vertex sourceVertex, Vertex targetVertex)
 	{
 		this.id = id;
