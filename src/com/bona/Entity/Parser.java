@@ -7,8 +7,8 @@ import java.util.ArrayList;
 
 import org.jgrapht.DirectedGraph;
 
-import com.bona.Entity.Group;
-import com.bona.Entity.Vertex;
+import com.bona.Entity.Search.SearchAlgorithm;
+import com.bona.Entity.Search.SequentialSearch;
 
 public class Parser implements Runnable {
 	private static ArrayList<Vertex> vertices = new ArrayList<Vertex>();
@@ -19,6 +19,7 @@ public class Parser implements Runnable {
 	public static void parseFile(String textFile) throws IOException
 	{
 		 //textFile = "00-chem_matter_source.map";
+		
 		 BufferedReader in = new BufferedReader(new FileReader(textFile));		 
 		 boolean exists = false,adding = true, grouping = true;
 		 String x,label = null,type = "default",id = null,dep;
@@ -122,10 +123,10 @@ public class Parser implements Runnable {
 	/*
 	 * Creates the graph
 	 */
-	public static DirectedGraph<Vertex,Edge> addVerticesToGraph()
+	public static DirectedGraph<Vertex,Edge> createGraph()
 	{
-		DirectedGraph<Vertex,Edge> graph = (DirectedGraph<Vertex,Edge>) new Graph();
-		
+		Graph graph = new Graph();
+				
 		for(int i = 0; i < Parser.getVertices().size(); i++)
 		{
 			graph.addVertex(Parser.getVertices().get(i));
@@ -133,10 +134,30 @@ public class Parser implements Runnable {
 		
 		for(int i = 0; i < Parser.getEdges().size(); i++)
 		{
-			//graph.addEdge(sourceVertex, targetVertex)
+			graph.addEdgeV2(Parser.getEdges().get(i));
 		}
 		
+		Parser.resolveDependencies();
+		
 		return graph;
+	}
+	
+	static void resolveDependencies()
+	{
+		SequentialSearch<Vertex> sequentialSearch;
+		Object [] array;
+		
+		for(Edge e : edges)
+		{
+			sequentialSearch = new SequentialSearch<Vertex>(vertices, e.getSourceVertex());
+			array = sequentialSearch.sequentialSearchIndex();
+			vertices.get((int)array[0]).getOutgoingEdges().add(e);
+
+			
+			sequentialSearch = new SequentialSearch<Vertex>(vertices, e.getTargetVertex());
+			array = sequentialSearch.sequentialSearchIndex();
+			vertices.get((int)array[0]).getIncomingEdges().add(e);
+		}
 	}
 	
 	public static String getID(String x){

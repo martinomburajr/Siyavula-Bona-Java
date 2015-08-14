@@ -159,6 +159,19 @@ public class Graph implements DirectedGraph<Vertex, Edge>{
 		
 		return hasWorked;
 	}
+	
+	public boolean addEdgeV2(Edge e)
+	{
+		try
+		{			
+			this.edges.add(e);
+			return true;
+			
+		}catch(Exception ex)
+		{
+			return false;
+		}
+	}
 
 	@Override
 	public boolean addVertex(Vertex vertex) {
