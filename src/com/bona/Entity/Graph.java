@@ -98,13 +98,29 @@ public class Graph implements DirectedGraph<Vertex, Edge>{
 	
 	@Override
 	public Set<Edge> getAllEdges(Vertex sourceVertex, Vertex targetVertex) {
-		// TODO Auto-generated method stub
-		return null;
+		
+		Set<Edge> edgeSet = new HashSet<Edge>();
+		for(Edge e : edges)
+		{
+			if(e.getSourceVertex().equals(sourceVertex) && e.getTargetVertex().equals(targetVertex))
+			{
+				edgeSet.add(e);
+			}
+		}
+		
+		return edgeSet;		
 	}
 
 	@Override
 	public Edge getEdge(Vertex sourceVertex, Vertex targetVertex) {
-		// TODO Auto-generated method stub
+		
+		for(Edge e : edges)
+		{
+			if(e.getSourceVertex().equals(sourceVertex) && e.getTargetVertex().equals(targetVertex))
+			{
+				return e;
+			}
+		}
 		return null;
 	}
 
