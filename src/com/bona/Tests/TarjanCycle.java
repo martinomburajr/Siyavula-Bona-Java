@@ -1,27 +1,18 @@
-/**
- * 
- */
 package com.bona.Tests;
-
-import static org.junit.Assert.*;
 
 import org.junit.After;
 import org.junit.AfterClass;
 import org.junit.Before;
 import org.junit.BeforeClass;
 import org.junit.Test;
-import org.junit.runner.*;
 
 import com.bona.Entity.Graph;
 import com.bona.Entity.Vertex;
 
 import junit.framework.TestCase;
 
-/**
- * @author martinojr19
- *
- */
-public class GraphTest extends TestCase {
+public class TarjanCycle extends TestCase {
+
 	
 	protected static Graph graph = new Graph();
 	protected static int vertexSize;
@@ -145,14 +136,10 @@ public class GraphTest extends TestCase {
 	public void test() {
 		//Check vertex list size!
 		
-		System.out.println("No. of Test Case = " + this.countTestCases());
-		
-		this.setName("Graph is Null?");
-		assertNotNull(graph);
+		System.out.println("No. of Test Case = " + this.countTestCases());		
 		
 		this.setName("Vertex and Edge Size?");
 		assertEquals(edgeSize, graph.getEdges().size());
 		assertEquals(vertexSize, graph.getVertices().size());
 	}
-
 }
