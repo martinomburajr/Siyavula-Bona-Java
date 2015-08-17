@@ -137,11 +137,8 @@ public class Driver {
 		Parser.parseFile(FILEPATH);
 		
 		System.out.println("Groups Size: " + Parser.getGroups().size());
-		System.out.println("Vertices Size: " + Parser.getVertices().size());
-		
+		System.out.println("Vertices Size: " + Parser.getVertices().size());	
 	}
-
-
 }
 	 	
 
