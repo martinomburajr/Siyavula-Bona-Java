@@ -1,0 +1,2755 @@
+/* Matter group */
+CMA000 [label="Matter"] {
+
+  /* ==== NODES ==== */
+
+    CMA001 [type="concept", label="pure substance"]
+    CMA002 [type="concept", label="difference between\nchemical and physical change"]
+    CMA003 [type="concept", label="what is matter?"]
+    CMA004 [type="concept", label="what does\ndiscrete mean?"]
+
+  /* Atoms */
+    CMA100 [type="group", label="Atoms"]
+    CMA101 [type="group", label="Atomic structure"]
+    CMA102 [type="group", label="Models of the atom"]
+    CMA103 [type="group", label="Radioactivity"]
+
+    CMA104 [type="concept", label="atomic mass\n(mass of an atom)"]
+    CMA105 [type="concept", label="quantisation of energy"]
+    CMA106 [type="concept", label="atoms are\npure substances"]
+    CMA107 [type="concept", label="core and valence electrons"]
+    CMA108 [type="concept", label="atomic radius"]
+    CMA109 [type="concept", label="the electrons in\nan atom are configured\nin a set way"]
+    CMA110 [type="concept", label="Aufbau principle\nbuilding up from\nlowest available level"]
+    CMA111 [type="concept", label="principle\nquantum number"]
+    CMA112 [type="concept", label="definition of\nan atomic orbital"]
+    CMA113 [type="concept", label="understanding sp\norbitals"]
+    CMA114 [type="concept", label="electron pairs"]
+    CMA116 [type="concept", label="what is an atom?"]
+    CMA117 [type="concept", label="sub-atomic\nparticles"]
+    CMA118 [type="concept", label="nucleus"]
+    CMA119 [type="concept", label="atomic number (Z)\nthe number of protons\nin an atom"]
+    CMA120 [type="concept", label="mass number (A)\nthe number of protons + neutrons\nin atomic nucleus"]
+    CMA121 [type="concept", label="calculations using\nA, Z and N"]
+    CMA122 [type="concept", label="neutral atom has Z electrons"]
+    CMA123 [type="concept", label="neutrons are neutral"]
+    CMA124 [type="concept", label="number of\nneutrons (N)"]
+    CMA125 [type="concept", label="Bohr model\n nucleus at center\n with shells of electrons"]
+    CMA126 [type="concept", label="Plum pudding model\n positive sphere\n embedded with negative electrons"]
+    CMA127 [type="concept", label="Schrodinger model\nprobability density orbitals"]
+    CMA128 [type="concept", label="Dalton model\nthe atom indivisible"]
+    CMA129 [type="concept", label="Rutherford model\n positive core (nucleus)\n with electrons orbiting"]
+    CMA130 [type="concept", label="understanding radioactivity\n(radioactive decay)"]
+    CMA131 [type="concept", label="types of radiation:\n alpha, beta and gamma"]
+    CMA132 [type="concept", label="alpha particles/\nradiation"]
+    CMA133 [type="concept", label="radiation"]
+    CMA134 [type="concept", label="beta particles/\nradiation"]
+    CMA135 [type="concept", label="gamma rays"]
+    CMA151 [type="concept", label="ground state\nof an atom"]
+    CMA156 [type="concept", label="understanding s\norbitals"]
+    CMA157 [type="concept", label="understanding p\norbitals"]
+
+    CMA136 [type="fact", label="atomic orbitals\ns, p, d, f"]
+    CMA137 [type="fact", label="atomic mass units (u)"]
+    CMA138 [type="fact", label="electron pair\nnotation"]
+    CMA139 [type="fact", label="electrons"]
+    CMA140 [type="fact", label="protons"]
+    CMA141 [type="fact", label="neutrons"]
+    CMA142 [type="fact", label="nucleons are particles\nin atomic nucleus\n(neutrons and protons)"]
+    CMA143 [type="fact", label="mass of 1 electron\n 9.109*10^-31 kg"]
+    CMA144 [type="fact", label="mass of 1 proton\n 1.672*10^-27 kg"]
+    CMA145 [type="fact", label="mass of 1 neutron\n 1.674*10^-27 kg"]
+    CMA152 [type="fact", label="1 s orbital\nper 'shell'"]
+    CMA153 [type="fact", label="3 p orbitals\nper 'shell'"]
+    CMA154 [type="fact", label="shape of\ns orbital"]
+    CMA155 [type="fact", label="shape of\np orbital"]
+
+    CMA115 [type="future", label="understanding df\norbitals"]
+    CMA146 [type="future", label="Pauli's exclusion\nprinciple"]
+    CMA147 [type="future", label="magnetic spin\nquantum number"]
+    CMA148 [type="future", label="Aufbau that includes\nunderstanding of spin"]
+    CMA149 [type="future", label="paramagnetic and diamagnetic\nin terms of unpaired electrons"]
+
+    CMA150 [type="miscon", label="neutrons are negative"]
+    CMA158 [type="miscon", label="unpaired electrons\n=\nvalence electrons\npaired electrons\ncannot be valence electrons"]
+
+    /* Lives here too */
+      /* Electromagnetism */
+        PEESC008 /* [type="concept", label="Lives here too:\nElectromagnetism:\nProton carries positive charge"] */
+        PEESC009 /* [type="concept", label="Lives here too:\nElectromagnetism:\n+ symbol for\n positive charge"] */
+        PEESC010 /* [type="concept", label="Lives here too:\nElectromagnetism:\nElectron carries negative charge"] */
+        PEESC011 /* [type="concept", label="Lives here too:\nElectromagnetism:\n- symbol for negative charge"] */
+        PEESC012 /* [type="concept", label="Lives here too:\nElectromagnetism:\ne^- symbol for an electron"] */
+
+
+  /* Elements */
+    CMA200 [type="group", label="Elements"]
+
+    CMA201 [type="concept", label="what is an element?"]
+    CMA202 [type="concept", label="outer shell"]
+    CMA203 [type="concept", label="effect of how\ntightly held\nvalence e^- are\n on atomic radius"]
+    CMA204 [type="concept", label="stability of full\nouter shell"]
+    CMA205 [type="concept", label="comparison of\nelectronegativity,\nionisation energy and\nelectron affinity"]
+    CMA206 [type="concept", label="metals"]
+    CMA207 [type="concept", label="non-metals"]
+    CMA208 [type="concept", label="metalloids\n (semi-metals)"]
+    CMA209 [type="concept", label="elements are\npure substances"]
+    CMA210 [type="concept", label="isotopes"]
+    CMA211 [type="concept", label="properties of\nmetals"]
+    CMA212 [type="concept", label="properties of\nnon-metals"]
+    CMA213 [type="concept", label="alloys"]
+    CMA214 [type="concept", label="why metals have\ntheir properties"]
+    CMA215 [type="concept", label="comparing electronegativities\nof different elements"]
+    CMA216 [type="concept", label="ionisation energy"]
+    CMA217 [type="concept", label="electron affinity"]
+    CMA239 [type="concept", label="properties of\nmetalloids"]
+    CMA247 [type="concept", label="calculating electronegativity\ndifference between\ntwo elements"]
+
+    CMA218 [type="fact", label="radioactive elements"]
+    CMA219 [type="fact", label="metals with\nnon-metal properties"]
+    CMA220 [type="fact", label="metals are\nhard"]
+    CMA221 [type="fact", label="metals are\nopaque"]
+    CMA222 [type="fact", label="metals are\nmaleable"]
+    CMA223 [type="fact", label="metals are\ngood thermal conductors"]
+    CMA224 [type="fact", label="metals are\nductile"]
+    CMA225 [type="fact", label="metals are\nnot volatile"]
+    CMA226 [type="fact", label="metals are\npoor thermal insulators"]
+    CMA227 [type="fact", label="non-metals are\nvolatile"]
+    CMA228 [type="fact", label="non-metals have\npoor elasticity"]
+    CMA229 [type="fact", label="non-metals are\ngood thermal insulators"]
+    CMA230 [type="fact", label="non-metals are\npoor thermal conductors"]
+    CMA231 [type="fact", label="non-metals have\nhigh IE"]
+    CMA232 [type="fact", label="non-metals have\nhigh electronegativity"]
+    CMA234 [type="fact", label="metals are\ngood electrical conductors"]
+    CMA235 [type="fact", label="metals are\npoor electrical insulators"]
+    CMA236 [type="fact", label="non-metals are\ngood electrical insulators"]
+    CMA237 [type="fact", label="non-metals are\npoor electrical conductors"]
+    CMA240 [type="fact", label="metalloids have IE\nbetween metals and non-metals"]
+    CMA241 [type="fact", label="metalloids have electronegativity\nbetween metals and non-metals"]
+    CMA242 [type="fact", label="metalloids react like\na metal or non-metal\ndepending on what they\nare reacting with"]
+    CMA243 [type="fact", label="metalloids are often\ngood electrical semi-conductors"]
+    CMA244 [type="fact", label="metals are generally\nsolid (some liquid)\nat or near 25C"]
+    CMA245 [type="fact", label="metalloids are\nsolid at or near 25C"]
+    CMA246 [type="fact", label="non-metals are generally\ngases at or near 25C"]
+
+    CMA238 [type="miscon", label="all metals are magnets"]
+
+    /* External nodes that live here */
+      /* Also in properties */
+        CPR610 /* [type="todo", label="Lives here too:\nProperties\nelectronegativity"] */
+
+    /* Periodic table */
+      CMAP200 [type="group", label="Periodic table"]
+
+      CMAP201 [type="concept", label="groups"]
+      CMAP202 [type="concept", label="periods"]
+      CMAP203 [type="concept", label="relative atomic mass"]
+      CMAP204 [type="concept", label="what is the\nperiodic table?"]
+      CMAP205 [type="concept", label="increasing protons\nacross a period\n(left to right)"]
+      CMAP206 [type="concept", label="same number of\ncore electrons\nacross a period\n(left to right)"]
+      CMAP207 [type="concept", label="trend in how\ntightly valence electrons\nare held\nacross a period\n(left to right)"]
+      CMAP208 [type="concept", label="understanding trend in\natomic radius\nacross a period\n(left to right)"]
+      CMAP209 [type="concept", label="trend in number\nof valence electrons\nacross a period\n(left to right)"]
+      CMAP210 [type="concept", label="increasing nucleus size\n(number of protons)\ndown a group"]
+      CMAP211 [type="concept", label="understanding trend in\nelectronegativity\nacross a period\n(left to right)"]
+      CMAP212 [type="concept", label="understanding trend in\nionisation energy\nacross a period\n(left to right)"]
+      CMAP213 [type="concept", label="understanding trend in\nionisation energy\ndown a group"]
+      CMAP214 [type="concept", label="understanding trend in\nelectron affinity\nacross a period\n(left to right)"]
+      CMAP215 [type="concept", label="understanding trend in\nelectron affinity\ndown a group"]
+      CMAP216 [type="concept", label="increasing quantum number\ndown a group"]
+      CMAP217 [type="concept", label="increasing number of\ncore electrons\ndown a group"]
+      CMAP218 [type="concept", label="trend in how\ntightly valence electrons\nare held\ndown a group"]
+      CMAP219 [type="concept", label="s-block"]
+      CMAP220 [type="concept", label="p-block"]
+      CMAP221 [type="concept", label="d-block"]
+      CMAP222 [type="concept", label="f-block"]
+      CMAP223 [type="concept", label="how the periodic table\nis arranged\nsimple"]
+      CMAP224 [type="concept", label="group names"]
+      CMAP225 [type="concept", label="getting preferred\noxidation state\nfrom periodic table"]
+      CMAP226 [type="concept", label="understanding trend in\natomic radius\ndown a group"]
+      CMAP227 [type="concept", label="understanding trend in\nelectronegativity\ndown a group"]
+      CMAP228 [type="concept", label="valence electron\nshielding by core electrons"]
+      CMAP229 [type="concept", label="information for\none element shown\nas on the periodic table"]
+      CMAP258 [type="concept", label="the periodic table\nand electronic configuration"]
+
+      CMAP230 [type="fact", label="properties of\nnoble gases"]
+      CMAP231 [type="fact", label="properties of\nhalogens"]
+      CMAP232 [type="fact", label="properties of\nchalcogens"]
+      CMAP233 [type="fact", label="properties of\nalkali metals"]
+      CMAP234 [type="fact", label="properties of\nalkali earth metals"]
+      CMAP235 [type="fact", label="properties of\ntransition metals"]
+      CMAP236 [type="fact", label="properties of\npnictogens"]
+      CMAP237 [type="fact", label="metals on\nperiodic table"]
+      CMAP238 [type="fact", label="non-metals on\nperiodic table"]
+      CMAP239 [type="fact", label="metalloids on\nperiodic table"]
+      CMAP240 [type="fact", label="noble gases"]
+      CMAP241 [type="fact", label="halogens"]
+      CMAP242 [type="fact", label="chalcogens"]
+      CMAP243 [type="fact", label="alkali metals"]
+      CMAP244 [type="fact", label="alkali earth metals"]
+      CMAP245 [type="fact", label="transition metals"]
+      CMAP246 [type="fact", label="pnictogens"]
+      CMAP247 [type="fact", label="atomic number\nincreases across period\n(left to right)"]
+      CMAP248 [type="fact", label="atomic number\nincreases down group"]
+      CMAP249 [type="fact", label="atomic radius\ndecreases across period\n(left to right)"]
+      CMAP250 [type="fact", label="atomic radius\nincreases down group"]
+      CMAP251 [type="fact", label="electron affinity\nincreases across period\n(left to right)"]
+      CMAP252 [type="fact", label="electron affinity\ndecreases down group"]
+      CMAP253 [type="fact", label="ionisation energy\nincreases across period\n(left to right)"]
+      CMAP254 [type="fact", label="ionisation energy\ndecreases down group"]
+      CMAP255 [type="fact", label="electronegativity\nincreases across period\n(left to right)"]
+      CMAP256 [type="fact", label="electronegativity\ndecreases down group"]
+
+      CMAP257 [type="miscon", label="relative atomic mass value\nis actual mass of atom"]
+
+    /* Representations of elements */
+      CMAR200 [type="group", label="Representations of elements"]
+
+      CMAR201 [type="concept", label="representing\noxidation states\nusing Stock notation\ne.g. Fe(II) [iron(II)]"]
+      CMAR202 [type="concept", label="Aufbau diagrams"]
+      CMAR203 [type="concept", label="Lewis diagrams for elements\n(dot and cross method)"]
+      CMAR204 [type="concept", label="converting cations\nand Stock notation"]
+      CMAR205 [type="concept", label="Stock notation\nion name conversion"]
+      CMAR206 [type="concept", label="electronic configuration\nspectroscopic notation\nof ground state\ne.g. 1s^2 2s^2 2p^5"]
+      CMAR207 [type="concept", label="shorthand\nelectronic configuration\nspectroscopic notation\ne.g. [He]2s^2 2p^5"]
+      CMAR271 [type="concept", label="determining element\nfrom Lewis diagram\n(given energy level\nof valence e^-)"]
+      CMAR272 [type="concept", label="drawing Lewis diagram\nof specific element"]
+
+      CMAR208 [type="fact", label="element names"]
+      CMAR209 [type="fact", label="element symbols"]
+      CMAR210 [type="fact", label="ion names\n(common ions)"]
+      CMAR211 [type="fact", label="ion names\n(common polyatomic ions)"]
+      CMAR212 [type="fact", label="roman numerals"]
+      CMAR213 [type="fact", label="electronic config\nhydrogen:\n1s^1"]
+      CMAR214 [type="fact", label="electronic config\nhelium:\n1s^2"]
+      CMAR215 [type="fact", label="electronic config\nlithium:\n1s^2 2s^1"]
+      CMAR216 [type="fact", label="electronic config\nberyllium:\n1s^2 2s^2"]
+      CMAR217 [type="fact", label="electronic config\nboron:\n1s^2 2s^2 2p^1"]
+      CMAR218 [type="fact", label="electronic config\ncarbon:\n1s^2 2s^2 2p^2"]
+      CMAR219 [type="fact", label="electronic config\nnitrogen:\n1s^2 2s^2 2p^3"]
+      CMAR220 [type="fact", label="electronic config\noxygen:\n1s^2 2s^2 2p^4"]
+      CMAR221 [type="fact", label="electronic config\nfluorine:\n1s^2 2s^2 2p^5"]
+      CMAR222 [type="fact", label="electronic config\nneon:\n1s^2 2s^2 2p^6"]
+      CMAR223 [type="fact", label="electronic config\nsodium:\n1s^2 2s^2 2p^6 3s^1"]
+      CMAR224 [type="fact", label="electronic config\nmagnesium:\n1s^2 2s^2 2p^6 3s^2"]
+      CMAR225 [type="fact", label="electronic config\naluminium:\n1s^2 2s^2 2p^6 3s^2 3p^1"]
+      CMAR226 [type="fact", label="electronic config\nsilicon:\n1s^2 2s^2 2p^6 3s^2 3p^2"]
+      CMAR227 [type="fact", label="electronic config\nphosphorus:\n1s^2 2s^2 2p^6 3s^2 3p^3"]
+      CMAR228 [type="fact", label="electronic config\nsulfur:\n1s^2 2s^2 2p^6 3s^2 3p^4"]
+      CMAR229 [type="fact", label="electronic config\nchlorine:\n1s^2 2s^2 2p^6 3s^2 3p^5"]
+      CMAR230 [type="fact", label="electronic config\nargon:\n1s^2 2s^2 2p^6 3s^2 3p^6"]
+      CMAR231 [type="fact", label="electronic config\npotassium:\n1s^2 2s^2 2p^6 3s^2 3p^6 4s^1"]
+      CMAR232 [type="fact", label="electronic config\ncalcium:\n1s^2 2s^2 2p^6 3s^2 3p^6 4s^2"]
+      CMAR233 [type="fact", label="shorthand\nelectronic config\nlithium:\n[He] 2s^1"]
+      CMAR234 [type="fact", label="shorthand\nelectronic config\nberyllium:\n[He] 2s^2"]
+      CMAR235 [type="fact", label="shorthand\nelectronic config\nboron:\n[He] 2s^2 2p^1"]
+      CMAR236 [type="fact", label="shorthand\nelectronic config\ncarbon:\n[He] 2s^2 2p^2"]
+      CMAR237 [type="fact", label="shorthand\nelectronic config\nnitrogen:\n[He] 2s^2 2p^3"]
+      CMAR238 [type="fact", label="shorthand\nelectronic config\noxygen:\n[He] 2s^2 2p^4"]
+      CMAR239 [type="fact", label="shorthand\nelectronic config\nfluorine:\n[He] 2s^2 2p^5"]
+      CMAR240 [type="fact", label="shorthand\nelectronic config\nneon:\n[He] 2s^2 2p^6"]
+      CMAR241 [type="fact", label="shorthand\nelectronic config\nsodium:\n[Ne] 3s^1"]
+      CMAR242 [type="fact", label="shorthand\nelectronic config\nmagnesium:\n[Ne] 3s^2"]
+      CMAR243 [type="fact", label="shorthand\nelectronic config\naluminium:\n[Ne] 3s^2 3p^1"]
+      CMAR244 [type="fact", label="shorthand\nelectronic config\nsilicon:\n[Ne] 3s^2 3p^2"]
+      CMAR245 [type="fact", label="shorthand\nelectronic config\nphosphorus:\n[Ne] 3s^2 3p^3"]
+      CMAR246 [type="fact", label="shorthand\nelectronic config\nsulfur:\n[Ne] 3s^2 3p^4"]
+      CMAR247 [type="fact", label="shorthand\nelectronic config\nchlorine:\n[Ne] 3s^2 3p^5"]
+      CMAR248 [type="fact", label="shorthand\nelectronic config\nargon:\n[Ne] 3s^2 3p^6"]
+      CMAR249 [type="fact", label="shorthand\nelectronic config\npotassium:\n[Ar] 4s^1"]
+      CMAR250 [type="fact", label="shorthand\nelectronic config\ncalcium:\n[Ar] 4s^2"]
+      CMAR251 [type="fact", label="Aufbau diagram\nhydrogen"]
+      CMAR252 [type="fact", label="Aufbau diagram\nhelium"]
+      CMAR253 [type="fact", label="Aufbau diagram\nlithium"]
+      CMAR254 [type="fact", label="Aufbau diagram\nberyllium"]
+      CMAR255 [type="fact", label="Aufbau diagram\nboron"]
+      CMAR256 [type="fact", label="Aufbau diagram\ncarbon"]
+      CMAR257 [type="fact", label="Aufbau diagram\nnitrogen"]
+      CMAR258 [type="fact", label="Aufbau diagram\noxygen"]
+      CMAR259 [type="fact", label="Aufbau diagram\nfluorine"]
+      CMAR260 [type="fact", label="Aufbau diagram\nneon"]
+      CMAR261 [type="fact", label="Aufbau diagram\nsodium"]
+      CMAR262 [type="fact", label="Aufbau diagram\nmagnesium"]
+      CMAR263 [type="fact", label="Aufbau diagram\naluminium"]
+      CMAR264 [type="fact", label="Aufbau diagram\nsilicon"]
+      CMAR265 [type="fact", label="Aufbau diagram\nphosphorus"]
+      CMAR266 [type="fact", label="Aufbau diagram\nsulfur"]
+      CMAR267 [type="fact", label="Aufbau diagram\nchlorine"]
+      CMAR268 [type="fact", label="Aufbau diagram\nargon"]
+      CMAR269 [type="fact", label="Aufbau diagram\npotassium"]
+      CMAR270 [type="fact", label="Aufbau diagram\ncalcium"]
+
+    /* Elements with charge */
+      CMAE200 [type="group", label="Elements with charge"]
+
+      CMAE201 [type="concept", label="cations"]
+      CMAE202 [type="concept", label="anions"]
+      CMAE203 [type="concept", label="oxidation states"]
+      CMAE204 [type="concept", label="using reduction\nand oxidation"]
+      CMAE205 [type="concept", label="ions"]
+      CMAE206 [type="concept", label="reduction means\ngain of electrons"]
+      CMAE207 [type="concept", label="oxidation means\nloss of electrons"]
+
+      CMAE208 [type="fact", label="formula of\ncommon ions"]
+      CMAE209 [type="fact", label="formula of\ncommon polyatomic ions"]
+      CMAE210 [type="fact", label="OIL RIG"]
+      CMAE213 [type="fact", label="Table of Cations"]
+      CMAE214 [type="fact", label="Table of Anions"]
+
+      CMAE211 [type="miscon", label="loss of electrons = reduced"]
+      CMAE212 [type="miscon", label="gain of electrons = oxidised"]
+
+
+  /* Molecules and compounds */
+    CMA300 [type="group", label="Molecules and compounds"]
+    CMA301 [type="group", label="Representing compounds/molecules"]
+
+    CMA302 [type="concept", label="molecule:\na single entity\nable to react characteristically"]
+    CMA303 [type="concept", label="compound:\n two or more different\nelements bonded"]
+    CMA304 [type="concept", label="heteronuclear"]
+    CMA305 [type="concept", label="homonuclear"]
+    CMA306 [type="concept", label="molecular mass"]
+    CMA307 [type="concept", label="VSEPR theory"]
+    CMA308 [type="concept", label="formula mass"]
+    CMA309 [type="concept", label="dipoles\nquadropoles\netc"]
+    CMA310 [type="concept", label="infinite network\nstructures"]
+    CMA311 [type="concept", label="covalent molecules"]
+    CMA312 [type="concept", label="polar molecules"]
+    CMA313 [type="concept", label="non-polar molecules\ndue to non-polar bonds"]
+    CMA314 [type="concept", label="non-polar molecules\ndue to shape"]
+    CMA315 [type="concept", label="molecule shape"]
+    CMA316 [type="concept", label="properties of\nionic compounds"]
+    CMA317 [type="concept", label="ionic compounds"]
+    CMA318 [type="concept", label="covalent network\nstructures"]
+    CMA319 [type="concept", label="molecules are\npure substances"]
+    CMA320 [type="concept", label="compounds are\npure substances"]
+    CMA321 [type="concept", label="molecular orbitals"]
+    CMA322 [type="concept", label="ionic compounds\nform network structures"]
+    CMA323 [type="concept", label="identifying lone pairs"]
+    CMA324 [type="concept", label="salts"]
+    CMA325 [type="concept", label="allotropes of elements"]
+    CMA326 [type="concept", label="AXE method"]
+    CMA327 [type="concept", label="structures of covalent\nnetwork compounds"]
+    CMA328 [type="concept", label="homonuclear\ndiatomic molecules"]
+    CMA329 [type="concept", label="heteronuclear\ndiatomic molecules"]
+    CMA330 [type="concept", label="non-polar molecules"]
+    CMA331 [type="concept", label="determining geometry\nusing AXE/VSEPR"]
+    CMA332 [type="concept", label="molecular formula"]
+    CMA333 [type="concept", label="naming ionic compounds"]
+    CMA334 [type="concept", label="formulae of ionic compounds"]
+    CMA335 [type="concept", label="structural representations\nBall-and-stick"]
+    CMA336 [type="concept", label="empirical formula\nas smallest unit"]
+    CMA337 [type="concept", label="empirical formula\nas ratio of atoms\nwithin molecule"]
+    CMA338 [type="concept", label="Lewis diagrams\nfor bonding\n(dot/cross)"]
+    CMA339 [type="concept", label="formula from name\nionic compound"]
+    CMA340 [type="concept", label="formula from name\ncovalent compound"]
+    CMA341 [type="concept", label="empirical vs molecular\nformula"]
+    CMA342 [type="concept", label="representing dipoles/\nquadropoles,etc"]
+    CMA343 [type="concept", label="representing polar\nmolecules"]
+    CMA344 [type="concept", label="naming covalent compounds"]
+    CMA345 [type="concept", label="Lewis diagrams\nfor bonding\n(lines)"]
+    CMA346 [type="concept", label="Lewis diagrams\nfor double/triple bonds\n(lines)"]
+    CMA365 [type="concept", label="macroscopic properties\ndue to\nmicroscopic details"]
+    CMA366 [type="concept", label="structural representations\nWireframe"]
+    CMA367 [type="concept", label="structural representations\nSpace filling"]
+    CMA368 [type="concept", label="name from formula\nionic compound"]
+    CMA369 [type="concept", label="name from formula\ncovalent compound"]
+    CMA371 [type="concept", label="symbolic representations"]
+    CMA372 [type="concept", label="microscopic diagrams\nof elements"]
+    CMA373 [type="concept", label="microscopic diagrams\nof molecules"]
+    CMA374 [type="concept", label="microscopic vs macroscopic"]
+    CMA375 [type="concept", label="microscopic representations"]
+    CMA376 [type="concept", label="concept of micro"]
+    CMA377 [type="concept", label="concept of macro"]
+    CMA378 [type="concept", label="determining compound/molecule\nfrom Lewis diagram\n(dot/cross)"]
+    CMA379 [type="concept", label="drawing Lewis diagram\nof specific compound/molecule\n(dot/cross)"]
+    CMA380 [type="concept", label="drawing Lewis diagram\nof specific ionic compound\n(dot/cross)"]
+    CMA381 [type="concept", label="drawing Lewis diagram\nof specific covalent molecule\n(dot/cross)"]
+    CMA382 [type="concept", label="drawing Lewis diagram\nof specific compounds/molecules\n(lines)"]
+    CMA383 [type="concept", label="interpreting Lewis\ndiagrams for molecules\n(lines)"]
+    CMA384 [type="concept", label="determining shape\nof molecule from\nLewis diagram"]
+
+
+    CMA347 [type="fact", label="ionic compounds\nconduct electricity\nin solution"]
+    CMA348 [type="fact", label="ionic compounds are\nhard"]
+    CMA349 [type="fact", label="common shapes\nof molecules"]
+    CMA350 [type="fact", label="common AXE types"]
+    CMA351 [type="fact", label="ionic compounds are\nhighly soluble in water"]
+    CMA352 [type="fact", label="ionic compounds are\nbrittle"]
+    CMA353 [type="fact", label="ionic compounds have\nhigh boiling/melting points"]
+    CMA360 [type="fact", label="meaning of\n-ide"]
+    CMA361 [type="fact", label="meaning of\n-ite"]
+    CMA362 [type="fact", label="meaning of\n-ate"]
+    CMA363 [type="fact", label="meaning of\nmono-, di-, tri-"]
+
+    CMA354 [type="scase", label="water"]
+
+    CMA355 [type="miscon", label="solid ionic compounds\nconduct electricity"]
+    CMA356 [type="miscon", label="non-polar molecules\nmust have\nnon-polar bonds"]
+    CMA357 [type="miscon", label="all molecules\nwith polar bonds\nmust be polar"]
+
+    CMA358 [type="future", label="structures\nof allotropes"] /** FUTURE: could have more variety about the types of structures formed */
+    CMA359 [type="future", label="hybridisation\nof orbitals"]
+    CMA364 [type="future", label="more name endings"]
+
+  /* Acids and bases */
+    CMA400 [type="group", label="Acids and bases"]
+    CMA401 [type="group", label="Models of acids and bases"]
+    CMA402 [type="group", label="Acids"]
+    CMA403 [type="group", label="Bases"]
+    CMA404 [type="group", label="Equilibrium constants"]
+    CMA405 [type="group", label="pH"]
+
+    CMA406 [type="concept", label="conjugate acid-base pairs"]
+    CMA407 [type="concept", label="strong/weak\n vs \n concentrated/dilute"]
+    CMA408 [type="concept", label="Amphoteric"]
+    CMA409 [type="concept", label="Autoprotolysis"]
+    CMA410 [type="concept", label="Amphiprotic"]
+    CMA411 [type="concept", label="ionisation\n of acid"]
+    CMA412 [type="concept", label="dissociation\n of base"]
+    CMA413 [type="concept", label="strong acids/bases"]
+    CMA414 [type="concept", label="weak acids/bases"]
+    CMA415 [type="concept", label="auto-ionisation of water"]
+    CMA416 [type="concept", label="Arrhenius model\n acid: H+ donor\n base: OH- donor"]
+    CMA417 [type="concept", label="Bronsted-Lowry model\n acid: H+ donor\n base: H+ acceptor"]
+    CMA418 [type="concept", label="Lewis model\n acid: e- pair acceptor\n base: e- pair donor"]
+    CMA419 [type="concept", label="mono \n di \n polyprotic"]
+    CMA420 [type="concept", label="what is an acid?"]
+    CMA421 [type="concept", label="acidic properties"]
+    CMA422 [type="concept", label="strong\nacids"]
+    CMA423 [type="concept", label="weak\nacids"]
+    CMA424 [type="concept", label="chemically,\nwhat makes an acid?"]
+    CMA425 [type="concept", label="what is a base?"]
+    CMA426 [type="concept", label="basic properties"]
+    CMA427 [type="concept", label="strong\nbases"]
+    CMA428 [type="concept", label="weak\nbases"]
+    CMA429 [type="concept", label="chemically,\nwhat makes a base?"]
+    CMA430 [type="concept", label="K_a"]
+    CMA431 [type="concept", label="K_b"]
+    CMA432 [type="concept", label="K_w"]
+    CMA433 [type="concept", label="meaning of Ka"]
+    CMA434 [type="concept", label="meaning of Kb"]
+    CMA435 [type="concept", label="calculate pKa\n(given Ka)"]
+    CMA436 [type="concept", label="calculate pKb\n(given Kb)"]
+    CMA437 [type="concept", label="calculate pH\nfrom [H+]"]
+    CMA438 [type="concept", label="calculate pOH\nfrom [OH-]"]
+    CMA439 [type="concept", label="neutrality"]
+    CMA440 [type="concept", label="what is pH?"]
+    CMA441 [type="concept", label="pH scale"]
+    CMA442 [type="concept", label="what is pOH?"]
+    CMA443 [type="concept", label="calculating pOH\n from pH\nor vice versa"]
+    CMA444 [type="concept", label="acidic solutions"]
+    CMA445 [type="concept", label="strongly acidic\nsolutions"]
+    CMA446 [type="concept", label="strongly basic\nsolutions"]
+    CMA447 [type="concept", label="weak acidic\nsolutions"]
+    CMA448 [type="concept", label="weak basic\nsolutions"]
+    CMA449 [type="concept", label="basic solutions"]
+    CMA450 [type="concept", label="calculating pOH\nusing Kb"]
+    CMA451 [type="concept", label="calculating pH\nusing Ka"]
+    CMA471 [type="concept", label="calculating Ka\nfrom concentrations"]
+    CMA472 [type="concept", label="calculating Kb\nfrom concentrations"]
+    CMA473 [type="concept", label="calculate Ka\n(given pKa)"]
+    CMA474 [type="concept", label="calculating [H+] from\nconcentrations and Ka"]
+    CMA475 [type="concept", label="calculating pH\nusing pKa"]
+    CMA476 [type="concept", label="calculating pOH\nusing Ka\n(acid equation)"]
+    CMA477 [type="concept", label="calculating pOH\nusing pKa\n(acid equation)"]
+    CMA478 [type="concept", label="calculating pKa\nfrom concentrations"]
+    CMA479 [type="concept", label="calculate Kb\n(given pKb)"]
+    CMA481 [type="concept", label="calculating pKb\nfrom concentrations"]
+    CMA482 [type="concept", label="calculating [OH-] from\nconcentrations and Kb"]
+    CMA483 [type="concept", label="calculating pOH\nusing pKb"]
+    CMA484 [type="concept", label="calculating pH\nusing Kb\n(base equation)"]
+    CMA485 [type="concept", label="calculating pH\nusing pKb\n(base equation)"]
+    CMA486 [type="concept", label="converting Ka and Kb"]
+    CMA489 [type="concept", label="converting\n[OH-] and [H+]"]
+
+    CMA452 [type="fact", label="Examples of acids"]
+    CMA453 [type="fact", label="Examples of bases"]
+    CMA454 [type="fact", label="Kw = [OH^-1][H^+]"]
+    CMA455 [type="fact", label="Ka = [ionised acid products]^molar ratio\n____________\n[acid]^molar ratio"]
+    CMA456 [type="fact", label="Kb = [dissociated base products]^molar ratio\n____________\n[base]^molar ratio"]
+    CMA457 [type="fact", label="Acids:\n pH < 7"]
+    CMA458 [type="fact", label="Bases:\n pH > 7"]
+    CMA459 [type="fact", label="Neutral:\n pH = 7"]
+    CMA460 [type="fact", label="Strong acidic:\n pH < 5"]
+    CMA461 [type="fact", label="Strong basic:\n pH > 9"]
+    CMA462 [type="fact", label="Weak acidic:\n 5 < pH < 7"]
+    CMA463 [type="fact", label="Weak basic:\n 7 < pH < 9"]
+    CMA487 [type="fact", label="Kw = 1x10^-14 at 25C"]
+    CMA488 [type="fact", label="Kw = Ka x Kb"]
+    CMA490 [type="fact", label="pH + pOH = 14"]
+
+    CMA464 [type="miscon", label="strong and concentrated\n are interchangeable"]
+    CMA465 [type="miscon", label="weak and dilute\n are interchangeable"]
+    CMA466 [type="miscon", label="a strong acid/base\n soln cannot be dilute"]
+    CMA467 [type="miscon", label="a weak acid/base\n soln cannot be concentrated"]
+    CMA468 [type="miscon", label="an acid/base\n can be 'conc' or 'dilute'"]
+    CMA469 [type="miscon", label="a solution\n can be 'strong' or 'weak'"]
+    CMA470 [type="miscon", label="All bases contain\n hydroxyl groups"]
+
+  /* States of matter */
+    CMA500 [type="group", label="States of matter"]
+    CMA501 [type="group", label="Phase changes"]
+    CMA502 [type="group", label="Ideal gases"]
+
+    CMA503 [type="concept", label="what is a\nstate of matter?"]
+    CMA504 [type="concept", label="solids"]
+    CMA505 [type="concept", label="liquids"]
+    CMA506 [type="concept", label="gases"]
+    CMA507 [type="concept", label="plasmas"]
+    CMA508 [type="concept", label="what is a\nphysical change?"]
+    CMA509 [type="concept", label="what is temperature?"]
+    CMA510 [type="concept", label="vapour"]
+    CMA511 [type="concept", label="supercritical fluid"]
+    CMA512 [type="concept", label="overcoming intermolecular\nforces in solids\nto form liquids"]
+    CMA513 [type="concept", label="overcoming intermolecular\nforces in liquids\nto form gases"]
+    CMA514 [type="concept", label="overcoming intermolecular\nforces in solids\nto form gases"]
+    CMA515 [type="concept", label="what is a\nphase change?"]
+    CMA516 [type="concept", label="condensation"]
+    CMA517 [type="concept", label="sublimation"]
+    CMA518 [type="concept", label="evaporation"]
+    CMA519 [type="concept", label="boiling"]
+    CMA520 [type="concept", label="melting"]
+    CMA521 [type="concept", label="freezing"]
+    CMA522 [type="concept", label="deposition"]
+    CMA523 [type="concept", label="ionisation\nforming plasma"]
+    CMA524 [type="concept", label="deionisation\nfrom plasma"]
+    CMA525 [type="concept", label="phase diagrams"]
+    CMA526 [type="concept", label="critical point\non phase diagram"]
+    CMA527 [type="concept", label="triple point\non phase diagram"]
+    CMA528 [type="concept", label="T at which\nliquid -> gas"]
+    CMA529 [type="concept", label="T at which\nsolid -> liquid"]
+    CMA530 [type="concept", label="T at which\ngas -> liquid"]
+    CMA531 [type="concept", label="T at which\nliquid -> solid"]
+    CMA532 [type="concept", label="endothermic process"]
+    CMA533 [type="concept", label="exothermic process"]
+    CMA534 [type="concept", label="boiling,\nmelting,\nsublimation\nare endothermic processes"]
+    CMA535 [type="concept", label="condensing,\nfreezing,\ndeposition\nare exothermic processes"]
+    CMA536 [type="concept", label="kinetic molecular theory\nof gases"]
+    CMA537 [type="concept", label="what is a\nreal gas?"]
+    CMA538 [type="concept", label="what is an\nideal gas?"]
+    CMA539 [type="concept", label="what is pressure?"]
+    CMA540 [type="concept", label="real gases\nlow temperature\ndeviation from ideal"]
+    CMA541 [type="concept", label="real gases\nhigh pressure\ndeviation from ideal"]
+
+    CMA542 [type="fact", label="Symbol of temperature:\nT"]
+    CMA543 [type="fact", label="Scientific unit\nof temperature is:\nK"]
+    CMA544 [type="fact", label="phase changes are\n physical changes"]
+    CMA545 [type="fact", label="Symbol of pressure:\np"]
+    CMA546 [type="fact", label="Unit of pressure is:\nPa"]
+
+    CMA547 [type="miscon", label="phase changes involve \n a change in chemical substance \n e.g. liquid water is not the same \n substance as ice"]
+
+    CMA548 [type="future", label="heating curves"]
+    CMA549 [type="future", label="cooling curves"]
+    CMA550 [type="future", label="expanded on\nphase diagrams"]
+
+    /* External nodes that live here */
+      /* Also in properties */
+        CPR301 /* [type="todo", label="Lives here too\nProperties:\nmelting point T\n(s <-> l)"] */
+        CPR302 /* [type="todo", label="Lives here too\nProperties:\nboiling point T\n(l <-> g)"] */
+
+  /* Mixtures and solutions */
+    CMA600 [type="group", label="Mixtures and solutions"]
+    CMA601 [type="group", label="Mixtures"]
+    CMA602 [type="group", label="Solutions"]
+
+    CMA603 [type="concept", label="precipitation"]
+    CMA604 [type="concept", label="precipitate formation\ndue to saturation"]
+    CMA605 [type="concept", label="precipitate formation\ndue to insolubility"]
+    CMA606 [type="concept", label="number concentration"]
+    CMA607 [type="concept", label="homogeneous mixtures"]
+    CMA608 [type="concept", label="heterogeneous mixtures"]
+    CMA609 [type="concept", label="what is a mixture?"]
+    CMA610 [type="concept", label="phases of\nheterogeneous mixtures"]
+    CMA611 [type="concept", label="solid/solid mixtures"]
+    CMA612 [type="concept", label="liquid/liquid mixtures"]
+    CMA613 [type="concept", label="suspension"]
+    CMA614 [type="concept", label="homogeneous vs\nheterogeneous mixtures"]
+    CMA615 [type="concept", label="solid in gas\nsuspension"]
+    CMA616 [type="concept", label="solid in liquid\nsuspension"]
+    CMA617 [type="concept", label="concentrated and\n dilute solutions"]
+    CMA618 [type="concept", label="what is concentration?"]
+    CMA619 [type="concept", label="volume concentration"]
+    CMA620 [type="concept", label="molar concentration"]
+    CMA621 [type="concept", label="dissolution"]
+    CMA622 [type="concept", label="electrolytes"]
+    CMA623 [type="concept", label="ionisation in water"]
+    CMA624 [type="concept", label="what is a solution?"]
+    CMA625 [type="concept", label="solute"]
+    CMA626 [type="concept", label="solvent"]
+    CMA627 [type="concept", label="saturation"]
+    CMA628 [type="concept", label="liquid solutions"]
+    CMA629 [type="concept", label="solids in liquids"]
+    CMA630 [type="concept", label="gases in liquids"]
+    CMA631 [type="concept", label="liquids in liquids"]
+    CMA632 [type="concept", label="polar/ionic solvents"]
+    CMA633 [type="concept", label="non-polar solvents"]
+    CMA634 [type="concept", label="miscibility"]
+    CMA635 [type="concept", label="gases in solids"]
+    CMA636 [type="concept", label="liquids in solids"]
+    CMA637 [type="concept", label="solids in solids"]
+    CMA638 [type="concept", label="solid solutions"]
+    CMA639 [type="concept", label="diffusion"]
+    CMA640 [type="concept", label="dissociation of salts"]
+    CMA641 [type="concept", label="salts in water"]
+    CMA642 [type="concept", label="solvation process"]
+    CMA643 [type="concept", label="what is a solvate?"]
+    CMA644 [type="concept", label="inorganic hydrates"]
+    CMA645 [type="concept", label="organic hydrates"]
+    CMA661 [type="concept", label="recognising a\nhomogenous mixture"]
+    CMA662 [type="concept", label="recognising a\nheterogeneous mixture"]
+
+    CMA646 [type="fact", label="units of molar\nconcentration:\n mol&#183;dm&#8315;&#179;"]
+    CMA647 [type="fact", label="like dissolves like"]
+    CMA648 [type="fact", label="soluble and insoluble\nions"]
+    CMA649 [type="fact", label="Symbol of volume concentration:\n&#966;"]
+    CMA650 [type="fact", label="Symbol of molar concentration:\nC"]
+    CMA651 [type="fact", label="no water:\nanhydrous"]
+
+    CMA652 [type="scase", label="hydration process"]
+    CMA653 [type="scase", label="aqueous solutions"]
+    CMA654 [type="scase", label="diffusion in liquid"]
+    CMA655 [type="scase", label="diffusion in gas"]
+    CMA656 [type="scase", label="diffusion in solid"]
+    CMA657 [type="scase", label="what is a hydrate?"]
+
+    CMA658 [type="miscon", label="dissolution is\na chemical change"]
+    CMA659 [type="miscon", label="only liquids\ncan be solutions"]
+
+    CMA660 [type="future", label="colloid"]
+
+    /* External nodes that live here */
+      /* Also lives in properties */
+        CPR605 /* [type="todo", label="Lives here too:\nProperties:\nsolubility"] */
+
+
+  /* ==== GROUPINGS ==== */
+
+    CMA100 { /* Atoms */
+
+        CMA104 /* atomic mass (mass of atom) */
+        CMA105 /* quantisation of energy */
+        CMA106 /* atoms are pure substances */
+        CMA107 /* core and valence electrons */
+        CMA108 /* atomic radius */
+        CMA109 /* electronic configuration of atom */
+        CMA110 /* Aufbau principle */
+        CMA111 /* principle quantum number */
+        CMA112 /* definition of an atomic orbital */
+        CMA113 /* understanding sp orbitals */
+        CMA114 /* electron pairs */
+        CMA115 /* understanding df orbitals */
+        CMA151 /* ground state of an atom */
+        CMA156 /* understanding s orbitals */
+        CMA157 /* understanding p orbitals */
+
+        CMA136 /* atomic orbitals: s, p, d, f */
+        CMA137 /* atomic mass units (u) */
+        CMA138 /* electron pair notation */
+        CMA152 /* 1 s orbital per level */
+        CMA153 /* 3 p orbitals per level */
+        CMA154 /* shape of s orbital */
+        CMA155 /* shape of p orbital */
+
+        CMA146 /* future: Pauli's exclusion principle */
+        CMA147 /* future: magnetic spin quantum number */
+        CMA148 /* future: Aufbau that includes understanding of spin */
+        CMA149 /* future: paramagnetic and diamagnetic in terms of unpaired electrons */
+
+        CMA158 /* miscon: unpaired electrons = valence electrons, paired electrons cannot be valence electrons */
+
+        CMA101 { /* Atomic structure */
+
+            CMA116 /* what is an atom? */
+            CMA117 /* sub-atomic particles */
+            CMA118 /* nucleus */
+            CMA119 /* atomic number (Z) */
+            CMA120 /* mass number (A) */
+            CMA121 /* calculations using A, Z and N */
+            CMA122 /* neutral atom has Z electrons */
+            CMA123 /* neutrons are neutral */
+            CMA124 /* number of neutrons (N) */
+
+            CMA139 /* electrons */
+            CMA140 /* protons */
+            CMA141 /* neutrons */
+            CMA142 /* nucleons are particles in atomic nucleus (neutrons and protons) */
+            CMA143 /* mass of 1 electron */
+            CMA144 /* mass of 1 proton */
+            CMA145 /* mass of 1 neutron */
+
+            CMA150 /* miscon: neutrons are negative */
+
+            /* Live here too */
+              /* Electromagnetism */
+                PEESC008 /* proton carries positive charge */
+                PEESC009 /* + symbol for positive charge */
+                PEESC010 /* electron carries negative charge */
+                PEESC011 /* - symbol for negative charge */
+                PEESC012 /* e^- symbol for negative charge */
+
+        }
+
+        CMA102 { /* Models of the atom */
+
+            CMA125 /* Bohr model */
+            CMA127 /* Schrodinger model */
+            CMA126 /* Plum pudding model */
+            CMA128 /* Dalton model */
+            CMA129 /* Rutherford model */
+
+        }
+
+        CMA103 { /* Radioactivity */
+
+            CMA130 /* understanding radioactivity */
+            CMA131 /* types of radiation: alpha, beta and gamma */
+            CMA132 /* alpha particles/radiation */
+            CMA133 /* radiation */
+            CMA134 /* beta particles/radiation */
+            CMA135 /* gamma rays */
+
+        }
+
+    }
+
+    CMA200 { /* Elements */
+
+        CMA107 /* core and valence electrons */
+
+        CMA201 /* what is an element? */
+        CMA202 /* outer shell */
+        CMA203 /* effect of how tightly valenece e^- are held on atomic radius */
+        CMA204 /* stability of a full outer shell */
+        CMA205 /* comparing electronegativity, ionisation energy and electron affinity */
+        CMA206 /* metals */
+        CMA207 /* non-metals */
+        CMA208 /* metalloids (semi-metals) */
+        CMA209 /* elements are pure substances */
+        CMA210 /* isotopes */
+        CMA211 /* properties of metals */
+        CMA212 /* properties of non-metals */
+        CMA213 /* alloys */
+        CMA214 /* why metals have their properties */
+        CMA215 /* comparing electronegativities of different elements */
+        CMA216 /* ionisation energy */
+        CMA217 /* electron affinity */
+        CMA239 /* properties of metalloids */
+        CMA247
+
+        CMA218 /* radioactive elements */
+        CMA219 /* metals with non-metal properties */
+        CMA220 /* metals are hard */
+        CMA221 /* metals are opaque */
+        CMA222 /* metals are maleable */
+        CMA223 /* metals are good thermal conductors */
+        CMA224 /* metals are ductile */
+        CMA225 /* metals are not volatile */
+        CMA226 /* metals are poor thermal insulators */
+        CMA227 /* non-metals are volatile */
+        CMA228 /* non-metals have poor elasticity */
+        CMA229 /* non-metals are good thermal insulators */
+        CMA230 /* non-metals are poor thermal conductors */
+        CMA231 /* non-metals have high IE */
+        CMA232 /* non-metals have high electronegativity */
+        CMA234 /* metals are good electrical conductors */
+        CMA235 /* metals are poor electrical insulators */
+        CMA236 /* non-metals are good electrical insulators */
+        CMA237 /* non-metals are poor electrical conductors */
+        CMA240 /* metalloids have IE between metals and non-metals */
+        CMA241 /* metalloids have electronegativity between metals and non-metals */
+        CMA242 /* metalloids react like a metal or non-metal depending on what they are reacting with */
+        CMA243 /* metalloids are often good semi-conductors */
+        CMA244 /* metals are generally solid (some liquid) at or near 25C */
+        CMA245 /* metalloids are solid at or near 25C */
+        CMA246 /* non-metals are generally gases at 25C */
+
+        CMA238 /* miscon: all metals are magnets */
+
+        CPR610 /* electronegativity */
+
+        CMAP200 { /* Periodic table */
+
+            CMAP201 /* groups */
+            CMAP202 /* periods */
+            CMAP203 /* relative atomic mass */
+            CMAP204 /* what is the periodic table? */
+            CMAP205 /* increasing protons across a period (left to right) */
+            CMAP206 /* same number of core electrons across a period (left to right) */
+            CMAP207 /* trend in how tightly valence electrons are held across a period (left to right) */
+            CMAP208 /* understanding trend in electronegativity across a period (left to right) */
+            CMAP209 /* trend in number of valence electrons across a period (left to right) */
+            CMAP210 /* increasing nucleus size (number of protons) down a group */
+            CMAP211 /* understanding trend in electronegativity across a period (left to right) */
+            CMAP212 /* understanding trend in ionisation energy across a period (left to right) */
+            CMAP213 /* understanding trend in ionisation energy down a group */
+            CMAP214 /* understanding trend in electron affinity across a period (left to right) */
+            CMAP215 /* understanding trend in electron affinity down a group */
+            CMAP216 /* increasing quantum number down a group */
+            CMAP217 /* increasing number of core electrons down a group */
+            CMAP218 /* trend in how tightly valence electrons are held down a group */
+            CMAP219 /* s-block */
+            CMAP220 /* p-block */
+            CMAP221 /* d-block */
+            CMAP222 /* f-block */
+            CMAP223 /* how the periodic table is arranged */
+            CMAP224 /* group names */
+            CMAP225 /* getting preferred oxidation state from periodic table */
+            CMAP226 /* understanding trend in atomic radius down a group */
+            CMAP227 /* understanding trend in electronegativity down a group */
+            CMAP228 /* valence electron shielding by core electrons */
+            CMAP229 /* information for one element shown on the periodic table */
+            CMAP258 /* the periodic table and electronic configuration */
+
+            CMAP230 /* properties of noble gases */
+            CMAP231 /* properties of halogens */
+            CMAP232 /* properties of chalcogens */
+            CMAP233 /* properties of alkali metals */
+            CMAP234 /* properties of alkali earth metals */
+            CMAP235 /* properties of transition metals */
+            CMAP236 /* properties of pnictogens */
+            CMAP237 /* metals on periodic table */
+            CMAP238 /* non-metals on periodic table */
+            CMAP239 /* metalloids on periodic table */
+            CMAP240 /* noble gases */
+            CMAP241 /* halogens */
+            CMAP242 /* chalcogens */
+            CMAP243 /* alkali metals */
+            CMAP244 /* alkali earth metals */
+            CMAP245 /* transition metals */
+            CMAP246 /* pnictogens */
+            CMAP247 /* atomic number increases across period (left to right) */
+            CMAP248 /* atomic number increases down group */
+            CMAP249 /* atomic radius decreases across period (left to right) */
+            CMAP250 /* atomic radius increases down group */
+            CMAP251 /* electron affinity increases across period (left to right) */
+            CMAP252 /* electron affinity decreases down group */
+            CMAP253 /* ionisation energy increases across period (left to right) */
+            CMAP254 /* ionisation energy decreases down group */
+            CMAP255 /* electronegativity increases across period (left to right) */
+            CMAP256 /* electronegativity decreases down group */
+
+            CMAP257 /* miscon: relative atomic mass is actual mass of atom */
+
+        }
+
+        CMAR200 { /* Representations of elements */
+
+            CMAR201 /* representing oxidation states using Stock notation (Fe(II), Fe(III)) */
+            CMAR202 /* Aufbau diagrams */
+            CMAR203 /* Lewis diagrams for elements */
+            CMAR204 /* converting cations and Stock notation */
+            CMAR205 /* Stock notation ion name conversion */
+            CMAR206 /* ground state spectroscopic notation */
+            CMAR207 /* shorthand electronic configuration spectroscopic notation */
+            CMAR208 /* element names */
+            CMAR209 /* element symbols */
+            CMAR210 /* ion names (common ions) */
+            CMAR211 /* ion names (common polyatomic ions) */
+            CMAR212 /* roman numerals */
+            CMAR213 /* electronic configuration hydrogen: 1s^1 */
+            CMAR214 /* electronic configuration helium: 1s^2 */
+            CMAR215 /* electronic configuration lithium: 1s^2 2s^1 */
+            CMAR216 /* electronic configuration beryllium: 1s^2 2s^2 */
+            CMAR217 /* electronic configuration boron: 1s^2 2s^2 2p^1 */
+            CMAR218 /* electronic configuration carbon: 1s^2 2s^2 2p^2 */
+            CMAR219 /* electronic configuration nitrogen: 1s^2 2s^2 2p^3 */
+            CMAR220 /* electronic configuration oxygen: 1s^2 2s^2 2p^4 */
+            CMAR221 /* electronic configuration fluorine: 1s^2 2s^2 2p^5 */
+            CMAR222 /* electronic configuration neon: 1s^2 2s^2 2p^6 */
+            CMAR223 /* electronic configuration sodium: 1s^2 2s^2 2p^6 3s^1 */
+            CMAR224 /* electronic configuration magnesium: 1s^2 2s^2 2p^6 3s^2 */
+            CMAR225 /* electronic configuration aluminium: 1s^2 2s^2 2p^6 3s^2 3p^1 */
+            CMAR226 /* electronic configuration silicon: 1s^2 2s^2 2p^6 3s^2 3p^2 */
+            CMAR227 /* electronic configuration phosphorus: 1s^2 2s^2 2p^6 3s^2 3p^3 */
+            CMAR228 /* electronic configuration sulfur: 1s^2 2s^2 2p^6 3s^2 3p^4 */
+            CMAR229 /* electronic configuration chlorine: 1s^2 2s^2 2p^6 3s^2 3p^5 */
+            CMAR230 /* electronic configuration argon: 1s^2 2s^2 2p^6 3s^2 3p^6 */
+            CMAR231 /* electronic configuration potassium: 1s^2 2s^2 2p^6 3s^2 3p^6 4s^1 */
+            CMAR232 /* electronic configuration calcium: 1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 */
+            CMAR233 /* shorthand electronic configuration lithium: [He] 2s^1 */
+            CMAR234 /* shorthand electronic configuration beryllium: [He] 2s^2 */
+            CMAR235 /* shorthand electronic configuration boron: [He] 2s^2 2p^1 */
+            CMAR236 /* shorthand electronic configuration carbon: [He] 2s^2 2p^2 */
+            CMAR237 /* shorthand electronic configuration nitrogen: [He] 2s^2 2p^3 */
+            CMAR238 /* shorthand electronic configuration oxygen: [He] 2s^2 2p^4 */
+            CMAR239 /* shorthand electronic configuration fluorine: [He] 2s^2 2p^5 */
+            CMAR240 /* shorthand electronic configuration neon: [He] 2s^2 2p^6 */
+            CMAR241 /* shorthand electronic configuration sodium: [Ne] 3s^1 */
+            CMAR242 /* shorthand electronic configuration magnesium: [Ne] 3s^2 */
+            CMAR243 /* shorthand electronic configuration aluminium: [Ne] 3s^2 3p^1 */
+            CMAR244 /* shorthand electronic configuration silicon: [Ne] 3s^2 3p^2 */
+            CMAR245 /* shorthand electronic configuration phosphorus: [Ne] 3s^2 3p^3 */
+            CMAR246 /* shorthand electronic configuration sulfur: [Ne] 3s^2 3p^4 */
+            CMAR247 /* shorthand electronic configuration chlorine: [Ne] 3s^2 3p^5 */
+            CMAR248 /* shorthand electronic configuration argon: [Ne] 3s^2 3p^6 */
+            CMAR249 /* shorthand electronic configuration potassium: [Ar] 4s^1 */
+            CMAR250 /* shorthand electronic configuration calcium: [Ar] 4s^2 */
+            CMAR251 /* Aufbau diagram hydrogen */
+            CMAR252 /* Aufbau diagram helium */
+            CMAR253 /* Aufbau diagram lithium */
+            CMAR254 /* Aufbau diagram beryllium */
+            CMAR255 /* Aufbau diagram boron */
+            CMAR256 /* Aufbau diagram carbon */
+            CMAR257 /* Aufbau diagram nitrogen */
+            CMAR258 /* Aufbau diagram oxygen */
+            CMAR259 /* Aufbau diagram fluorine */
+            CMAR260 /* Aufbau diagram neon */
+            CMAR261 /* Aufbau diagram sodium */
+            CMAR262 /* Aufbau diagram magnesium */
+            CMAR263 /* Aufbau diagram aluminium */
+            CMAR264 /* Aufbau diagram silicon */
+            CMAR265 /* Aufbau diagram phosphorus */
+            CMAR266 /* Aufbau diagram sulfur */
+            CMAR267 /* Aufbau diagram chlorine */
+            CMAR268 /* Aufbau diagram argon */
+            CMAR269 /* Aufbau diagram potassium */
+            CMAR270 /* Aufbau diagram calcium */
+            CMAR271
+            CMAR272
+
+        }
+
+        CMAE200 { /* Elements with charge */
+
+            CMAE201 /* cations */
+            CMAE202 /* anions */
+            CMAE203 /* oxidation states */
+            CMAE204 /* using reduction and oxidation */
+            CMAE205 /* ions */
+            CMAE206 /* reduction means gain of electrons */
+            CMAE207 /* oxidation means loss of electrons */
+
+            CMAE208 /* formula of common ions */
+            CMAE209 /* formula of common polyatomic ions */
+            CMAE210 /* OIL RIG */
+            CMAE213 /* Table of Cations */
+            CMAE214 /* Table of Anions */
+
+            CMAE211 /* miscon: loss of e^- = reduced */
+            CMAE212 /* miscon: gain of e^- = oxidised */
+
+        }
+
+    }
+
+    CMA300 { /* Molecules and compounds */
+
+        CMA302 /* molecule: a single entity able to react characteristically */
+        CMA303 /* compound: two or more different elements bonded */
+        CMA304 /* heteronuclear */
+        CMA305 /* homonuclear */
+        CMA306 /* molecular mass */
+        CMA307 /* VSEPR theory */
+        CMA308 /* formula mass */
+        CMA309 /* dipoles/quadropoles/etc */
+        CMA310 /* infinite network structures */
+        CMA311 /* covalent compounds */
+        CMA312 /* polar molecules */
+        CMA313 /* non-polar covalent molecules due to non-polar bonds */
+        CMA314 /* non-polar covalent molecules due to shape */
+        CMA315 /* molecule shape */
+        CMA316 /* properties of ionic compounds */
+        CMA317 /* ionic compounds */
+        CMA318 /* covalent network structures */
+        CMA319 /* molecules are pure substances */
+        CMA320 /* compounds are pure substances */
+        CMA321 /* molecular orbitals */
+        CMA322 /* ionic compounds form network structures */
+        CMA323 /* identifying lone pairs */
+        CMA324 /* salts */
+        CMA325 /* allotropes of elements */
+        CMA326 /* AXE method */
+        CMA327 /* structures of covalent network compounds */
+        CMA328 /* homonuclear diatomic molecules */
+        CMA329 /* heteronuclear diatomic molecules */
+        CMA330 /* non-polar molecules */
+        CMA331 /* determining geometry using AXE/VSEPR */
+
+        CMA347 /* ionic compounds conduct electricity in solution */
+        CMA348 /* ionic compounds are hard */
+        CMA349 /* shape of molecule */
+        CMA350 /* common AXE types */
+        CMA351 /* ionic compounds are highly soluble */
+        CMA352 /* ionic compounds are brittle */
+        CMA353 /* ionic compounds have high boiling/melting points */
+
+        CMA354 /* water */
+
+        CMA355 /* miscon: solid ionic compounds conduct electricity */
+        CMA356 /* miscon: non-polar molecules must have non-polar bonds */
+        CMA357 /* miscon: all molecules with polar bonds must be polar */
+
+        CMA358 /* future: structures of allotropes */
+        CMA359 /* future: hybridisation of orbitals */
+
+        CMA301 { /* Representing compounds/molecules */
+
+            CMA332 /* molecular formula */
+            CMA333 /* naming ionic compounds */
+            CMA334 /* formulae of ionic compounds */
+            CMA335 /* structural representations Ball-and-stick */
+            CMA336 /* empirical formula as smallest unit */
+            CMA337 /* empirical formula as ratio of atoms within molecule */
+            CMA338 /* Lewis diagrams for molecules */
+            CMA339 /* formula from name (ionic compound) */
+            CMA340 /* formula from name (covalent compound) */
+            CMA341 /* empirical vs molecular formula */
+            CMA342 /* representing dipoles/quadropoles, etc */
+            CMA343 /* representing polar molecules */
+            CMA344 /* naming covalent compounds */
+            CMA345 /* Lewis diagrams for bonding (lines) */
+            CMA346 /* Lewis diagrams for double/triple bonds (lines) */
+            CMA365 /* macroscopic properties due to microscopic details */
+            CMA366 /* structural representations Wireframe */
+            CMA367 /* structural representations Space filling */
+            CMA368 /* name from formula ionic compound */
+            CMA369 /* name from formula covalent compound */
+            CMA371 /* symbolic representations */
+            CMA372 /* microscopic diagrams of elements */
+            CMA373 /* microscopic diagrams of molecules */
+            CMA374 /* microscopic vs macroscopic */
+            CMA375 /* microscopic representations */
+            CMA376 /* concept of micro */
+            CMA377 /* concept of macro */
+            CMA378
+            CMA379
+            CMA380
+            CMA381
+            CMA382
+            CMA383
+            CMA384
+
+            CMA360 /* -ide */
+            CMA361 /* -ite */
+            CMA362 /* -ate */
+            CMA363 /* mono/di-/tri */
+
+            CMA364 /* future: more name endings */
+
+        }
+
+    }
+
+    CMA400 { /* Acids and bases */
+
+        CMA406 /* conjugate acid-base pairs */
+        CMA407 /* strong/weak vs concentrated/dilute */
+        CMA408 /* amphoteric */
+        CMA409 /* autoprotolysis */
+        CMA410 /* amphiprotic */
+        CMA411 /* ionisation of acid */
+        CMA412 /* dissociation of base */
+        CMA413 /* strong acids/bases */
+        CMA414 /* weaks acids/bases */
+        CMA415 /* auto-ionisation of water */
+
+        CMA464 /* miscon: strong and concentrated are interchangeable */
+        CMA465 /* miscon: weak and dilute are interchangeable */
+        CMA466 /* miscon: a strong acid/base solution cannot be dilute */
+        CMA467 /* miscon: a weak acid/base solution cannot be concentrated */
+        CMA468 /* miscon: an acid/base can be concentrated/dilute */
+        CMA469 /* miscon: a solution can be strong/weak */
+
+        CMA401 { /* Models of acids and bases */
+
+            CMA416 /* Arrhenius model */
+            CMA417 /* Bronsted-Lowry */
+            CMA418 /* Lewis model */
+
+        }
+
+        CMA402 { /* Acids */
+
+            CMA419 /* mono/di/poly protic */
+            CMA420 /* what is an acid? */
+            CMA421 /* acidic properties */
+            CMA422 /* strong acids */
+            CMA423 /* weak acids */
+            CMA424 /* chemically, what makes an acid? */
+
+            CMA452 /* examples of acids */
+
+        }
+
+        CMA403 { /* Bases */
+
+            CMA425 /* what is a base? */
+            CMA426 /* basic properties */
+            CMA427 /* strong bases */
+            CMA428 /* weak bases */
+            CMA429 /* chemically, what makes a base? */
+
+            CMA453 /* examples of bases */
+
+            CMA470 /* miscon: all bases contain hydroxyl groups */
+
+        }
+
+        CMA404 { /* Equilibrium constants */
+
+            CMA430 /* Ka */
+            CMA431 /* Kb */
+            CMA432 /* Kw */
+            CMA433 /* meaning of Ka */
+            CMA434 /* meaning of Kb */
+            CMA435 /* calculating pKa (given Ka) */
+            CMA436 /* calculating pKb (given Kb) */
+            CMA471 /* calculating Ka from concentrations */
+            CMA472 /* calculating Kb from concentrations */
+            CMA473 /* calculate Ka (given pKa) */
+            CMA474 /* calculating [H+] from concentrated and Ka */
+            CMA478 /* calculating pKa from concentrations */
+            CMA479 /* calculate Kb (given pKb) */
+            CMA481 /* calculating pKb from concentrations */
+            CMA482 /* calculating [OH-] from concentrations and Kb */
+            CMA486 /* converting Ka and Kb */
+            CMA489 /* converting [OH-] and [H+] */
+
+            CMA454 /* Kw = [OH-][H+] */
+            CMA455 /* Ka = [acid products]/[acid] */
+            CMA456 /* Kb = [base products]/[base] */
+            CMA487 /* Kw = 1x10^-14 at 25C */
+            CMA488 /* Kw = Ka x Kb */
+
+        }
+
+        CMA405 { /* pH */
+
+            CMA437 /* calculating pH */
+            CMA438 /* calculating pOH */
+            CMA439 /* neutrality */
+            CMA440 /* what is pH? */
+            CMA441 /* pH scale */
+            CMA442 /* what is pOH */
+            CMA443 /* calculating pOH from pH */
+            CMA444 /* acidic solutions */
+            CMA445 /* strong acidic solutions */
+            CMA446 /* strong basic solutions */
+            CMA447 /* weak acidic solutions */
+            CMA448 /* weak basic solutions */
+            CMA449 /* basic solutions */
+            CMA450 /* calculating pOH using Kb */
+            CMA451 /* calculating pH using Ka */
+            CMA475 /* calculating pH using pKa */
+            CMA476 /* calculating pOH using Ka (acid equation) */
+            CMA477 /* calculating pOH using pKa (acid equation) */
+            CMA483 /* calculating pOH using pKb */
+            CMA484 /* calculating pH using Kb (base equation) */
+            CMA485 /* calculating pH using pKb (base equation) */
+
+            CMA457 /* acids: pH < 7 */
+            CMA458 /* bases: pH > 7 */
+            CMA459 /* neutral: pH = 7 */
+            CMA460 /* strong acidic: pH < 5 */
+            CMA461 /* strong basic: pH > 9 */
+            CMA462 /* weak acidic: 5 < pH < 7 */
+            CMA463 /* weak basic: 7 < pH < 9 */
+            CMA490 /* pH + pOH = 14 */
+
+        }
+
+    }
+
+    CMA500 { /* States of matter */
+
+        CMA503 /* what is a state of matter? */
+        CMA504 /* solids */
+        CMA505 /* liquids */
+        CMA506 /* gases */
+        CMA507 /* plasmas */
+        CMA508 /* what is a physical change? */
+        CMA509 /* what is temperature? */
+        CMA510 /* vapour */
+        CMA511 /* supercritical fluid */
+
+        CMA542 /* symbol of temperature: T */
+        CMA543 /* Unit of temperature (K) */
+
+        CMA501 { /* Phase changes */
+
+            CMA512 /* overcoming intermolecular forces in solids to form liquids */
+            CMA513 /* overcoming intermolecular forces in liquids to form gases */
+            CMA514 /* overcoming intermolecular forces in solids to form gases */
+            CMA515 /* what is a phase change? */
+            CMA516 /* condensation */
+            CMA517 /* sublimation */
+            CMA518 /* evaporation */
+            CMA519 /* boiling */
+            CMA520 /* melting */
+            CMA521 /* freezing */
+            CMA522 /* deposition */
+            CMA523 /* ionisation forming plasma */
+            CMA524 /* deionisation from plasma */
+            CMA525 /* phase diagrams */
+            CMA526 /* critical point on phase diagram */
+            CMA527 /* triple point on phase diagram */
+            CMA528 /* T at which l -> g */
+            CMA529 /* T at which s -> l */
+            CMA530 /* T at which g -> l */
+            CMA531 /* T at which l -> s */
+            CMA532 /* endothermic process */
+            CMA533 /* exothermic process */
+            CMA534 /* boiling, melting, sublimation are endothermic processes */
+            CMA535 /* condensing, freezing, deposition are exothermic processes */
+
+            CMA544 /* phase changes are physical changes */
+
+            CMA547 /* miscon: phase changes involve a change in the chemical substance */
+
+            CMA548 /* heating curves */
+            CMA549 /* cooling curves */
+            CMA550 /* expanded on phase diagrams */
+
+            CPR301 /* properties: melting point */
+            CPR302 /* properties: boiling point */
+
+        }
+
+        CMA502 { /* Ideal gases */
+
+            CMA536 /* kinetic molecular theory of gases */
+            CMA537 /* real gases */
+            CMA538 /* ideal gases */
+            CMA539 /* what is pressure? */
+            CMA540 /* real gases low temperature deviation from ideal */
+            CMA541 /* real gases high pressure deviation from ideal */
+
+            CMA545 /* Symbol of pressure: p */
+            CMA546 /* Units of pressure */
+
+        }
+
+    }
+
+    CMA600 { /* Mixtures and solutions */
+
+        CMA603 /* precipitation */
+        CMA604 /* precipitate formation due to saturation */
+        CMA605 /* precipitate formation due to insolubility */
+        CMA606 /* number concentration */
+
+        CMA601 { /* Mixtures */
+
+            CMA607 /* homogeneous mixtures */
+            CMA608 /* heterogeneous mixtures */
+            CMA609 /* what is a mixture? */
+            CMA610 /* phases of heterogeneous mixtures */
+            CMA611 /* solid/solid mixtures */
+            CMA612 /* liquid/liquid mixtures */
+            CMA613 /* suspension */
+            CMA614 /* homogeneous vs heterogeneous mixtures */
+            CMA615 /* solid in gas suspension */
+            CMA616 /* solid in liquid suspension */
+            CMA661 /* recognising a homogeneous mixture */
+            CMA662 /* recognising a heterogeneous mixture */
+
+            CMA660 /* colloid */
+
+        }
+
+        CMA602 { /* Solutions */
+
+            CMA617 /* concentrated and dilute solutions */
+            CMA618 /* what is concentration? */
+            CMA619 /* volume concentration */
+            CMA620 /* molar concentration */
+            CMA621 /* dissolution */
+            CMA622 /* electrolytes */
+            CMA623 /* ionisation in water */
+            CMA624 /* what is a solution? */
+            CMA625 /* solute */
+            CMA626 /* solvent */
+            CMA627 /* saturation */
+            CMA628 /* liquid solutions */
+            CMA629 /* solids in liquids */
+            CMA630 /* gases in liquids */
+            CMA631 /* liquids in liquids */
+            CMA632 /* polar/ionic solvents */
+            CMA633 /* non-polar solvents */
+            CMA634 /* miscibility */
+            CMA635 /* gases in solids */
+            CMA636 /* liquids in solids */
+            CMA637 /* solids in solids */
+            CMA638 /* solid solutions */
+            CMA639 /* diffusion */
+            CMA640 /* dissociation of salts */
+            CMA641 /* salts in water */
+            CMA642 /* solvation process */
+            CMA643 /* what is a solvate? */
+            CMA644 /* inorganic hydrates */
+            CMA645 /* organic hydrates */
+
+            CMA646 /* units of molar concentration */
+            CMA647 /* like dissolves like */
+            CMA648 /* soluble and insoluble ions */
+            CMA649 /* Symbol of volume concentration: &#966; */
+            CMA650 /* Symbol of molar concentration: C */
+            CMA651 /* term: anhydrous */
+
+            CMA652 /* hydration process */
+            CMA653 /* aqueous solutions */
+            CMA654 /* diffusion in liquid */
+            CMA655 /* diffusion in gas */
+            CMA656 /* diffusion in solid */
+            CMA657 /* what is a hydrate? */
+
+            CMA658 /* miscon: dissolution is a chemical change */
+            CMA659 /* miscon: only liquids can be solutions */
+
+            CPR605 /* Properties: solubility */
+
+        }
+
+    }
+
+
+  /* ==== DEPENDENCIES ==== */
+
+    CMA003 -> CMA001 /* what is matter? -> pure substance */
+
+  /* Atoms */
+    CMA104 -> CMA137 /* atomic mass -> atomic mass units */
+    CMA105 -> CMA111 /* quantisation of energy -> principle quantum number */
+    CMA105 -> CMA125 /* quantisation of energy -> Bohr model */
+    CMA105 -> CMA135 /* quantisation of energy -> gamma rays */
+    CMA105 -> CMA147 /* quantisation of energy -> magnetic spin quantum number */
+    CMA107 -> CMA158 /* core and valence electrons -> miscon: unpaired electrons = valenece electrons paired electrons cannot be valence electrons */
+    CMA109 -> CMA110 /* the electrons in an atom are configured in a set way -> Aufbau principle building up from lowest available level */
+    CMA110 -> CMA146 /* Aufbau principle -> future: Pauli's exclusion principle */
+    CMA112 -> CMA136 /* definition of an atomic orbital -> atomic orbitals (s, p, d, f) */
+    CMA113 -> CMA115 /* understanding sp orbitals -> future: understanding df orbitals */
+    CMA114 -> CMA109 /* electron pairs -> the electrons in an atom are configured in a set way */
+    CMA114 -> CMA138 /* electron pairs -> electron pair notation */
+    CMA114 -> CMA158 /* electron pairs -> miscon: unpaired electrons = valence electrons paired electrons cannot be valence electrons */
+    CMA116 -> CMA106 /* what is an atom? -> atoms are pure substances */
+    CMA116 -> CMA117 /* what is an atom? -> sub-atomic particles */
+    CMA116 -> CMA128 /* what is an atom? -> Dalton model of atom */
+    CMA117 -> CMA139 /* sub-atomic particles -> electrons */
+    CMA117 -> CMA140 /* sub-atomic particles -> protons */
+    CMA117 -> CMA141 /* sub-atomic particles -> neutrons */
+    CMA118 -> CMA108 /* nucleus -> atomic radius */
+    CMA118 -> CMA120 /* nucleus -> mass number (A) */
+    CMA118 -> CMA129 /* nucleus -> Rutherford model */
+    CMA118 -> CMA130 /* nucleus -> understanding radioactivity (radioactive decay) */
+    CMA118 -> CMA142 /* nucleus -> nucleons are particles in atomic nucleus (neutrons and protons) */
+    CMA119 -> CMA120 /* atomic number (Z) -> mass number (A) */
+    CMA119 -> CMA122 /* atomic number (Z) -> neutral atom has Z electrons */
+    CMA120 -> CMA104 /* mass number (A) -> atomic mass */
+    CMA120 -> CMA121 /* mass number (A) -> calculations using A, Z and N */
+    CMA120 -> CMA132 /* mass number (A) -> alpha particles/radiation */
+    CMA122 -> CMA121 /* neutral atom has Z electrons -> calculations using A, Z and N */
+    CMA122 -> CMA150 /* neutral atom has Z electrons -> miscon: neutrons are negative */
+    CMA123 -> CMA122 /* neutrons are netural -> neutral atom has Z electrons */
+    CMA124 -> CMA120 /* number of neutrons (N) -> mass number (A) */
+    CMA125 -> CMA109 /* Bohr model -> electronic configuration of atom */
+    CMA125 -> CMA127 /* Bohr model -> Schrodinger model */
+    CMA125 -> CMA151 /* Bohr model -> ground state of an atom */
+    CMA127 -> CMA112 /* Schrodinger model -> atomic orbital */
+    CMA129 -> CMA125 /* Rutherford model -> Bohr model */
+    CMA130 -> CMA131 /* radioactivity/spontaneous decomposition -> types of radiation: alpha, beta, gamma */
+    CMA131 -> CMA132 /* types of radiation: alpha, beta, gamma -> alpha particles */
+    CMA131 -> CMA134 /* types of radiation: alpha, beta, gamma -> beta particles */
+    CMA131 -> CMA135 /* types of radiation: alpha, beta, gamma -> gamma rays */
+    CMA133 -> CMA131 /* radiation energy propagation -> types of radiation: alpha, beta, gamma */
+    CMA136 -> CMA152 /* atomic orbitals s,p,d,f -> 1 s orbital per 'shell' */
+    CMA136 -> CMA153 /* atomic orbitals s,p,d,f -> 3 p orbitals per 'shell' */
+    CMA136 -> CMA154 /* atomic orbitals s,p,d,f -> shape of s orbital */
+    CMA136 -> CMA155 /* atomic orbitals s,p,d,f -> shape of p orbital */
+    CMA139 -> CMA114 /* electrons -> electron pairs */
+    CMA139 -> CMA130 /* electrons -> understanding radioactivity (radioactive decay) */
+    CMA139 -> CMA143 /* electrons -> mass of 1 electron */
+    CMA140 -> CMA118 /* protons -> nucleus */
+    CMA140 -> CMA119 /* protons -> atomic number (Z) */
+    CMA140 -> CMA144 /* protons -> mass of 1 proton */
+    CMA141 -> CMA118 /* neutrons -> nucleus */
+    CMA141 -> CMA123 /* neutrons -> neutrons are netural */
+    CMA141 -> CMA124 /* neutrons -> number of neutrons (N) */
+    CMA141 -> CMA145 /* neutrons -> mass of 1 neutron */
+    CMA146 -> CMA148 /* Pauli's exclusion principle -> understanding Aufbau principle */
+    CMA147 -> CMA146 /* magnetic spin quantum number -> Pauli's exclusion principle */
+    CMA148 -> CMA149 /* future: Aufbau that includes understanding of spin -> paramagnetic and diagram in terms of unpaired electrons */
+    CMA151 -> CMA110 /* ground state of an atom -> Aufbau principle */
+    CMA152 -> CMA156 /* 1 s orbital per 'shell' -> understanding s orbitals */
+    CMA154 -> CMA156 /* shape of s orbital -> understanding s orbitals */
+    CMA153 -> CMA157 /* 3 p orbitals per 'shell' -> understanding p orbitals */
+    CMA155 -> CMA157 /* shape of p orbital -> understanding p orbitals */
+    CMA156 -> CMA113 /* understanding s orbitals -> understanding sp orbitals */
+    CMA157 -> CMA113 /* understanding p orbitals -> understanding sp orbitals */
+
+    PEESC008 -> CMA122 /* proton carries positive charge -> neutral atom has Z electrons */
+    PEESC009 -> CMA126 /* + symbol for positive charge -> Plum pudding model */
+    PEESC009 -> CMA129 /* + symbol for positive charge -> Rutherford model */
+    PEESC010 -> CMA122 /* electron carries negative charge -> neutral atom has Z electrons */
+    PEESC010 -> CMA126 /* electron carries negative charge -> Plum pudding model */
+    PEESC010 -> CMA129 /* electron carries negative charge -> Rutherford model */
+    PEESC011 -> CMA126 /* - symbol for negative charge -> Plum pudding model */
+    PEESC011 -> CMA129 /* - symbol for negative charge -> Rutherford model */
+
+  /* Elements */
+    CMA201 -> CMA206 /* what is an element? -> metals */
+    CMA201 -> CMA207 /* what is an element? -> non-metals */
+    CMA201 -> CMA209 /* what is an element? -> elements are pure substances */
+    CMA201 -> CMA210 /* what is an element? -> isotopes */
+    CMA201 -> CMA216 /* what is an element? -> ionisation energy */
+    CMA201 -> CMA217 /* what is an element? -> electron affinity */
+    CMA201 -> CMAR208 /* what is an element? -> element names */
+    CMA201 -> CMAP204 /* what is an element? -> what is the periodic table? */
+    CMA201 -> CMAE205 /* what is an element? -> ions */
+    CMA201 -> CMAE206 /* what is an element? -> reduction means gain of electrons */
+    CMA201 -> CMAE207 /* what is an element? -> oxidation means loss of electrons */
+    CMA201 -> CPR610 /* what is an element? -> electronegativity */
+    CMA202 -> CMA107 /* outer shell -> core and valence electrons */
+    CMA203 -> CMAP208 /* effect of how tightly held valence e^- are on atomic radius -> understanding trend in atomic radius across a period (left to right) */
+    CMA204 -> CMAP209 /* stability of full outer shell -> trend in number of valence electrons across a period (left to right) */
+    CMA204 -> CMAP225 /* stability of full outer shell -> getting preferred oxidation state from periodic table */
+    CMA204 -> CPR610 /* stability of full outer shell -> electronegativity */
+    CMA206 -> CMA208 /* metals -> metalloids (semi-metals) */
+    CMA206 -> CMA211 /* metals -> properties of metals */
+    CMA206 -> CMA213 /* metals -> alloys */
+    CMA206 -> CMAP237 /* metals -> metals on periodic table */
+    CMA206 -> CMAP243 /* metals -> alkali metals */
+    CMA206 -> CMAP244 /* metals -> alkali earth metals */
+    CMA206 -> CMAP245 /* metals -> transition metals */
+    CMA207 -> CMA208 /* non-metals -> metalloids */
+    CMA207 -> CMA212 /* non-metals -> properties of non-metals */
+    CMA207 -> CMAP238 /* non-metals -> non-metals on periodic table */
+    CMA207 -> CMAP240 /* non-metals -> noble gases */
+    CMA207 -> CMAP241 /* non-metals -> halogens */
+    CMA208 -> CMA239 /* metalloids -> properties of metalloids */
+    CMA208 -> CMAP239 /* metalloids -> metalloids on periodic table */
+    CMA210 -> CMAP203 /* isotopes -> relative atomic mass */
+    CMA211 -> CMA214 /* properties of metals -> why metals have their properties */
+    CMA211 -> CMA219 /* properties of metals -> metals with non-metal properties */
+    CMA211 -> CMA220 /* properties of metals -> metals are hard */
+    CMA211 -> CMA221 /* properties of metals -> metals are opaque */
+    CMA211 -> CMA222 /* properties of metals -> metals are maleable */
+    CMA211 -> CMA223 /* properties of metals -> metals are good thermal conductors */
+    CMA211 -> CMA224 /* properties of metals -> metals are ductile */
+    CMA211 -> CMA225 /* properties of metals -> metals are not volatile */
+    CMA211 -> CMA226 /* properties of metals -> metals are poor thermal insulators */
+    CMA211 -> CMA234 /* properties of metals -> metals are good electrical conductors */
+    CMA211 -> CMA235 /* properties of metals -> metals are poor electrical insulators */
+    CMA211 -> CMA238 /* properties of metals -> miscon: all metals are magnetic */
+    CMA211 -> CMA244 /* properties of metals -> metals are generally solid (some liquid) at or near 25C */
+    CMA212 -> CMA219 /* properties of non-metals -> metals with non-metal properties */
+    CMA212 -> CMA227 /* properties of non-metals -> non-metals are volatile */
+    CMA212 -> CMA228 /* properties of non-metals -> non-metals have poor elasticity */
+    CMA212 -> CMA229 /* properties of non-metals -> non-metals are good thermal insulators */
+    CMA212 -> CMA230 /* properties of non-metals -> non-metals are poor thermal conductors */
+    CMA212 -> CMA231 /* properties of non-metals -> non-metals have high IE */
+    CMA212 -> CMA232 /* properties of non-metals -> non-metals have high electronegativity */
+    CMA212 -> CMA236 /* properties of non-metals -> non-metals are good electrical insulators */
+    CMA212 -> CMA237 /* properties of non-metals -> non-metals are poor electrical conductors */
+    CMA212 -> CMA246 /* properties of non-metals -> non-metals are generally gases at or near 25C */
+    CMA215 -> CMA247
+    CMA216 -> CMA205 /* ionisation energy -> comparing electronegativity, ionisation energy and electron affinity */
+    CMA216 -> CMA231 /* ionisation energy -> non-metals have high IE */
+    CMA216 -> CMA240 /* ionisation energy -> metalloids have IE between metals and non-metals */
+    CMA216 -> CMAP253 /* ionisation energy -> ionisation energy increases across period (left to right) */
+    CMA216 -> CMAP254 /* ionisation energy -> ionisation energy decreases down group */
+    CMA217 -> CMA205 /* electron affinity -> comparison of electronegativity, ionisation energy and electron affinity */
+    CMA217 -> CMAP251 /* electron affinity -> electron affinity increases across period (left to right) */
+    CMA217 -> CMAP252 /* electron affinity -> electron affinity decreases down group */
+    CMA239 -> CMA240 /* properties of metalloids -> metalloids have IE between metals and non-metals */
+    CMA239 -> CMA241 /* properties of metalloids -> metalloids have electronegativity between metals and non-metals */
+    CMA239 -> CMA242 /* properties of metalloids -> metalloids react like a metal or non-metal depending on what they are reacting with */
+    CMA239 -> CMA243 /* properties of metalloids -> metalloids are often good elecrical semi-conductors */
+    CMA239 -> CMA245 /* properties of metalloids -> metalloids are solid at or near 25C */
+
+    CMAP201 -> CMAP219 /* groups -> s-block */
+    CMAP201 -> CMAP220 /* groups -> p-block */
+    CMAP201 -> CMAP221 /* groups -> d-block */
+    CMAP201 -> CMAP222 /* groups -> f-block */
+    CMAP201 -> CMAP224 /* groups -> group names */
+    CMAP201 -> CMAP247 /* groups -> atomic number increases across period (left to right) */
+    CMAP201 -> CMAP248 /* groups -> atomic number increases down group */
+    CMAP201 -> CMAP250 /* groups -> atomic radius increases down group */
+    CMAP201 -> CMAP252 /* groups -> electron affinity decreases down group */
+    CMAP201 -> CMAP254 /* groups -> ionisation energy decreases down group */
+    CMAP201 -> CMAP256 /* groups -> electronegativity decreases down group */
+    CMAP202 -> CMAP219 /* periods -> s-block */
+    CMAP202 -> CMAP220 /* periods -> p-block */
+    CMAP202 -> CMAP221 /* periods -> d-block */
+    CMAP202 -> CMAP222 /* periods -> f-block */
+    CMAP202 -> CMAP247 /* periods -> atomic number increases across period (left to right) */
+    CMAP202 -> CMAP248 /* periods -> atomic number increases down group */
+    CMAP202 -> CMAP249 /* periods -> atomic radius decreases across period (left to right) */
+    CMAP202 -> CMAP251 /* periods -> electron affinity increases across period (left to right) */
+    CMAP202 -> CMAP253 /* periods -> ionisation energy increases across period (left to right) */
+    CMAP202 -> CMAP255 /* periods -> electronegativity increases across period (left to right */
+    CMAP202 -> CMAR271
+    CMAP203 -> CMAP229 /* relative atomic mass -> information for one element shown on the periodic table */
+    CMAP203 -> CMAP257 /* relative atomic mass -> miscon: atomic mass is actual mass of atom */
+    CMAP204 -> CMAP223 /* what is the periodic table -> arrangement due to increasing Z */
+    CMAP204 -> CMAP229 /* what is the periodic table -> information for one element shown on the periodic table */
+    CMAP205 -> CMAP207 /* increasing protons across a period (left to right) -> trend in how tightly valence electrons are held across a period (left to right) */
+    CMAP206 -> CMAP207 /* same number of core electrons across a period (left to right) -> trend in how tightly valence electrons are held across a period (left to right) */
+    CMAP207 -> CMAP208 /* trend in how tightly valence electrons are held across a period (left to right) -> understanding trend in atomic radius across a period (left to right) */
+    CMAP208 -> CMAP211 /* understanding trend in atomic radius across a period (left to right) -> understanding trend in electronegativity across a period (left to right) */
+    CMAP208 -> CMAP212 /* understanding trend in atomic radius across a period (left to right) -> understanding trend in ionisation energy across a period (left to right) */
+    CMAP208 -> CMAP214 /* understanding trend in atomic radius across a period (left to right) -> understanding trend in electron affinity across a period (left to right) */
+    CMAP209 -> CMAP211 /* trend in number of valence electrons across a period (left to right) -> understanding trend in electronegativity across a period (left to right) */
+    CMAP209 -> CMAP212 /* trend in number of valence electrons across a period (left to right) -> understanding trend in ionisation energy across a period (left to right) */
+    CMAP209 -> CMAP214 /* trend in number of valence electrons across a period (left to right) -> understanding trend in electron affinity across a period (left to right) */
+    CMAP210 -> CMAP218 /* increasing nucleus size (number of protons) down a group -> trend in how tightly valence electrons are held down a group */
+    CMAP216 -> CMAP218 /* increasing quantum number down a group -> trend in how tightly valence electrons are held down a group */
+    CMAP217 -> CMAP218 /* increasing number of core electrons down a group -> trend in how tightly valence electrons are held down a group */
+    CMAP218 -> CMAP226 /* trend in how tightly valence electrons are held down a group -> understanding trend in atomic radius down a group */
+    CMAP219 -> CMAP258 /* s-block -> the periodic table and electronic configuration */
+    CMAP220 -> CMAP258 /* p-block -> the periodic table and electronic configuration */
+    CMAP221 -> CMAP258 /* d-block -> the periodic table and electronic configuration */
+    CMAP222 -> CMAP258 /* f-block -> the periodic table and electronic configuration */
+    CMAP223 -> CMAP201 /* arrangement due to increasing Z -> groups */
+    CMAP223 -> CMAP202 /* arrangement due to increasing Z -> periods */
+    CMAP223 -> CMAP237 /* how the periodic table is arranged -> metals on periodic table */
+    CMAP223 -> CMAP238 /* how the periodic table is arranged -> non-metals on periodic table */
+    CMAP223 -> CMAP239 /* how the periodic table is arranged -> metalloids on periodic table */
+    CMAP224 -> CMAP240 /* group names -> noble gases */
+    CMAP224 -> CMAP241 /* group names -> halogens */
+    CMAP224 -> CMAP242 /* group names -> chalcogens */
+    CMAP224 -> CMAP243 /* group names -> alkali metals */
+    CMAP224 -> CMAP244 /* group names -> alkali earth metals */
+    CMAP224 -> CMAP245 /* group names -> transition elements */
+    CMAP224 -> CMAP246 /* group names -> pnictogens */
+    CMAP226 -> CMAP213 /* understanding trend in atomic radius down a group -> understanding trend in ionisation energy down a group */
+    CMAP226 -> CMAP215 /* understanding trend in atomic radius down a group -> understanding trend in electron affinity down a group */
+    CMAP226 -> CMAP227 /* understanding trend in atomic radius down a group -> understanding trend in electronegativity down a group */
+    CMAP228 -> CMAP207 /* valence electron shielding by core electrons -> trend in how tightly valence electrons are held across a period (left to right) */
+    CMAP228 -> CMAP218 /* valence electron shielding by core electrons -> trend in how tightly valence electrons are held down a group */
+    CMAP240 -> CMAP230 /* noble gases -> properties of noble gases */
+    CMAP241 -> CMAP231 /* halogens -> properties of halogens */
+    CMAP242 -> CMAP232 /* chalcogens -> properties of chalcogens */
+    CMAP243 -> CMAP233 /* alkali metals -> properties of alkali metals */
+    CMAP244 -> CMAP234 /* alkali earth metals -> properties of alkali earth metals */
+    CMAP245 -> CMAP235 /* transition metals -> properties of transition metals */
+    CMAP246 -> CMAP236 /* pnictogens -> properties of pnictogens */
+    CMAP247 -> CMAP205 /* atomic number increases across period (left to right) -> increasing protons across a period (left to right) */
+    CMAP247 -> CMAP206 /* atomic number increases across period (left to right) -> same number of core electrons across a period (left to right) */
+    CMAP248 -> CMAP210 /* atomic number increases down group -> increasing nucelus size (number of protons) down a group */
+    CMAP248 -> CMAP216 /* atomic number increases down group -> increasing quantum number down a group */
+    CMAP248 -> CMAP217 /* atomic number increases down group -> increasing number of core electrons down a group */
+    CMAP249 -> CMAP208 /* atomic radius decreases across period (left to right) -> understanding trend in atomic radius across a period (left to right) */
+    CMAP250 -> CMAP226 /* atomic radius increases down group -> understanding trend in atomic radius down a group */
+    CMAP251 -> CMAP214 /* electron affinity increases across period (left to right) -> understanding trend in electron affinity across a period (left to right) */
+    CMAP252 -> CMAP215 /* electron affinity decreases down group -> understanding trend in electron affinity down a group */
+    CMAP253 -> CMAP212 /* ionisation energy increases across period (left to right) -> understanding trend in ionisation energy across a period (left to right) */
+    CMAP254 -> CMAP213 /* ionisation energy decreases down group -> understanding trend in ionisation energy down a group */
+    CMAP255 -> CMAP211 /* electronegativity increases across period (left to right) -> understanding trend in electronegativity across a period (left to right) */
+    CMAP256 -> CMAP227 /* electronegativity decreases down group -> understanding trend in electronegativity down a group */
+    CMAP258 -> CMAP225 /* the periodic table and electronic configuration -> the periodic table and electronic configuration */
+
+    CMAR201 -> CMAR204 /* representing oxidation states using Stock notation -> converting cations and Stock notation */
+    CMAR201 -> CMAR205 /* representing oxidation states using Stock notation -> Stock notation ion name conversion */
+    CMAR202 -> CMAR251 /* Aufbau diagrams -> Aufbau diagram hydrogen */
+    CMAR202 -> CMAR252 /* Aufbau diagrams -> Aufbau diagram helium */
+    CMAR202 -> CMAR253 /* Aufbau diagrams -> Aufbau diagram lithium */
+    CMAR202 -> CMAR254 /* Aufbau diagrams -> Aufbau diagram beryllium */
+    CMAR202 -> CMAR255 /* Aufbau diagrams -> Aufbau diagram boron */
+    CMAR202 -> CMAR256 /* Aufbau diagrams -> Aufbau diagram carbon */
+    CMAR202 -> CMAR257 /* Aufbau diagrams -> Aufbau diagram nitrogen */
+    CMAR202 -> CMAR258 /* Aufbau diagrams -> Aufbau diagram oxygen */
+    CMAR202 -> CMAR260 /* Aufbau diagrams -> Aufbau diagram fluorine */
+    CMAR202 -> CMAR259 /* Aufbau diagrams -> Aufbau diagram neon */
+    CMAR202 -> CMAR261 /* Aufbau diagrams -> Aufbau diagram sodium */
+    CMAR202 -> CMAR262 /* Aufbau diagrams -> Aufbau diagram magnesium */
+    CMAR202 -> CMAR263 /* Aufbau diagrams -> Aufbau diagram aluminium */
+    CMAR202 -> CMAR264 /* Aufbau diagrams -> Aufbau diagram silicon */
+    CMAR202 -> CMAR265 /* Aufbau diagrams -> Aufbau diagram phosphorus */
+    CMAR202 -> CMAR266 /* Aufbau diagrams -> Aufbau diagram sulfur */
+    CMAR202 -> CMAR267 /* Aufbau diagrams -> Aufbau diagram chlorine */
+    CMAR202 -> CMAR268 /* Aufbau diagrams -> Aufbau diagram argon */
+    CMAR202 -> CMAR269 /* Aufbau diagrams -> Aufbau diagram potassium */
+    CMAR202 -> CMAR270 /* Aufbau diagrams -> Aufbau diagram calcium */
+    CMAR203 -> CMAR271
+    CMAR203 -> CMAR272
+    CMAR206 -> CMAR202 /* electronic configuration spectroscopic notation of ground state -> Aufbau diagrams */
+    CMAR206 -> CMAR207 /* electronic configuration spectroscopic notation of ground state -> shorthand electronic configuration spectroscopic notation */
+    CMAR206 -> CMAR213 /* electronic configuration spectroscopic notation of ground state -> electronic config hydrogen */
+    CMAR206 -> CMAR214 /* electronic configuration spectroscopic notation of ground state -> electronic config helium */
+    CMAR206 -> CMAR215 /* electronic configuration spectroscopic notation of ground state -> electronic config lithium */
+    CMAR206 -> CMAR216 /* electronic configuration spectroscopic notation of ground state -> electronic config beryllium */
+    CMAR206 -> CMAR217 /* electronic configuration spectroscopic notation of ground state -> electronic config boron */
+    CMAR206 -> CMAR218 /* electronic configuration spectroscopic notation of ground state -> electronic config carbon */
+    CMAR206 -> CMAR219 /* electronic configuration spectroscopic notation of ground state -> electronic config nitrogen */
+    CMAR206 -> CMAR220 /* electronic configuration spectroscopic notation of ground state -> electronic config oxygen */
+    CMAR206 -> CMAR221 /* electronic configuration spectroscopic notation of ground state -> electronic config fluorine */
+    CMAR206 -> CMAR222 /* electronic configuration spectroscopic notation of ground state -> electronic config neon */
+    CMAR206 -> CMAR223 /* electronic configuration spectroscopic notation of ground state -> electronic config sodium */
+    CMAR206 -> CMAR224 /* electronic configuration spectroscopic notation of ground state -> electronic config magnesium */
+    CMAR206 -> CMAR225 /* electronic configuration spectroscopic notation of ground state -> electronic config aluminium */
+    CMAR206 -> CMAR226 /* electronic configuration spectroscopic notation of ground state -> electronic config silicon */
+    CMAR206 -> CMAR227 /* electronic configuration spectroscopic notation of ground state -> electronic config phosphorus */
+    CMAR206 -> CMAR228 /* electronic configuration spectroscopic notation of ground state -> electronic config sulfur */
+    CMAR206 -> CMAR229 /* electronic configuration spectroscopic notation of ground state -> electronic config chlorine */
+    CMAR206 -> CMAR230 /* electronic configuration spectroscopic notation of ground state -> electronic config argon */
+    CMAR206 -> CMAR231 /* electronic configuration spectroscopic notation of ground state -> electronic config potassium */
+    CMAR206 -> CMAR232 /* electronic configuration spectroscopic notation of ground state -> electronic config calcium */
+    CMAR207 -> CMAR233 /* shorthand electronic configuration spectroscopic notation -> shorthand electronic config lithium */
+    CMAR207 -> CMAR234 /* shorthand electronic configuration spectroscopic notation -> shorthand electronic config beryllium */
+    CMAR207 -> CMAR235 /* shorthand electronic configuration spectroscopic notation -> shorthand electronic config boron */
+    CMAR207 -> CMAR236 /* shorthand electronic configuration spectroscopic notation -> shorthand electronic config carbon */
+    CMAR207 -> CMAR237 /* shorthand electronic configuration spectroscopic notation -> shorthand electronic config nitrogen */
+    CMAR207 -> CMAR238 /* shorthand electronic configuration spectroscopic notation -> shorthand electronic config oxygen */
+    CMAR207 -> CMAR239 /* shorthand electronic configuration spectroscopic notation -> shorthand electronic config fluorine */
+    CMAR207 -> CMAR240 /* shorthand electronic configuration spectroscopic notation -> shorthand electronic config neon */
+    CMAR207 -> CMAR241 /* shorthand electronic configuration spectroscopic notation -> shorthand electronic config sodium */
+    CMAR207 -> CMAR242 /* shorthand electronic configuration spectroscopic notation -> shorthand electronic config magnesium */
+    CMAR207 -> CMAR243 /* shorthand electronic configuration spectroscopic notation -> shorthand electronic config aluminium */
+    CMAR207 -> CMAR244 /* shorthand electronic configuration spectroscopic notation -> shorthand electronic config silicon */
+    CMAR207 -> CMAR245 /* shorthand electronic configuration spectroscopic notation -> shorthand electronic config phosphorus */
+    CMAR207 -> CMAR246 /* shorthand electronic configuration spectroscopic notation -> shorthand electronic config sulfur */
+    CMAR207 -> CMAR247 /* shorthand electronic configuration spectroscopic notation -> shorthand electronic config chlorine */
+    CMAR207 -> CMAR248 /* shorthand electronic configuration spectroscopic notation -> shorthand electronic config argon */
+    CMAR207 -> CMAR249 /* shorthand electronic configuration spectroscopic notation -> shorthand electronic config potassium */
+    CMAR207 -> CMAR250 /* shorthand electronic configuration spectroscopic notation -> shorthand electronic config calcium */
+    CMAR207 -> CMAP258 /* shorthand electronic configuration spectroscopic notation -> the periodic table and electronic configuration */
+    CMAR208 -> CMA218 /* element names -> radioactive elements */
+    CMAR208 -> CMAR209 /* element names -> element symbols */
+    CMAR209 -> CMAR201 /* element symbols -> representing oxidation states (Stock notation) */
+    CMAR209 -> CMAR207 /* element symbols -> shorthand electronic configuration spectroscopic notation */
+    CMAR209 -> CMAP223 /* element symbols -> arrangement of periodic table */
+    CMAR209 -> CMAP229 /* element symbols -> information for one element shown as on the periodic table */
+    CMAR209 -> CMAE208 /* element symbols -> formula of common ions */
+    CMAR209 -> CMAR271
+    CMAR209 -> CMAR272
+    CMAR210 -> CMAR205 /* ion names (common ions) -> Stock notation ion name conversion */
+    CMAR210 -> CMAR211 /* ion names (common ions) -> ion names (common polyatomic ions) */
+    CMAR212 -> CMAR201 /* roman numerals -> Stock notation */
+    CMAR213 -> CMAR251 /* electronic config hydrogen -> Aufbau diagram hydrogen */
+    CMAR214 -> CMAR252 /* electronic config helium -> Aufbau diagram helium */
+    CMAR215 -> CMAR233 /* electronic config lithium -> shorthand electronic config lithium */
+    CMAR215 -> CMAR253 /* electronic config lithium -> Aufbau diagram lithium */
+    CMAR216 -> CMAR234 /* electronic config beryllium -> shorthand electronic config beryllium */
+    CMAR216 -> CMAR254 /* electronic config beryllium -> Aufbau diagram beryllium */
+    CMAR217 -> CMAR235 /* electronic config boron -> shorthand electronic config boron */
+    CMAR217 -> CMAR255 /* electronic config boron -> Aufbau diagram boron */
+    CMAR218 -> CMAR236 /* electronic config carbon -> shorthand electronic config carbon */
+    CMAR218 -> CMAR256 /* electronic config carbon -> Aufbau diagram carbon */
+    CMAR219 -> CMAR237 /* electronic config nitrogen -> shorthand electronic config nitrogen */
+    CMAR219 -> CMAR257 /* electronic config nitrogen -> Aufbau diagram nitrogen */
+    CMAR220 -> CMAR238 /* electronic config oxygen -> shorthand electronic config oxygen */
+    CMAR220 -> CMAR258 /* electronic config oxygen -> Aufbau diagram oxygen */
+    CMAR221 -> CMAR239 /* electronic config fluorine -> shorthand electronic config fluorine */
+    CMAR221 -> CMAR259 /* electronic config fluorine -> Aufbau diagram fluorine */
+    CMAR222 -> CMAR240 /* electronic config neon -> shorthand electronic config neon */
+    CMAR222 -> CMAR260 /* electronic config neon -> Aufbau diagram neon */
+    CMAR223 -> CMAR241 /* electronic config sodium -> shorthand electronic config sodium */
+    CMAR223 -> CMAR261 /* electronic config sodium -> Aufbau diagram sodium */
+    CMAR224 -> CMAR242 /* electronic config magnesium -> shorthand electronic config magnesium */
+    CMAR224 -> CMAR262 /* electronic config magnesium -> Aufbau diagram magnesium */
+    CMAR225 -> CMAR243 /* electronic config aluminium -> shorthand electronic config aluminium */
+    CMAR225 -> CMAR263 /* electronic config aluminium -> Aufbau diagram aluminium */
+    CMAR226 -> CMAR244 /* electronic config silicon -> shorthand electronic config silicon */
+    CMAR226 -> CMAR264 /* electronic config silicon -> Aufbau diagram silicon */
+    CMAR227 -> CMAR245 /* electronic config phosphorus -> shorthand electronic config phosphorus */
+    CMAR227 -> CMAR265 /* electronic config phosphorus -> Aufbau diagram phosphorus */
+    CMAR228 -> CMAR246 /* electronic config sulfur -> shorthand electronic config sulfur */
+    CMAR228 -> CMAR266 /* electronic config sulfur -> Aufbau diagram sulfur */
+    CMAR229 -> CMAR247 /* electronic config chlorine -> shorthand electronic config chlorine */
+    CMAR229 -> CMAR267 /* electronic config chlorine -> Aufbau diagram chlorine */
+    CMAR230 -> CMAR248 /* electronic config argon -> shorthand electronic config argon */
+    CMAR230 -> CMAR268 /* electronic config argon -> Aufbau diagram argon */
+    CMAR231 -> CMAR249 /* electronic config potassium -> shorthand electronic config potassium */
+    CMAR231 -> CMAR269 /* electronic config potassium -> Aufbau diagram potassium */
+    CMAR232 -> CMAR250 /* electronic config calcium -> shorthand electronic config calcium */
+    CMAR232 -> CMAR270 /* electronic config calcium -> Aufbau diagram calcium */
+
+    CMAE201 -> CMAE203 /* cations -> oxidation states */
+    CMAE201 -> CMAE213 /* cations -> Table of Cations */
+    CMAE202 -> CMAE203 /* anions -> oxidation states */
+    CMAE202 -> CMAE214 /* anions -> Table of Anions */
+    CMAE203 -> CMAE204 /* oxidation states -> using reduction and oxidation */
+    CMAE205 -> CMAE201 /* ions -> cations */
+    CMAE205 -> CMAE202 /* ions -> anions */
+    CMAE206 -> CMAE204 /* reduction means gain of electrons -> using reduction and oxidation */
+    CMAE206 -> CMAE210 /* reduction means gain of electrons -> OIL RIG */
+    CMAE206 -> CMAE211 /* reduction means gain of electrons -> loss of e^- = reduced */
+    CMAE206 -> CMAE212 /* reduction means gain of electrons -> gain of e^- = oxidised */
+    CMAE207 -> CMAE204 /* oxidation means loss of electrons -> using reduction and oxidation */
+    CMAE207 -> CMAE210 /* oxidation means loss of electrons -> OIL RIG */
+    CMAE207 -> CMAE211 /* oxidation means loss of electrons -> loss of e^- = reduced */
+    CMAE207 -> CMAE212 /* oxidation means loss of electrons -> gain of e^- = oxidised */
+    CMAE208 -> CMAE209 /* formula of common ions -> formula of common polyatomic ions */
+    CMAE208 -> CMAR210 /* formula of common ions -> ion names (common ions) */
+    CMAE209 -> CMAR211 /* formula of common polyatomic ions -> ion names (common polyatomic ions) */
+    CMAE209 -> CMAE213 /* formula of common polyatomic ions -> Table of Cations */
+    CMAE209 -> CMAE214 /* formula of common polyatomic ions -> Table of Anions */
+
+    CPR610 -> CMA205 /* electronegativity -> comparison of electronegativity, ionisation energy and electron affinity */
+    CPR610 -> CMA215 /* electronegativity -> comparing electronegativities of different elements */
+    CPR610 -> CMA232 /* electronegativity -> non-metals have high electronegativity */
+    CPR610 -> CMA241 /* electronegativity -> metalloids have electronegativity between metals and non-metals */
+    CPR610 -> CMAP229 /* electronegativity -> information for one element shown on the periodic table */
+    CPR610 -> CMAP255 /* electronegativity -> electronegativity increases across period (left to right) */
+    CPR610 -> CMAP256 /* electronegativity -> electronegativity decreases down group */
+
+  /* Molecules and compounds */
+    CMA302 -> CMA311 /* molecules -> covalent molecules */
+    CMA302 -> CMA315 /* molecules -> molecule shape */
+    CMA302 -> CMA319 /* molecules -> molecules are pure substances */
+    CMA302 -> CMA321 /* molecules -> molecular orbitals */
+    CMA302 -> CMA329 /* molecules -> heteronuclear diatomic molecules */
+    CMA302 -> CMA336 /* molecules -> empirical formula as smallest unit */
+    CMA302 -> CMA373 /* molecules -> microscopic diagrams of molecules */
+    CMA303 -> CMA311 /* compound -> covalent molecules */
+    CMA303 -> CMA317 /* compound -> ionic compounds */
+    CMA303 -> CMA318 /* compound -> covalent network structures */
+    CMA303 -> CMA320 /* compound -> compounds are pure substances */
+    CMA303 -> CMA329 /* compound -> heteronuclear diatomic molecules */
+    CMA304 -> CMA303 /* heteronuclear -> compound */
+    CMA305 -> CMA318 /* homonuclear -> covalent network structures */
+    CMA305 -> CMA325 /* homonuclear -> allotropes of elements */
+    CMA305 -> CMA328 /* homonuclear -> homonuclear diatomic molecules */
+    CMA307 -> CMA326 /* VSEPR theory -> AXE method */
+    CMA309 -> CMA342 /* dipoles/quadropoles, etc -> representing dipoles/quadropoles, etc */
+    CMA310 -> CMA322 /* infinite network structures -> ionic compounds form network structures */
+    CMA310 -> CMA327 /* infinite network structures -> structures of covalent network compounds */
+    CMA310 -> CMA358 /* infinite network structures -> structures of allotropes */
+    CMA311 -> CMA312 /* covalent molecules -> polar covalent molecules */
+    CMA311 -> CMA330 /* covalent molecules -> non-polar molecules */
+    CMA311 -> CMA332 /* covalent molecules -> molecular formula */
+    CMA311 -> CMA337 /* covalent molecules -> empirical formula as ratio of atoms within molecule */
+    CMA311 -> CMA344 /* covalent molecules -> naming covalent compounds */
+    CMA311 -> CMA358 /* covalent molecules -> future: structures of allotropes */
+    CMA312 -> CMA309 /* polar molecules -> dipoles/quadropoles/etc */
+    CMA312 -> CMA343 /* polar molecules -> representing polar molecules */
+    CMA312 -> CMA354 /* polar molecules -> water */
+    CMA313 -> CMA328 /* non-polar molecules due to non-polar bonds -> homonuclear diatomic molecules */
+    CMA313 -> CMA356 /* non-polar covalent molecules due to non-polar bonds -> miscon: non-polar molecules must have non-polar bonds */
+    CMA314 -> CMA356 /* non-polar covalent molecules due to shape -> miscon: non-polar molecules must have non-polar bonds */
+    CMA314 -> CMA357 /* non-polar covalent molecules due to shape -> miscon: all molecules with polar bonds must be polar */
+    CMA315 -> CMA307 /* molecule shape -> VSEPR theory */
+    CMA315 -> CMA349 /* molecule shape -> common shapes of molecules */
+    CMA316 -> CMA347 /* properties of ionic compounds -> ionic compounds conduct electricity in water */
+    CMA316 -> CMA348 /* properties of ionic compounds -> ionic compounds are hard */
+    CMA316 -> CMA351 /* properties of ionic compounds -> ionic compounds are highly soluble */
+    CMA316 -> CMA352 /* properties of ionic compounds -> ionic compounds are brittle */
+    CMA316 -> CMA353 /* properties of ionic compounds -> ionic  compounds have high boiling/melting points */
+    CMA317 -> CMA316 /* ionic compounds -> properties of ionic compounds */
+    CMA317 -> CMA322 /* ionic compounds -> ionic compounds form network structures */
+    CMA317 -> CMA324 /* ionic compounds -> salts */
+    CMA317 -> CMA333 /* ionic compounds -> naming ionic compounds */
+    CMA317 -> CMA336 /* ionic compounds -> empirical formula as smallest unit */
+    CMA318 -> CMA327 /* covalent network compounds -> structures of covalent network compounds */
+    CMA321 -> CMA359 /* molecular orbitals -> hybridisation of orbitals */
+    CMA323 -> CMA307 /* lone pairs -> VSEPR theory */
+    CMA325 -> CMA358 /* allotropes of elements -> structures of allotropes */
+    CMA326 -> CMA350 /* AXE method -> common AXE types */
+    CMA330 -> CMA313 /* non-polar molecules -> non-polar molecules due to non-polar bonds */
+    CMA330 -> CMA314 /* non-polar molecules -> non-polar molecules due to shape */
+    CMA331 -> CMA384
+    CMA332 -> CMA306 /* molecular formula -> molecular mass */
+    CMA332 -> CMA340 /* molecular formula -> formula from name covalent compound */
+    CMA332 -> CMA341 /* molecular formula -> empirical vs molecular formula */
+    CMA332 -> CMA369 /* molecular formula -> name from formula covalent compound */
+    CMA333 -> CMA339 /* naming ionic compounds -> formula from name ionic compound */
+    CMA333 -> CMA368 /* naming ionic compounds -> name from formula ionic compound */
+    CMA334 -> CMA339 /* formulae of ionic compounds -> formula from name ionic compound */
+    CMA334 -> CMA368 /* formulae of ionic compounds -> name from formula ionic compound */
+    CMA336 -> CMA308 /* empirical formula as smallest unit -> formula mass */
+    CMA336 -> CMA334 /* empirical formula as smallest unit -> formulae of ionic compounds */
+    CMA336 -> CMA341 /* empirical formula as smallest unit -> empirical vs molecular formula */
+    CMA337 -> CMA308 /* empirical formula as ratio of atoms within molecule -> formula mass */
+    CMA337 -> CMA318 /* empirical formula as ratio of atoms within molecule -> covalent network structures */
+    CMA337 -> CMA341 /* empirical formula as ratio of atoms within molecule -> empirical vs molecular formula */
+    CMA338 -> CMA323 /* Lewis diagrams for bonding (dot/cross) -> identifying lone pairs */
+    CMA338 -> CMA345
+    CMA344 -> CMA340 /* naming covalent compounds -> formula from name covalent compound */
+    CMA344 -> CMA354 /* naming covalent compounds -> water */
+    CMA344 -> CMA369 /* naming covalent compounds -> name from formula covalent compound */
+    CMA345 -> CMA346 /* Lewis diagrams for bonding (lines) -> Lewis diagrams for double/triple bonds (lines) */
+    CMA346 -> CMA382
+    CMA346 -> CMA383 /* interpreting Lewis diagrams for molecules */
+    CMA347 -> CMA355 /* ionic compounds conduct electricity in solution -> miscon: solid ionic compounds conduct electricity */
+    CMA349 -> CMA312 /* common shapes of molecules -> polar molecules */
+    CMA349 -> CMA314 /* common shapes of molecules -> non-polar covalent molecules due to shape */
+    CMA349 -> CMA331 /* common shapes of molecules -> determining geometry using AXE/VSEPR */
+    CMA350 -> CMA331 /* common AXE types -> determining geometry using AXE/VSEPR */
+    CMA360 -> CMA333 /* meaning of -ide -> naming ionic compounds */
+    CMA360 -> CMA344 /* meaning of -ide -> naming covalent compounds */
+    CMA360 -> CMA364 /* meaning of -ide -> future: more name endings */
+    CMA361 -> CMA333 /* meaning of -ite -> naming ionic compounds */
+    CMA361 -> CMA344 /* meaning of -ite -> naming covalent compounds */
+    CMA361 -> CMA364 /* meaning of -ite -> future: more name endings */
+    CMA362 -> CMA333 /* meaning of -ate -> naming ionic compounds */
+    CMA362 -> CMA344 /* meaning of -ate -> naming covalent compounds */
+    CMA362 -> CMA364 /* meaning of -ate -> future: more name endings */
+    CMA363 -> CMA333 /* meaning of mono, di-, tri- -> naming ionic compounds */
+    CMA363 -> CMA344 /* meaning of mono, di-, tri- -> naming covalent compounds */
+    CMA371 -> CMA375 /* symbolic representations -> microscopic representations */
+    CMA372 -> CMA373 /* microscopic diagrams of elements -> microscopic diagrams of molecules */
+    CMA373 -> CMA365 /* microscopic diagrams of molecules -> macroscopic properties due to microscopic details */
+    CMA374 -> CMA365 /* microscopic vs macroscopic -> macroscopic properties due to microscopic details */
+    CMA375 -> CMA372 /* microscopic representations -> microscopic diagrams of elements */
+    CMA379 -> CMA382
+    CMA380 -> CMA379
+    CMA381 -> CMA379
+    CMA383 -> CMA384
+
+  /* Acids and bases */
+    CMA406 -> CMA408 /* conjugate acid-base pairs -> amphoteric */
+    CMA406 -> CMA410 /* conjugate acid-base pairs -> amphiprotic */
+    CMA407 -> CMA445 /* strong/weak vs concentrated/dilute -> strongly acidic solutions */
+    CMA407 -> CMA446 /* strong/weak vs concentrated/dilute -> strongly basic solutions */
+    CMA407 -> CMA447 /* strong/weak vs concentrated/dilute -> weak acidic solutions */
+    CMA407 -> CMA448 /* strong/weak vs concentrated/dilute -> weak basic solutions */
+    CMA407 -> CMA464 /* strong/weak vs concentrated/dilute  -> miscon: strong and concentrated are interchangeable */
+    CMA407 -> CMA465 /* strong/weak vs concentrated/dilute -> miscon: weak and dilute are interchangeable */
+    CMA407 -> CMA466 /* strong/weak vs concentrated/dilute -> miscon: a strong acid/base solution cannot be dilute */
+    CMA407 -> CMA467 /* strong/weak vs concentrated/dilute -> miscon: a weak acid/base solution cannot be concentrated */
+    CMA407 -> CMA468 /* strong/weak vs concentrated/dilute -> miscon: an acid/base can be concentrated/dilute */
+    CMA407 -> CMA469 /* strong/weak vs concentrated/dilute -> miscon: a solution can be 'strong/weak' */
+    CMA408 -> CMA409 /* amphoteric -> autoprotolysis */
+    CMA409 -> CMA415 /* autoprotolysis -> auto-ionisation of water */
+    CMA410 -> CMA409 /* amphiprotic -> autoprotolysis */
+    CMA411 -> CMA422 /* ionisation of acid -> strong acids */
+    CMA411 -> CMA423 /* ionisation of acid -> weak acids */
+    CMA411 -> CMA455 /* ionisation of acids -> Ka = [acids products]/[acid] */
+    CMA412 -> CMA427 /* dissociation of base -> strong bases */
+    CMA412 -> CMA428 /* dissociation of base -> weak bases */
+    CMA412 -> CMA456 /* dissociation of base -> Kb = [base products]/[base] */
+    CMA413 -> CMA407 /* strong acids/bases -> strong/weak vs concentrated/dilute */
+    CMA414 -> CMA407 /* weak acids/bases -> strong/weak vs concentrated/dilute */
+    CMA415 -> CMA432 /* auto-ionisation of water -> Kw */
+    CMA416 -> CMA417 /* Arrhenius -> Bronsted-Lowry */
+    CMA416 -> CMA470 /* Arrhenius -> miscon: all bases contain hydroxyl groups */
+    CMA417 -> CMA406 /* Bronsted-Lowry -> conjugate acid-base pairs */
+    CMA417 -> CMA412 /* Bronsted-Lowry -> dissociation of base */
+    CMA417 -> CMA418 /* Bronsted-Lowry -> Lewis model */
+    CMA417 -> CMA424 /* Bronsted-Lowry -> chemically, what makes an acid? */
+    CMA417 -> CMA429 /* Bronsted-Lowry -> chemically, what makes a base? */
+    CMA417 -> CMA454 /* Bronsted-Lowry -> Kw [OH^-1][H^+] */
+    CMA420 -> CMA421 /* what is an acid? -> acidic properties */
+    CMA420 -> CMA424 /* what is an acid? -> chemically, what makes an acid? */
+    CMA422 -> CMA413 /* strong acids -> strong acids/bases */
+    CMA422 -> CMA433 /* strong acids -> meaning of Ka */
+    CMA423 -> CMA414 /* weak acids -> weak acids/bases */
+    CMA423 -> CMA433 /* weak acids -> meaning of Ka */
+    CMA424 -> CMA440 /* chemically, what makes an acid? -> what is pH? */
+    CMA424 -> CMA452 /* chemically, what is an acid? -> examples of acids */
+    CMA425 -> CMA426 /* what is a base? -> basic properties */
+    CMA425 -> CMA429 /* what is a base? -> chemically, what makes a base? */
+    CMA427 -> CMA413 /* strong bases -> strong acids/bases */
+    CMA427 -> CMA434 /* strong bases -> meaning of Kb */
+    CMA428 -> CMA414 /* weak bases -> weak acids/bases */
+    CMA428 -> CMA434 /* weak bases -> meaning of Kb */
+    CMA429 -> CMA440 /* chemically, what makes a base? -> what is pH? */
+    CMA429 -> CMA453 /* chemically, what makes a base? -> examples of bases */
+    CMA429 -> CMA470 /* chemically, what makes a base? -> miscon: all bases contain hydroxyl groups */
+    CMA430 -> CMA435 /* Ka -> calculate pKa (given Ka) */
+    CMA430 -> CMA455 /* Ka -> Ka = [acid products]/[acid] */
+    CMA430 -> CMA473 /* Ka -> calculate Ka (given pKa) */
+    CMA430 -> CMA488 /* Ka -> Kw = Ka x Kb */
+    CMA431 -> CMA436 /* Kb -> calculate pKb (given Kb) */
+    CMA431 -> CMA456 /* Kb -> Kb = [base products]/[base] */
+    CMA431 -> CMA479 /* Kb -> calculate Kb (given pKb) */
+    CMA431 -> CMA488 /* Kb -> Kw = Ka x Kb */
+    CMA432 -> CMA454 /* Kw -> Kw = [OH^-1][H^+] */
+    CMA432 -> CMA487 /* Kw -> Kw = 1x10^-14 at 25C */
+    CMA432 -> CMA488 /* Kw -> Kw = Ka x Kb */
+    CMA435 -> CMA478 /* calculate pKa (given Ka) -> calculating pKa from concentrations */
+    CMA436 -> CMA481 /* calculate pKb (given Kb) -> calculating pKb from concentrations */
+    CMA437 -> CMA451 /* calculate pH from [H+] -> calculating pH using Ka */
+    CMA438 -> CMA450 /* calculate pOH from [OH-] -> calculating pOH using Kb */
+    CMA439 -> CMA459 /* neutrality -> neutral: pH = 7 */
+    CMA440 -> CMA441 /* what is pH -> pH scale */
+    CMA440 -> CMA442 /* what is pH -> what is pOH */
+    CMA441 -> CMA437 /* pH scale -> calculating pH */
+    CMA441 -> CMA439 /* pH scale -> neutrality */
+    CMA441 -> CMA444 /* pH scale -> acidic solutions */
+    CMA441 -> CMA449 /* pH scale -> basic solutions */
+    CMA442 -> CMA438 /* what is pOH? -> calculating pOH */
+    CMA442 -> CMA490 /* what is pOH? -> pH + pOH = 14 */
+    CMA443 -> CMA476 /* calculating pOH from pH or vice versa -> calculating pOH using Ka (acid equation) */
+    CMA443 -> CMA484 /* calculating pOH from pH or vice versa -> calculating pH using Kb (base equation) */
+    CMA444 -> CMA445 /* acidic solutions -> strong acidic solutions */
+    CMA444 -> CMA447 /* acidic solutions -> weak acidic solutions */
+    CMA444 -> CMA457 /* acidic solutions -> acids: pH < 7 */
+    CMA445 -> CMA460 /* strong acidic solutions -> strong acidic: pH < 5 */
+    CMA446 -> CMA461 /* strong basic solutions -> strong base: pH > 9 */
+    CMA447 -> CMA462 /* weak acidic solutions -> weak acidic: 5 < pH < 7 */
+    CMA448 -> CMA463 /* weak basic solutions -> weak base: 7 < pH < 9 */
+    CMA449 -> CMA446 /* basic solutions -> strong basic solutions */
+    CMA449 -> CMA448 /* basic solutions -> weak basic solutions */
+    CMA449 -> CMA458 /* basic solutions -> bases: pH > 7 */
+    CMA450 -> CMA483 /* calculating pOH using Kb -> calculating pOH using pKb */
+    CMA450 -> CMA484 /* calculating pOH using Kb -> calculating pH using Kb (base equation) */
+    CMA451 -> CMA475 /* calculating pH using Ka -> calculating pH using pKa */
+    CMA451 -> CMA476 /* calculating pH using Ka -> calculating pOH using Ka (acid equation) */
+    CMA452 -> CMA406 /* examples of acids -> conjugate acid-base pairs */
+    CMA452 -> CMA411 /* examples of acids -> ionisation of acid */
+    CMA452 -> CMA419 /* examples of acids -> mono/di/polyprotic */
+    CMA453 -> CMA406 /* examples of bases -> conjugate acid-base pairs */
+    CMA453 -> CMA412 /* examples of bases -> dissociation of base */
+    CMA454 -> CMA489 /* Kw = [OH^-1][H^+] -> converting [OH-] and [H+] */
+    CMA454 -> CMA490 /* Kw = [OH^-1][H^+] -> pH + pOH = 14 */
+    CMA455 -> CMA433 /* Ka = [acid products]/[acid] -> meaning of Ka */
+    CMA455 -> CMA471 /* Ka = [acid products]/[acid] -> calculating Ka from concentrations */
+    CMA455 -> CMA474 /* Ka = [acid products]/[acid] -> calculating [H+] from concentrations and Ka */
+    CMA456 -> CMA434 /* Kb = [base products]/[base] -> meaning of Kb */
+    CMA456 -> CMA472 /* Kb = [base products]/[base] -> calculating Kb from concentrations */
+    CMA456 -> CMA482 /* Kb = [base products]/[base] -> calculating [OH-] from concentrations and Kb */
+    CMA457 -> CMA460 /* acids: pH < 7 -> strong acidic: pH < 5 */
+    CMA457 -> CMA462 /* acids: pH < 7 -> weak acidic: 5 < pH < 7 */
+    CMA458 -> CMA461 /* bases: pH > 7 -> strong basic: pH > 9 */
+    CMA458 -> CMA463 /* bases: pH > 7 -> weak basic: 7 < pH < 9 */
+    CMA459 -> CMA462 /* neutral: pH = 7 -> weak acidic: 5 < pH < 7 */
+    CMA459 -> CMA463 /* neutral: pH = 7 -> weak basic: 7 < pH < 9 */
+    CMA471 -> CMA478 /* calculating Ka from concentrations -> calculating pKa fro concentrations */
+    CMA472 -> CMA481 /* calculating Kb from concentrations -> calculating pKb from concentrations */
+    CMA473 -> CMA475 /* calculate Ka (given pKa) -> calculating pH using pKa */
+    CMA474 -> CMA451 /* calculating [H+] from concentrations and Ka -> calculating pH using Ka */
+    CMA475 -> CMA477 /* calculating pH using pKa -> calculating pOH using pKa (acid equation) */
+    CMA476 -> CMA477 /* calculating pOH using Ka (acid equation) -> calculating pOH using pKa (acid equation) */
+    CMA479 -> CMA483 /* calculate Kb (given pKa) -> calculating pOH using pKb */
+    CMA482 -> CMA450 /* calculating [OH-] from concentrations and Kb -> calculating pOH using Kb */
+    CMA483 -> CMA485 /* calculating pOH using pKb -> calculating pH using pKb (base equation) */
+    CMA484 -> CMA485 /* calculating pH using Kb (base equation) -> calculating pH using pKb (base equation) */
+    CMA487 -> CMA486 /* Kw = 1x10^-14 at 25C -> converting Ka and Kb */
+    CMA487 -> CMA489 /* Kw = 1x10^-14 at 25C -> converting [OH-] and [H+] */
+    CMA487 -> CMA490 /* Kw = 1x10^-14 at 25C -> pH + pOH = 14 */
+    CMA488 -> CMA486 /* Kw = Ka x Kb -> converting Ka and Kb */
+    CMA488 -> CMA490 /* Kw = Ka x Kb -> pH + pOH = 14 */
+    CMA490 -> CMA443 /* pH + pOH = 14 -> calculating pOH from pH or vice versa */
+
+  /* States of matter */
+    CMA503 -> CMA504 /* what is a state of matter? -> solids */
+    CMA503 -> CMA505 /* what is a state of matter? -> liquids */
+    CMA503 -> CMA506 /* what is a state of matter? -> gases */
+    CMA503 -> CMA507 /* what is a state of matter? -> plasmas */
+    CMA503 -> CMA515 /* what is a state of matter? -> what is a phase change? */
+    CMA504 -> CMA517 /* solids -> sublimation */
+    CMA504 -> CMA520 /* solids -> melting */
+    CMA504 -> CMA521 /* solids -> freezing */
+    CMA504 -> CMA522 /* solids -> deposition */
+    CMA505 -> CMA510 /* liquids -> vapour */
+    CMA505 -> CMA511 /* liquids -> supercritical fluid */
+    CMA505 -> CMA516 /* liquids -> condensation */
+    CMA505 -> CMA518 /* liquids -> evaporation */
+    CMA505 -> CMA519 /* liquids -> boiling */
+    CMA505 -> CMA520 /* liquids -> melting */
+    CMA505 -> CMA521 /* liquids -> freezing */
+    CMA506 -> CMA510 /* gases -> vapour */
+    CMA506 -> CMA511 /* gases -> supercritical fluid */
+    CMA506 -> CMA516 /* gases -> condensation */
+    CMA506 -> CMA517 /* gases -> sublimation */
+    CMA506 -> CMA518 /* gases -> evaporation */
+    CMA506 -> CMA519 /* gases -> boiling */
+    CMA506 -> CMA522 /* gases -> deposition */
+    CMA506 -> CMA523 /* gases -> ionisation */
+    CMA506 -> CMA524 /* gases -> deionisation from plasma */
+    CMA507 -> CMA523 /* plasmas -> ionisation */
+    CMA507 -> CMA524 /* plasmas -> deionisation from plasma */
+    CMA508 -> CMA544 /* what is a physical change? -> phase changes are physical changes */
+    CMA509 -> CMA511 /* what is temperature? -> supercritical fluid */
+    CMA509 -> CMA515 /* what is temperature? -> what is a phase change? */
+    CMA509 -> CMA542 /* what is temperature? -> symbol of temperature: T */
+    CMA509 -> CMA543 /* what is temperature? -> Temperature K */
+    CMA511 -> CMA526 /* supercritical fluid -> critical point on phase diagram */
+    CMA515 -> CMA516 /* what is a phase change? -> condensation */
+    CMA515 -> CMA517 /* what is a phase change? -> sublimation */
+    CMA515 -> CMA518 /* what is a phase change? -> evaporation */
+    CMA515 -> CMA519 /* what is a phase change? -> boiling */
+    CMA515 -> CMA520 /* what is a phase change? -> melting */
+    CMA515 -> CMA521 /* what is a phase change? -> freezing */
+    CMA515 -> CMA522 /* what is a phase change? -> deposition */
+    CMA515 -> CMA523 /* what is a phase change? -> ionisation */
+    CMA515 -> CMA524 /* what is a phase change? -> deionisation */
+    CMA515 -> CMA532 /* what is a phase change? -> endothermic process */
+    CMA515 -> CMA533 /* what is a phase change? -> exothermic process */
+    CMA515 -> CMA544 /* what is a phase change? -> phase changes are physical changes */
+    CMA516 -> CMA530 /* condensation -> T at which gas -> liquid */
+    CMA516 -> CMA535 /* condensation -> condensing, freezing, deposition are exothermic processes */
+    CMA516 -> CMA549 /* condensation -> cooling curves */
+    CMA517 -> CMA514 /* sublimation -> overcoming intermolecular forces in solids to form gases */
+    CMA517 -> CMA534 /* sublimation -> boiling, melting, sublimation are endothermic processes */
+    CMA519 -> CMA513 /* boiling -> overcoming intermolecular forces in liquids to form gases */
+    CMA519 -> CMA528 /* boiling -> T at which liquid -> gas */
+    CMA519 -> CMA534 /* boiling -> boiling, melting, sublimation are endothermic processes */
+    CMA519 -> CMA548 /* boiling -> heating curves */
+    CMA520 -> CMA512 /* melting -> overcoming intermolecular forces in solids to form liquids */
+    CMA520 -> CMA529 /* melting -> T at which solid -> liquid */
+    CMA520 -> CMA534 /* melting -> boiling, melting, sublimation are endothermic processes */
+    CMA520 -> CMA548 /* melting -> heating curves */
+    CMA521 -> CMA531 /* freezing -> T at which liquid -> solid */
+    CMA521 -> CMA535 /* freezing -> condensing, freezing, deposition are exothermic processes */
+    CMA521 -> CMA549 /* freezing -> cooling curves */
+    CMA522 -> CMA535 /* deposition -> condensing, freezing, deposition are exothermic processes */
+    CMA525 -> CMA526 /* phase diagrams -> critical point on phase diagram */
+    CMA525 -> CMA527 /* phase diagrams -> triple point on phase diagram */
+    CMA525 -> CMA550 /* phase diagrams -> future: expanded on phase diagrams */
+    CMA528 -> CPR302 /* T at which liquid -> gas -> boiling point T (l <-> g) */
+    CMA529 -> CPR301 /* T at which solid -> liquid -> melting point T (s <-> l) */
+    CMA530 -> CPR302 /* T at which gas -> liquid -> boiling point T (l <-> g) */
+    CMA531 -> CPR301 /* T at which liquid -> soild -> melting point T (s <-> l) */
+    CMA532 -> CMA534 /* endothermic process -> boiling, melting, sublimation are endothermic processes */
+    CMA533 -> CMA535 /* exothermic process -> condensing, freezing, deposition are exothermic processes */
+    CMA536 -> CMA538 /* kinetic molecular theory of gases -> ideal gases */
+    CMA537 -> CMA540 /* real gases -> low temperature deviation from ideal */
+    CMA537 -> CMA541 /* real gases -> high pressure deviation from ideal */
+    CMA538 -> CMA537 /* what is an ideal gas? -> what is a real gas? */
+    CMA539 -> CMA511 /* what is pressure? -> supercritical fluid */
+    CMA539 -> CMA525 /* what is pressure? -> phase diagrams */
+    CMA539 -> CMA545 /* what is pressure? -> symbol of pressure: p */
+    CMA539 -> CMA546 /* what is pressure? -> units of pressure */
+    CMA544 -> CMA547 /* phase changes are physical changes -> miscon: phase changes involve a chemical change */
+
+    CPR301 -> CMA525 /* melting point -> phase diagrams */
+    CPR302 -> CMA525 /* boiling point -> phase diagrams */
+
+  /* Mixtures and solutions */
+    CMA603 -> CMA604 /* precipitation -> precipitate formation due to saturation */
+    CMA603 -> CMA605 /* precipitation -> precipitate formation due to insolubility */
+    CMA607 -> CMA614 /* homogeneous mixtures -> homogeneous vs heterogeneous mixtures */
+    CMA607 -> CMA624 /* homogeneous mixtures -> what is a solution? */
+    CMA607 -> CMA661 /* homogeneous mixtures -> recognising a homogeneous mixture */
+    CMA608 -> CMA610 /* heterogeneous mixtures -> phases of heterogeneous mixtures */
+    CMA608 -> CMA614 /* heterogeneous mixtures -> homogeneous vs heterogeneous mixtures */
+    CMA608 -> CMA662 /* heterogeneous mixtures -> recognising a heterogeneous mixture */
+    CMA609 -> CMA607 /* what is a mixture? -> homogeneous mixtures */
+    CMA609 -> CMA608 /* what is a mixture? -> heterogeneous mixtures */
+    CMA610 -> CMA611 /* phases of heterogeneous mixtures -> solid/solid mixtures */
+    CMA610 -> CMA612 /* phases of heterogeneous mixtures -> liquid/liquid mixtures */
+    CMA610 -> CMA613 /* phases of heterogeneous mixtures -> suspension */
+    CMA610 -> CMA660 /* phases of heterogeneous mixtures -> colloid */
+    CMA612 -> CMA634 /* liquid/liquid mixtures -> miscibility */
+    CMA613 -> CMA615 /* suspension -> solid in gas suspension */
+    CMA613 -> CMA616 /* suspension -> solid in liquid suspension */
+    CMA616 -> CMA603 /* solid in liquid suspension -> precipitation */
+    CMA618 -> CMA606 /* what is concentration? -> number concentration */
+    CMA618 -> CMA619 /* what is concentration? -> volume concentration */
+    CMA618 -> CMA620 /* what is concentration? -> molar concentration */
+    CMA619 -> CMA649 /* volume concentration -> symbol of volume concentration */
+    CMA620 -> CMA639 /* molar concentration -> diffusion */
+    CMA620 -> CMA646 /* molar concentration -> units of molar concentration */
+    CMA620 -> CMA650 /* molar concentration -> symbol of molar concentration: C */
+    CMA621 -> CMA627 /* dissolution -> saturation */
+    CMA621 -> CMA634 /* dissolution -> miscibility */
+    CMA621 -> CMA639 /* dissolution -> diffusion */
+    CMA621 -> CMA658 /* dissolution -> dissolution is a chemical change */
+    CMA621 -> CPR605 /* dissolution -> solubility */
+    CMA622 -> CMA632 /* electrolytes -> polar/ionic solvents */
+    CMA623 -> CMA622 /* ionisation in water -> electrolytes */
+    CMA624 -> CMA622 /* what is a solution? -> electrolytes */
+    CMA624 -> CMA625 /* what is a solution? -> solute */
+    CMA624 -> CMA626 /* what is a solution? -> solvent */
+    CMA624 -> CMA659 /* what is a solution? -> miscon: only liquids can be solutions */
+    CMA625 -> CMA606 /* solute -> number concentration */
+    CMA625 -> CMA619 /* solute -> volume concentration */
+    CMA625 -> CMA620 /* solute -> molar concentration */
+    CMA625 -> CMA621 /* solute -> dissolution */
+    CMA625 -> CMA629 /* solute -> solids in liquids */
+    CMA625 -> CMA630 /* solute -> gases in liquids */
+    CMA625 -> CMA631 /* solute -> liquids in liquids */
+    CMA625 -> CMA635 /* solute -> gases in solids */
+    CMA625 -> CMA636 /* solute -> liquids in solids */
+    CMA625 -> CMA637 /* solute -> solids in solids */
+    CMA625 -> CMA642 /* solute -> solvation process */
+    CMA626 -> CMA606 /* solvent -> number concentration */
+    CMA626 -> CMA619 /* solvent -> volume concentration */
+    CMA626 -> CMA620 /* solvent -> molar concentration */
+    CMA626 -> CMA621 /* solvent -> dissolution */
+    CMA626 -> CMA628 /* solvent -> liquid solutions */
+    CMA626 -> CMA638 /* solvent -> solid solutions */
+    CMA626 -> CMA642 /* solvent -> solvation process */
+    CMA627 -> CMA604 /* saturation -> precipitate formation due to saturation */
+    CMA628 -> CMA629 /* liquid solutions -> solids in liquids */
+    CMA628 -> CMA630 /* liquid solutions -> gases in liquids */
+    CMA628 -> CMA631 /* liquid solutions -> liquids in liquids */
+    CMA628 -> CMA632 /* liquid solutions -> polar/ionic solvents */
+    CMA628 -> CMA633 /* liquid solutions -> non-polar solvents */
+    CMA628 -> CMA653 /* liquid solutions -> aqueous solutions */
+    CMA629 -> CMA603 /* solids in liquids -> precipitation */
+    CMA629 -> CMA640 /* solids in liquids -> dissociation of salts */
+    CMA632 -> CMA634 /* polar/ionic solvents -> miscibility */
+    CMA633 -> CMA634 /* non-polar solvents -> miscibility */
+    CMA634 -> CMA605 /* miscibility -> precipitate formatoin due to insolubility */
+    CMA634 -> CMA647 /* miscibility -> like dissolves like */
+    CMA638 -> CMA635 /* solid solutions -> gases in solids */
+    CMA638 -> CMA636 /* solid solutions -> liquids in solids */
+    CMA638 -> CMA637 /* solid solutions -> solids in solids */
+    CMA639 -> CMA654 /* diffusion -> diffusion in liquid */
+    CMA639 -> CMA655 /* diffusion -> diffusion in gas */
+    CMA639 -> CMA656 /* diffusion -> diffusion in solid */
+    CMA640 -> CMA641 /* dissociation of salts -> salts in water */
+    CMA642 -> CMA643 /* solvation process -> what is a solvate? */
+    CMA642 -> CMA652 /* solvation process -> hydration process */
+    CMA643 -> CMA657 /* what is a solvate? -> what is a hydrate? */
+    CMA652 -> CMA657 /* hydration process -> what is a hydrate? */
+    CMA653 -> CMA623 /* aqueous solutions -> ionisation in water */
+    CMA653 -> CMA641 /* aqueous solutions -> salts in water */
+    CMA653 -> CMA652 /* aqueous solutions -> hydration process */
+    CMA657 -> CMA644 /* what is a hydrate? -> inorganic hydrates */
+    CMA657 -> CMA645 /* what is a hydrate? -> organic hydrates */
+    CMA657 -> CMA651 /* what is a hydrate? -> no water: anhydrous */
+
+    CPR605 -> CMA648 /* solubility -> soluble and insoluble ions */
+
+  /* Between groups */
+    CMA001 -> CMA106 /* pure substance -> atoms are pure substances */
+    CMA001 -> CMA209 /* pure substance -> elements are pure substances */
+    CMA001 -> CMA319 /* pure substance -> molecules are pure substances */
+    CMA001 -> CMA320 /* pure substance -> compounds are pure substances */
+    CMA001 -> CMA609 /* pure substance -> what is a mixture? */
+    CMA002 -> CMA547 /* difference between chemical and physical change -> miscon: phase changes involve a change in chemical substance */
+    CMA002 -> CMA658 /* difference between chemical and physical change -> miscon: dissolution is a chemical change */
+    CMA003 -> CMA116 /* what is matter? -> what is an atom? */
+    CMA003 -> CMA376 /* what is matter? -> concept of micro */
+    CMA003 -> CMA377 /* what is matter? -> concept of macro */
+    CMA003 -> CMA420 /* what is matter? -> what is an acid? */
+    CMA003 -> CMA425 /* what is matter? -> what is a base? */
+    CMA003 -> CMA503 /* what is matter? -> what is a state of matter? */
+    CMA003 -> CMA539 /* what is matter? -> what is pressure? */
+    CMA003 -> CMA618 /* what is matter? -> what is concentration? */
+
+    CMA104 -> CMAP203 /* atomic mass -> relative atomic mass */
+    CMA107 -> CMA203 /* core and valence electrons -> effect of how tightly val. e^- are held on atomic radius */
+    CMA107 -> CMA204 /* core and valence electrons -> stability of full outer shell */
+    CMA107 -> CMAR203 /* core and valence electrons -> Lewis diagrams for elements */
+    CMA107 -> CMAR207 /* core and valence electrons -> shorthand electronic configuration spectroscopic notation */
+    CMA107 -> CMAP228 /* core and valence electrons -> valence electron shielding by core electrons */
+    CMA108 -> CMA203 /* atomic radius -> effect of how tightly held val. e^- are on atomic radius */
+    CMA108 -> CMAP249 /* atomic radius -> atomic radius decreases across period (left to right) */
+    CMA108 -> CMAP250 /* atomic radius -> atomic radius increases down group */
+    CMA110 -> CMAR206 /* Aufbau principle -> electronic configuration spectroscopic notation of ground state */
+    CMA111 -> CMAP202 /* principle quantum number -> periods */
+    CMA111 -> CMAR206 /* principle quantum number -> electronic configuration spectroscopic notation of ground state */
+    CMA112 -> CMA321 /* definition of an atomic orbital -> molecular orbitals */
+    CMA114 -> CMA204 /* electron pairs -> stability of full outer shell */
+    CMA115 -> CMA359 /* future: hybridisation of orbitals */
+    CMA118 -> CMAP228 /* nucleus -> valence electron shielding by core electrons */
+    CMA119 -> CMA201 /* atomic number (Z) the number of protons in an atom -> what is an element? */
+    CMA119 -> CMAP223 /* atomic number (Z) -> how the periodic table is arranged */
+    CMA119 -> CMAP229 /* atomic number (Z) -> information for one element shown as on the periodic table */
+    CMA120 -> CMA210 /* mass number (A) -> isotopes */
+    CMA125 -> CMA202 /* Bohr model -> outer shell */
+    CMA130 -> CMA218 /* radioactivity -> radioactive elements */
+    CMA136 -> CMAP219 /* atomic orbitals (spdf) -> s-block */
+    CMA136 -> CMAP220 /* atomic orbitals (spdf) -> p-block */
+    CMA136 -> CMAP221 /* atomic orbitals (spdf) -> d-block */
+    CMA136 -> CMAP222 /* atomic orbitals (spdf) -> f-block */
+    CMA138 -> CMAR202 /* electron pair notation -> Aufbau diagrams */
+    CMA139 -> CMA216 /* electrons -> ionisation energy */
+    CMA139 -> CMA217 /* electrons -> electron affinity */
+    CMA139 -> CPR610 /* electrons -> electronegativity */
+    CMA152 -> CMAR206 /* 1 s orbital per'shell' -> electronic configuration spectroscopic notation of ground state */
+    CMA153 -> CMAR206 /* 3 p orbitals per 'shell' -> electronic configuration spectroscopic notation of ground state */
+
+    PEESC008 -> CMAP228 /* proton carries positive charge -> valence electron shielding by core electrons */
+    PEESC009 -> CMAE201 /* + symbol for positive charge -> cations */
+    PEESC009 -> CMAE208 /* + symbol for positive charge -> formula of common ions */
+    PEESC011 -> CMAE202 /* - symbol for negative charge -> anions */
+    PEESC011 -> CMAE208 /* - symbol for negative charge -> formula of common ions */
+    PEESC012 -> CMAE204 /* electron: e^- -> using reduction and oxidation */
+
+    CMA201 -> CMA302 /* what is an element? -> molecule */
+    CMA201 -> CMA304 /* what is an element? -> heteronuclear */
+    CMA201 -> CMA305 /* what is an element? -> homonuclear */
+    CMA201 -> CMA335 /* what is an element? -> structural representations Ball-and-stick */
+    CMA201 -> CMA366 /* what is an element? -> structural representations Wireframe */
+    CMA201 -> CMA367 /* what is an element? -> structural representations Space filling */
+    CMA201 -> CMA371 /* what is an element? -> symbolic representations */
+    CMA206 -> CMA638 /* metals -> solid solutions */
+    CMAR202 -> CMA148 /* Aufbau diagrams -> future: Aufbau that includes understanding of spin */
+    CMAR203 -> CMA338 /* Lewis diagrams for elements -> Lewis diagrams for compounds */
+    CMAR208 -> CMA360 /* element names -> meaning of -ide */
+    CMAR208 -> CMA361 /* element names -> meaning of -ite */
+    CMAR208 -> CMA362 /* element names -> meaning of -ate */
+    CMAR209 -> CMA332 /* element symbols -> molecular formula */
+    CMAR209 -> CMA336 /* element symbols -> empirical formula as smallest unit */
+    CMAR209 -> CMA337 /* element symbols -> empirical formula as ratio of atoms within molecule */
+    CMAR209 -> CMA343 /* element symbols -> representing polar molecules */
+    CMAR209 -> CMA372 /* element symbols -> microscopic diagrams of elements */
+    CMAR211 -> CMA333 /* polyatomic ion names -> naming ionic compounds */
+    CMAR271 -> CMA378
+    CMAR272 -> CMA380
+    CMAR272 -> CMA381
+    CMAE201 -> CMA416 /* cations -> Arrhenius model of acid */
+    CMAE201 -> CMA622 /* cations -> electrolytes */
+    CMAE202 -> CMA360 /* anions -> meaning of -ide */
+    CMAE202 -> CMA361 /* anions -> meaning of -ite */
+    CMAE202 -> CMA362 /* anions -> meaning of -ate */
+    CMAE202 -> CMA416 /* anions -> Arrhenius model */
+    CMAE202 -> CMA622 /* anions -> electrolytes */
+    CMAE205 -> CMA507 /* ions -> plasmas */
+    CMAE209 -> CMA334 /* formula of common polyatomic ions -> formulae of ionic compounds */
+    CMAE209 -> CMA648 /* formula of common polyatomic ions -> soluble and insoluble ions */
+    CMA378 -> CMA383
+
+    CMA302 -> CMA508 /* molecules -> what is a physical change? */
+    CMA311 -> CMAE209 /* covalent molecules -> formula of common polyatomic ions */
+    CMA312 -> CMA632 /* polar molecules -> polar/ionic solvents */
+    CMA313 -> CMA633 /* non-polar covalent molecules -> non-polar solvents */
+    CMA317 -> CMA412 /* ionic compounds -> dissociation of base */
+    CMA317 -> CMA623 /* ionic compounds -> ionisation in water */
+    CMA323 -> CMA418 /* identifying lone pairs -> Lewis model for acid */
+    CMA324 -> CMA640 /* salts -> dissociation of salts */
+    CMA344 -> CMAR211 /* naming covalent compounds -> ion names (common polyatomic ions) */
+    CMA354 -> CMA411 /* water -> ionisation of acid */
+    CMA354 -> CMA412 /* water -> dissociation of base */
+    CMA354 -> CMA415 /* water -> auto-ionisation of water */
+    CMA354 -> CMA653 /* water -> aqueous solutions */
+    CMA371 -> CMAR209 /* symbolic representations -> element symbol */
+
+    CMA503 -> CMA607 /* what is a phase? -> homogeneous mixutres */
+    CMA503 -> CMA608 /* what is a phase? -> heterogeneous mixtures */
+    CMA504 -> CMA244 /* solids -> metals are generally solid (some liquid) at or near 25C */
+    CMA504 -> CMA245 /* solids -> metalloids are solid at or near 25C */
+    CMA504 -> CMA355 /* solids -> solid ionic compounds conduct electricity */
+    CMA504 -> CMA611 /* boiling point -> solid/solid mixtures */
+    CMA504 -> CMA613 /* solids -> suspension */
+    CMA504 -> CMA621 /* solids -> dissolution */
+    CMA504 -> CMA629 /* solids -> solids in liquids */
+    CMA504 -> CMA638 /* solids -> solid solutions */
+    CMA505 -> CMA244 /* liquids -> metals are generally solid (some liquid) at or near 25C */
+    CMA505 -> CMA612 /* liquids -> liquid/liquid mixtures */
+    CMA505 -> CMA616 /* liquids -> solid in liquid suspension */
+    CMA505 -> CMA621 /* liquids -> dissolution */
+    CMA505 -> CMA628 /* liquids -> liquid solutions */
+    CMA505 -> CMA636 /* liquids -> liquids in solids */
+    CMA505 -> CMA659 /* liquids -> miscon: only liquids can be solutions */
+    CMA506 -> CMA246 /* gases -> non-metals are generally gases at 25C */
+    CMA506 -> CMA615 /* gases -> solid in gas suspension */
+    CMA506 -> CMA621 /* gases -> dissolution */
+    CMA506 -> CMA630 /* gases -> gases in liquids */
+    CMA506 -> CMA635 /* gases -> gases in solids */
+    CMA508 -> CMA002 /* what is a physical change? -> difference between chemical and physical change */
+    CMA509 -> CMA244 /* what is temperature? -> metals are generally solid (some liquid) at or near 25C */
+    CMA509 -> CMA245 /* what is temperature? -> metalloids are solid at or near 25C */
+    CMA509 -> CMA246 /* what is temperature? -> non-metals are generally gases at or near 25C */
+    CMA509 -> CMA487 /* what is temperature? -> Kw = 1x10^-14 at 25C */
+    CMA515 -> CMA603 /* what is a phase change? -> precipitation */
+    CMA515 -> CMA621 /* what is a phase change? -> dissolution */
+
+    CPR301 -> CMA353 /* melting point -> ionic compounds have high boiling/melting points */
+    CPR302 -> CMA353 /* boiling point -> ionic compounds have high boiling/melting points */
+
+    CMA617 -> CMA407 /* concentrated and dilute solutions -> strong/weak vs concentrated/dilute */
+    CMA620 -> CMA454 /* molar concentration -> Kw = [OH^-1][H^+] */
+    CMA623 -> CMA347 /* ionisation in water -> ionic compounds conduct electricity in water */
+    CMA631 -> CMA444 /* liquids in liquids -> acidic solutions */
+    CMA631 -> CMA449 /* liquids in liquids -> basic solutions */
+    CMA637 -> CMA213 /* solids in solids -> alloys */
+    CMA646 -> CMA437 /* units of molar concentration -> calculate pH from [H+] */
+    CMA646 -> CMA438 /* units of molar concentration -> calculate pOH from [OH-] */
+    CMA653 -> CMA416 /* aqueous solutions -> Arrhenius model */
+
+    CPR605 -> CMA351 /* solubility -> ionic compounds are highly soluble */
+
+}
+
+  /* External nodes */
+
+  /* CHEMISTRY merge dependencies */
+
+
+    /* Analytical */
+      CAC106 /* [type="todo", label="LINK IN:\nAnalytical:\nwhat is a mole?"] */
+      CAC120 /* [type="todo", label="LINK IN:\nAnalytical:\nunits of mole are: mol"] */
+      CAC309 /* [type="todo", label="LINK IN:\nAnalytical:\nwhat is volume?"] */
+      CAC311 /* [type="todo", label="LINK IN:\nAnalytical:\nequilibrium concentration"] */
+      CAC371 /* [type="todo", label="LINK IN:\nAnalytical:\nunit of volume is: m^3"] */
+      CAC403 /* [type="todo", label="LINK IN:\nAnalytical:\nwhat is mass?"] */
+      CAC429 /* [type="todo", label="LINK IN:\nAnalytical:\nunit of mass is: kg"] */
+      CAC502 /* [type="todo", label="LINK IN:\nAnalytical:\nBoyle's law (p &#x221d; 1/V)\n p1V1 = p2V2\n constant n and T"] */
+      CAC503 /* [type="todo", label="LINK IN:\nAnalytical:\nCharles' law (T &#x221d; V)\n T1/V1 = T2/V2\n constant n and p"] */
+
+      /* Analytical dependencies IN */
+        /* what is a mole? */
+          CAC106 -> CMA620 /* molar concentration */
+        /* units of mole are: mol */
+          CAC120 -> CMA646 /* units of molar concentration */
+        /* what is volume? */
+          CAC309 -> CMA618 /* what is concentration? */
+        /* equilibrium concentration */
+          CAC311 -> CMA455 /* Ka = [acid products]/[acid] */
+          CAC311 -> CMA456 /* Kb = [base products]/[base] */
+        /* unit of volume: m^3 */
+          CAC371 -> CMA646 /* units of molar concentration */
+        /* what is mass? */
+          CAC403 -> CMAP257 /* miscon: rel. at. mass is actual mass of atom */
+        /* unit of mass is: kg */
+          CAC429 -> CMA143 /* mass of 1 electron */
+          CAC429 -> CMA144 /* mass of 1 proton */
+          CAC429 -> CMA145 /* mass of 1 neutron */
+        /* Boyle's law */
+          CAC502 -> CMA540 /* real gases deviate from ideal at low temperature */
+        /* Charles' law */
+          CAC503 -> CMA541 /* real gases deviate from ideal at high pressure */
+
+
+    /* Bonding */
+      CBO102 /* [type="todo", label="LINK IN:\nBonding:\nwhat is a bond?"] */
+      CBO105 /* [type="todo", label="LINK IN:\nBonding:\nelectron pairs\nin bonding"] */
+      CBO110 /* [type="todo", label="LINK IN:\nBonding:\nelectron donation"] */
+      CBO111 /* [type="todo", label="LINK IN:\nBonding:\nelectron sharing"] */
+      CBO112 /* [type="todo", label="LINK IN:\nBonding:\nstable electron configuration\n octet rule"] */
+      CBO113 /* [type="todo", label="LINK IN:\nBonding:\nionic bonds"] */
+      CBO116 /* [type="todo", label="LINK IN:\nBonding:\nlone pairs"] */
+      CBO122 /* [type="todo", label="LINK IN:\nBonding:\nunderstanding metallic bonding:\ndelocalised electrons\nin metallic bonds\nwith positive metal ions"] */
+      CBO124 /* [type="todo", label="LINK IN:\nBonding:\ndative covalent bonds"] */
+      CBO126 /* [type="todo", label="LINK IN:\nBonding:\npolar covalent bonds"] */
+      CBO127 /* [type="todo", label="LINK IN:\nBonding:\nnon-polar covalent bonds"] */
+      CBO128 /* [type="todo", label="LINK IN:\nBonding:\ncovalent bonds"] */
+      CBO138 /* [type="todo", label="LINK IN:\nBonding:\nrepresenting\npolar covalent bonds"] */
+      CBO139 /* [type="todo", label="LINK IN:\nBonding:\nLewis diagrams with double/triple bonds (dot/cross)"] */
+      CBO143 /* [type="todo", label="LINK IN:\nBonding:\npositive partial charge: &#948;&#8314;\n negative partial charge: &#948;&#8315;"] */
+      CBO205 /* [type="todo", label="LINK IN:\nBonding:\nIMF in solids"] */
+      CBO206 /* [type="todo", label="LINK IN:\nBonding:\nIMF in liquids"] */
+      CBO207 /* [type="todo", label="LINK IN:\nBonding:\nIMF in gases"] */
+
+      /* Bonding dependencies IN */
+        /* what is a bond? */
+          CBO102 -> CMA302 /* molecule */
+          CBO102 -> CMA304 /* heteronuclear */
+          CBO102 -> CMA305 /* homonuclear */
+          CBO102 -> CMA310 /* infinite network structures */
+          CBO102 -> CMA335 /* structural representations Ball-and-Stick */
+          CBO102 -> CMA366 /* structural representations Wireframe */
+          CBO102 -> CMA367 /* structural representations Space filling */
+        /* electron pairs in bonding */
+          CBO105 -> CMA338 /* Lewis diagrams for molecules/compounds */
+        /* electron donation */
+          CBO110 -> CMA411 /* ionisation of acid */
+        /* electron sharing */
+        
+        /* stable electron configuration octet rule */
+          CBO112 -> CMA338 /* Lewis diagrams for molecules/compounds */
+        /* ionic bonds */
+          CBO113 -> CMA317 /* ionic compounds */
+        /* lone pairs */
+          CBO116 -> CMA338 /* Lewis diagrams for molecules/compounds */
+        /* delocalised electrons in metallic bonds with positive metals ions */
+          CBO122 -> CMA214 /* need to know about delocalised electrons in metallic bonds before properties of metallic compounds */
+        /* dative covalent bonds */
+          CBO124 -> CMA418 /* Lewis acids and bases */
+        /* polar covalent bonds */
+          CBO126 -> CMA312 /* polar covalent molecules */
+          CBO126 -> CMA314 /* non-polar covalent molecules due to shape */
+          CBO126 -> CMA318 /* covalent network structures */
+        /* non-polar covalent bonds */
+          CBO127 -> CMA318 /* covalent network structures */
+          CBO127 -> CMA330 /* non-polar molecules */
+        /* covalent bonds */
+          CBO128 -> CMA307 /* VSEPR theory */
+          CBO128 -> CMA311 /* covalent molecules */
+          CBO128 -> CMA325 /* allotropes of elements */
+        /* representing polar covalent bonds */
+          CBO138 -> CMA343 /* representing polar molecules */
+        /* Lewis diagrams with double/triple bonds\n(dot/cross) */
+          CBO139 -> CMA346 /* Lewis diagrams for double/triple bonds (lines) */
+          CBO139 -> CMA378
+          CBO139 -> CMA381
+        /* positive partial charge (fact) */
+          CBO143 -> CMA342 /* representing dipoles */
+          
+          CBO161 -> CMA380
+          
+        /* IMF in solids */
+          CBO205 -> CMA512 /* overcoming intermolecular forces in solids to form liquids */
+          CBO205 -> CMA514 /* overcoming intermolecular forces in solids to form gases */
+        /* IMF in liquids */
+          CBO206 -> CMA512 /* overcoming intermolecular forces in solids to form liquids */
+          CBO206 -> CMA513 /* overcoming intermolecular forces in liquids to form gases */
+        /* IMF in gases */
+          CBO207 -> CMA513 /* overcoming intermolecular forces in liquids to form gases */
+          CBO207 -> CMA514 /* overcoming intermolecular forces in solids to form gases */
+
+
+    /* Organic */
+      CMA376 /* [type="todo", label="LINK IN:\nOrganic:\nconcept of micro"] */
+      CMA377 /* [type="todo", label="LINK IN:\nOrganic:\nconcept of macro"] */
+      COR104 /* [type="todo", label="LINK IN:\nOrganic:\nwhat makes a molecule organic?"] */
+      COR108 /* [type="todo", label="LINK IN:\nOrganic:\nwhat makes a molecule inorganic?"] */
+      COR805 /* [type="todo", label="LINK IN:\nOrganic:\nwhat is a macromolecule?"] */
+
+      /* Organic dependencies IN */
+        /* concept of micro */
+          CMA376 -> CMA375 /* microscopic representations */
+          CMA376 -> CMA374 /* microscopic vs macroscopic */
+        /* concept of macro */
+          CMA377 -> CMA374 /* microscopic vs macroscopic */
+        /* what makes a molecule organic? */
+          COR104 -> CMA645 /* organic hydrates */
+        /* what makes a molecule inorganic? */
+          COR108 -> CMA644 /* inorganic hydrates */
+        /* what is a macromolecule? */
+          COR805 -> CMA358 /* structures of allotropes */
+
+
+    /* Properties */
+      CPR005 /* [type="todo", label="LINK IN:\nProperties:\nmacroscopic properties"] */
+      CPR102 /* [type="todo", label="LINK IN:\nProperties:\nductility"] */
+      CPR103 /* [type="todo", label="LINK IN:\nProperties:\nmaleability"] */
+      CPR104 /* [type="todo", label="LINK IN:\nProperties:\nelasticity"] */
+      CPR107 /* [type="todo", label="LINK IN:\nProperties:\nbrittleness"] */
+      CPR108 /* [type="todo", label="LINK IN:\nProperties:\nhardness"] */
+      CPR307 /* [type="todo", label="LINK IN:\nProperties:\nthermal insulator"] */
+      CPR309 /* [type="todo", label="LINK IN:\nProperties:\nthermal conductor"] */
+      CPR310 /* [type="todo", label="LINK IN:\nProperties:\nthermal semi-conductor"] */
+      CPR314 /* [type="todo", label="LINK IN:\nProperties:\ntriple point"] */
+      CPR315 /* [type="todo", label="LINK IN:\nProperties:\ncritical point"] */
+      CPR402 /* [type="todo", label="LINK IN:\nProperties:\nelectrical conductivity"] */
+      CPR403 /* [type="todo", label="LINK IN:\nProperties:\nelectrical conductor"] */
+      CPR404 /* [type="todo", label="LINK IN:\nProperties:\nelectrical insulator"] */
+      CPR406 /* [type="todo", label="LINK IN:\nProperties:\nelectrical semi-conductor"] */
+      PEM112 /* [type="todo", label="LINK IN:\nProperties:\nparamagnetism"] */
+      PEM113 /* [type="todo", label="LINK IN:\nProperties:\ndiamagnetism"] */
+      CPR603 /* [type="todo", label="LINK IN:\nProperties:\nvolatility"] */
+      CPR606 /* [type="todo", label="LINK IN:\nProperties:\nwhat is molar mass?"] */
+      CPR608 /* [type="todo", label="LINK IN:\nProperties:\nconcentrated"] */
+      CPR609 /* [type="todo", label="LINK IN:\nProperties:\ndilute"] */
+      CPR707 /* [type="todo", label="LINK IN:\nProperties:\nstrength of acid"] */
+      CPR708 /* [type="todo", label="LINK IN:\nProperties:\nstrength of base"] */
+      CPR710 /* [type="todo", label="LINK IN:\nProperties:\nradioactivity"] */
+      CPR711 /* [type="todo", label="LINK IN:\nProperties:\npreferred oxidation states"] */
+
+      /* Properties dependencies IN */
+        /* macroscopic properties */
+          CPR005 -> CMA365 /* macroscopic properties due to microscopic details */
+        /* ductility */
+          CPR102 -> CMA224 /* metals are ductile */
+        /* maleability */
+          CPR103 -> CMA222 /* metals are maleable */
+        /* elasticity */
+          CPR104 -> CMA228 /* non-metals have poor elasticity */
+        /* brittleness */
+          CPR107 -> CMA352 /* ionic compounds are brittle */
+        /* hardness */
+          CPR108 -> CMA220 /* metals are hard */
+          CPR108 -> CMA348 /* ionic compounds are hard */
+        /* thermal insulator */
+          CPR307 -> CMA226 /* metals are poor thermal insulators */
+          CPR307 -> CMA229 /* non-metals are good thermal insulators */
+        /* thermal conductor */
+          CPR309 -> CMA223 /* metals are good thermal conductors */
+          CPR309 -> CMA230 /* non-metals are poor thermal conductors */
+        /* triple point */
+          CPR314 -> CMA527 /* triple point on phase diagram */
+        /* critical point */
+          CPR315 -> CMA526 /* critical point on phase diagram */
+        /* electrical conductivity */
+          CPR402 -> CMA347 /* ionic compounds conduct electricity in water */
+          CPR402 -> CMA622 /* electrolytes */
+        /* electrical conductor */
+          CPR403 -> CMA234 /* metals are good elecrical conductors */
+          CPR403 -> CMA237 /* non-metals are poor electrical conductors */
+        /* electrical insulator */
+          CPR404 -> CMA235 /* metals are poor electrical insulators */
+          CPR404 -> CMA236 /* non-metals are good electrical insulators */
+        /* electrical semi-conductor */
+          CPR406 -> CMA243 /* metalloids are often good semi-conductors */
+        /* paramagnetic */
+          PEM112 -> CMA149 /* paramagnetic in terms of unpaired electrons */
+        /* diamagnetic */
+          PEM113 -> CMA149 /* diamagnetic in terms of unpaired electrons */
+        /* volatility */
+          CPR603 -> CMA225 /* metals are not volatile */
+          CPR603 -> CMA227 /* non-metals are volatile */
+        /* what is molar mass? */
+          CPR606 -> CMA306 /* molecular mass */
+          CPR606 -> CMA308 /* formula mass */
+        /* concentrated */
+          CPR608 -> CMA617 /* concentrated and dilute solutions */
+        /* dilute */
+          CPR609 -> CMA617 /* concentrated and dilute solutions */
+        /* strength of acid */
+          CPR707 -> CMA422 /* strong acids */
+          CPR707 -> CMA423 /* weak acids */
+          CPR707 -> CMA430 /* Ka */
+        /* strength of base */
+          CPR708 -> CMA427 /* strong bases */
+          CPR708 -> CMA428 /* weak bases */
+          CPR708 -> CMA431 /* Kb */
+        /* radioactivity */
+          CPR710 -> CMA130 /* understanding radioactivity (radioactive decay) */
+        /* preferred oxidation states */
+          CPR711 -> CMAP225 /* getting preferred oxidation state from periodic table */
+          CPR711 -> CMAR201 /* what is an element? */
+          CPR711 -> CMAE208 /* formula of common ions */
+          CPR711 -> CMA332 /* molecular formula */
+
+
+    /* Reactions */
+      CRX001 /* [type="todo", label="LINK IN:\nReactions:\nwhat is chemical change?"] */
+      CRX009 /* [type="todo", label="LINK IN:\nReactions:\nreactivity"] */
+      CRX207 /* [type="todo", label="LINK IN:\nReactions:\nstoichiometric ratio"] */
+      CRX210 /* [type="todo", label="LINK IN:\nReactions:\nforward reaction"] */
+      CRX211 /* [type="todo", label="LINK IN:\nReactions:\nreverse reaction"] */
+      CRX414 /* [type="todo", label="LINK IN:\nReactions:\nwhat is an equilibrium constant?"] */
+
+      /* Reactions dependencies IN */
+        /* chemical change */
+          CRX001 -> CMA002 /* difference between chemical and physical change */
+        /* reactivity */
+          CRX009 -> CMA242 /* metalloids react like a metal or non-metal depending on what they are reacting with */
+        /* stoichiometric ratio */
+          CRX207 -> CMA455 /* Ka = [acid products][acid] */
+          CRX207 -> CMA456 /* Kb = [base products][base] */
+        /* forward reaction */
+          CRX210 -> CMA406 /* conjugate acid-base pairs */
+        /* reverse reaction */
+          CRX211 -> CMA406 /* conjugate acid-base pairs */
+        /* what is an equilibrium constant? */
+          CRX414 -> CMA430 /* K_a */
+          CRX414 -> CMA431 /* K_b */
+          CRX414 -> CMA432 /* K_w */
+
+
+    /* Thermodynamics */
+      CTD104 /* [type="todo", label="LINK IN:\nThermodynamics:\nexothermic"] */
+      CTD105 /* [type="todo", label="LINK IN:\nThermodynamics:\nendothermic"] */
+      CTD108 /* [type="todo", label="LINK IN:\nThermodynamics:\nKinetic molecular theory\nof matter"] */
+      PTE001 /* [type="todo", label="LINK IN:\nThermodynamics:\nwhat is energy?"] */
+      PTTE204 /* [type="todo", label="LINK IN:\nThermodynamics:\nDefinition of thermal energy"] */
+
+      /* Thermodynamics dependencies IN */
+        /* exothermic */
+          CTD104 -> CMA533 /* exothermic processes */
+        /* endothermic */
+          CTD105 -> CMA532 /* endothermic processes */
+        /* KMT of Matter */
+          CTD108 -> CMA536 /* kinetic molecular theory of gases */
+          
+          CTD114 -> CMA536
+          
+        /* what is energy? */
+          PTE001 -> CMA105 /* quantisation of energy */
+          PTE001 -> CMA130 /* understanding radioactivity (radioactive decay)"] */
+          PTE001 -> CMA133 /* radiation */
+          PTE001 -> CMA216 /* ionisation energy */
+          PTE001 -> CMA217 /* electron affinity */
+        /* what is thermal energy? */
+          PTTE204 -> CMA512 /* overcoming intermolecular forces in solids to form liquids */
+          PTTE204 -> CMA513 /* overcoming intermolecular forces in liquids to form gases */
+          PTTE204 -> CMA514 /* overcoming intermolecular forces in solids to form gases */
+
+
+    /* Units */
+      PUN105 /* [type="todo", label="LINK IN:\nUnits:\natomic mass units"] */
+      PUN405 /* [type="todo", label="LINK IN:\nUnits:\nBase SI unit: kelvin (K)"] */
+      PUN411 /* [type="todo", label="LINK IN:\nUnits:\nDerived SI unit:\ncelcius (&#8451;)"] */
+      PUN412 /* [type="todo", label="LINK IN:\nUnits:\nDerived SI unit:\npascal (Pa)"] */
+      PUN807 /* [type="todo", label="LINK IN:\nUnits:\ndeci (10^0 <-> 10^-1)"] */
+
+      /* Units dependencies IN */
+        /* atomic mass units/Daltons */
+          PUN105 -> CMA137 /* atomic mass units */
+        /* Base SI unit: kelvin (K) */
+          PUN405 -> CMA543 /* Scientific unit of temperature is: K */
+        /* Celsius */
+          PUN411 -> CMA244 /* metals are generally solid (some liquid) at or near 25C */
+          PUN411 -> CMA245 /* metalloids are solid at or near 25C */
+          PUN411 -> CMA246 /* non-metals are generally gases at or near 25C */
+          PUN411 -> CMA487 /* Kw = 1x10^-14 at 25C */
+        /* Pa */
+          PUN412 -> CMA546 /* units of pressure */
+        /* deci (10^0 <-> 10^-1) */
+          PUN807 -> CMA646 /* units of molar concentration */
+
+
+  /* MATHS merge link in */
+
+
+    /* Algebra Not Functions */
+      MALG0093 /* [type="todo", label="LINK IN:\nAlgebraNotFunctions:\nMaths:\ny = x + b"] */
+      MALG604 /* [type="todo", label="LINK IN:\nAlgebraNotFunctions:\nSubstitute\nwith integer"] */
+      MALG605 /* [type="todo", label="LINK IN:\nAlgebraNotFunctions:\nSubstitute with\nnon-negative decimals"] */
+      MALG612 /* [type="todo", label="LINK IN:\nAlgebraNotFunctions:\nSubstitute with\nScientific numbers"] */
+
+      /* Algebra Not Functions dependencies IN */
+        /* y = x + b */
+          MALG0093 -> CMA120 /* mass number (A) */
+        /* Substitute with integer */
+          MALG604 -> CMA443 /* calculating pOH from pH or vice versa */
+          MALG604 -> CMA471 /* calculating Ka from concentrations */
+          MALG602 -> CMA472 /* calculating Kb from concentrations */
+          MALG604 -> CMA474 /* calculating [H+] from concentrations and Ka */
+          MALG602 -> CMA482 /* calculating [OH-] from concentrations and Kb */
+        /* Substitute with non-negative decimals */
+          MALG605 -> CMA471 /* calculating Ka from concentrations */
+          MALG605 -> CMA472 /* calculating Kb from concentrations */
+          MALG605 -> CMA474 /* calculating [H+] from concentrations and Ka */
+          MALG605 -> CMA482 /* calculating [OH-] from concentrations and Kb */
+        /* Substitute with scientific numbers */
+          MALG612 -> CMA486 /* converting Ka and Kb */
+          MALG612 -> CMA489 /* converting [OH-] and [H+] */
+
+
+    /* Cartesian Plane and Functions */
+      MCP452 /* [type="todo", label="LINK IN:\nCartesianPlaneandFunctions:\nConvert Between\nLog Expressions &\nExponential Expression\n(both directions)"] */
+
+        /* Cartesian Plane and Functions dependencies IN */
+          /* Convert between log expressions & exponential expression (both directions) */
+            MCP452 -> CMA473 /* calculate Ka (given pKa) */
+            MCP452 -> CMA479 /* calculate Kb (given pKb) */
+
+
+    /* Circle Geometry */
+      MCG305 /* [type="todo", label="LINK IN:\nCircleGeometry:\nDiameter = 2*radius"] */
+
+        /* Circle Geometry dependencies IN */
+          MCG305 -> CMA108 /* atomic radius */
+
+
+    /* Number Basics */
+      MNUMS111 /* [type="todo", label="LINK IN:\nNumberBasics:\nNumbers up to 100\n(e.g., Count to 100)"] */
+      MNUMS118 /* [type="todo", label="LINK IN:\nNumberBasics:\nScientific Notation\n For Numbers < 1"] */
+      MNUMS119 /* [type="todo", label="LINK IN:\nNumberBasics:\nConvert Standard\nNotation Numbers into\nScientific Notation"] */
+      MNUMS120 /* [type="todo", label="LINK IN:\nNumberBasics:\nConvert Scientific\nNotation Numbers into\nStandard Notation"] */
+      MNUMS203 /* [type="todo", label="LINK IN:\nNumberBasics:\nInequality with\nA Variable and\nAn Integer, e.g.\nx ≤ 10 or x > -2"] */
+      MNUMS209 /* [type="todo", label="LINK IN:\nNumberBasics:\nCompound\nInequalities\n(With Integers Only):\n2 < x ≤ 10"] */
+      MNUMS410 /* [type="todo", label="LINK IN:\nNumberBasics:\nMeaning of Ratio\nas a Comparison"] */
+      MNUMS416 /* [type="todo", label="LINK IN:\nNumberBasics:\nMulti-part\nRatios, e.g.\n3:5:2"] */
+      MNUMS417 /* [type="todo", label="LINK IN:\nNumberBasics:\nMulti-part\nRatio Equivalence, e.g.\n3:5:2 <-> 6:10:4"] */
+
+      /* Number Basics dependencies IN */
+        /* Numbers up to 100 (e.g. Count to 100) */
+          MNUMS111 -> CMA360 /* meaning of -ide */
+          MNUMS111 -> CMA361 /* meaning of -ite */
+          MNUMS111 -> CMA362 /* meaning of -ate */
+          MNUMS111 -> CMA363 /* meaning of mono-, di-, tri- */
+          MNUMS111 -> CMAR212 /* roman numerals */
+        /* Scientific notation for numbers < 1 */
+          MNUMS118 -> CMA487 /* Kw = 1x10^-14 at 25C */
+        /* Convert standard notation numbers into scientific notation */
+          MNUMS119 -> CMA471 /* calculating Ka from concentrations */
+          MNUMS119 -> CMA472 /* calculating Kb from concentrations */
+          MNUMS119 -> CMA474 /* calculating [H+] from concentrations and Ka */
+          MNUMS119 -> CMA482 /* calculating [OH-] from concentrations and Kb */
+          MNUMS119 -> CMA489 /* converting [OH-] and [H+] */
+        /* Convert scientific notation numbers into standard notation */
+          MNUMS120 -> CMA471 /* calculating Ka from concentrations */
+          MNUMS120 -> CMA472 /* calculating Kb from concentrations */
+          MNUMS120 -> CMA474 /* calculating [H+] from concentrations and Ka */
+          MNUMS120 -> CMA482 /* calculating [OH-] from concentrations and Kb */
+          MNUMS120 -> CMA489 /* converting [OH-] and [H+] */
+        /* Inequality with a variable and an integer */
+          MNUMS203 -> CMA457 /* acids: pH < 7 */
+          MNUMS203 -> CMA458 /* bases: pH > 7 */
+        /* Compound inequalities (with integers only) */
+          MNUMS209 -> CMA462 /* weak acidic: 5 < pH < 7 */
+          MNUMS209 -> CMA463 /* weak basic: 7 < pH < 9 */
+        /* Meaning of ratio as a comparison */
+          MNUMS410 -> CMA455 /* Ka = [acid products]/[acid] */
+          MNUMS410 -> CMA456 /* Kb = [base products]/[base] */
+        /* Multi-part ratios */
+          MNUMS416 -> CMA332 /* molecules formula */
+          MNUMS416 -> CMA336 /* empirical formula as smallest unit */
+          MNUMS416 -> CMA337 /* empirical formula as ratio of atoms within molecule */
+        /* Multi-part ratio equivalence */
+          MNUMS417 -> CMA341 /* empirical vs molecular formula */
+
+
+    /* Numeracy */
+      MOPS110 /* [type="todo", label="LINK IN:\nNumeracy:\nAddition of Two\nNon-Negative Numbers\n(and symbol '+')"] */
+      MOPS111 /* [type="todo", label="LINK IN:\nNumeracy:\nSubtraction of Two\nNon-Negative Numbers\n(and symbol '-')"] */
+      MOPS112 /* [type="todo", label="LINK IN:\nNumeracy:\nMultiplication of Two\nNon-Negative Numbers\n(and symbol 'x')"] */
+      MOPS121 /* [type="todo", label="LINK IN:\nNumeracy:\n'Power'\n'Base'"] */
+      MOPS152 /* [type="todo", label="LINK IN:\nNumeracy:\nDivision with\nNon-Negative Decimals"] */
+      MOPS153 /* [type="todo", label="LINK IN:\nNumeracy:\nExponents ≤ 3\nWith Non-Negative\nDecimals"] */
+      MOPS160 /* [type="todo", label="LINK IN:\nNumeracy:\nAddition &\nSubtraction\nwith Integers\n(Double Signs)"] */
+      MOPS194 /* [type="todo", label="LINK IN:\nNumeracy:\nAddition &\nSubtraction with\nNegative Decimals"] */
+      MOPS505 /* [type="todo", label="LINK IN:\nNumeracy:\nUse a Calculator\nTo Evaluate\nLogarithms"] */
+
+      /* Numeracy dependencies IN */
+        /* Addition of two non-negative numbers (and symbol +) */
+          MOPS110 -> CMA120 /* mass number (A) */
+          MOPS110 -> CMA443 /* calculating pOH from pH or vice versa */
+        /* Subtraction of two non-negative numbers (and symbol -) */
+          MOPS111 -> CMA121 /* calculations using A, Z and N */
+          MOPS111 -> CMA443 /* calculating pOH from pH or vice versa */
+        /* Multiplication of two non-negative numbers (and symbol x) */
+          MOPS112 -> CMA488 /* Kw = Ka x Kb */
+        /* Power and Base terminology */
+          MOPS121 -> CMA455 /* Ka = [acid products]/[acid] */
+          MOPS121 -> CMA456 /* Kb = [base procuts]/[base] */
+        /* division with non-negative decimals */
+          MOPS152 -> CMA471 /* calculating Ka from concentrations */
+          MOPS152 -> CMA472 /* calculating Kb from concentrations */
+          MOPS152 -> CMA474 /* calculating [H+] from concentrations and Ka */
+          MOPS152 -> CMA482 /* calculating [OH-] from concentrations and Kb */
+        /* Exponents < 3 with non-negative decimals */
+          MOPS153 -> CMA471 /* calculating Ka from concentrations */
+          MOPS153 -> CMA472 /* calculating Kb from concentrations */
+          MOPS153 -> CMA474 /* calculating [H+] from concentrations and Ka */
+          MOPS153 -> CMA482 /* calculating [OH-] from concentrations and Kb */
+        /* Addition & subtraction with integers (double signs) */
+          MOPS160 -> CMAE206 /* reduction means gain of electrons */
+          MOPS160 -> CMAE207 /* oxidation means loss of electrons */
+        /* Addition & subtraction with negative decimals */
+          MOPS194 -> CMA215 /* comparing electronegativities of different elements */
+        /* Use a calculator to evaluate logarithms */
+          MOPS505 -> CMA435 /* calculate pKa (given Ka) */
+          MOPS505 -> CMA436 /* calculate pKb (given Kb) */
+          MOPS505 -> CMA437 /* calculate pH from [H+] */
+          MOPS505 -> CMA438 /* calculate pOH from [OH-] */
+          MOPS505 -> CMA473 /* calculate Ka (given pKa) */
+          MOPS505 -> CMA479 /* calculate Kb (given pKb) */
+
+
+    /* Probability */
+      MPROB113 /* [type="todo", label="LINK IN:\nProbability:\nProbability as\npercentage"] */
+      MPROB114 /* [type="todo", label="LINK IN:\nProbability:\nProbability as\ndecimal"] */
+
+      /* Probabiliconceptty dependencies IN */
+        /* Probability as percentage */
+          MPROB113 -> CMA127 /* Schrodinger model */
+        /* Probability as decimal */
+          MPROB114 -> CMA127 /* Schrodinger model */
+
+
+  /* PHYSICS merge dependencies */
+
+  /* Electromagnetism */
+    PEESC020 /* [type="todo",label="LINK IN:\nElectromagnetism:\nUnequal number\n of protons and\n electrons \n= electrically charged"] */
+    PEESC021 /* [type="todo",label="LINK IN:\nElectromagnetism:\nNumber of electrons\n more than protons\n = negatively charged"] */
+    PEESC022 /* [type="todo",label="LINK IN:\nElectromagnetism:\nNumber of electrons\n less than protons\n = positively charged"] */
+    PEESQ016 /* [type="todo",label="LINK IN:\nElectromagnetism:\nquantization"] */
+    PEEST006 /* [type="todo",label="LINK IN:\nElectromagnetism:\nPolarization\n of charge"] */
+    PEEST017 /* [type="todo",label="LINK IN:\nElectromagnetism:\nObject is electron\n deficient = positive charge"] */
+    PEEST018 /* [type="todo",label="LINK IN:\nElectromagnetism:\nObject has an excess\n of electrons = negative charge"] */
+    PEM102 /* [type="todo",label="LINK IN:\nElectromagnetism:\nWhat is a magnet?"] */
+
+    /* Electromagnetism dependencies IN */
+      /* Unequal number of protons and electrons = electrically charged */
+        PEESC020 -> CMAE205 /* ions */
+      /* Number of electrons more than protons = negatively charged */
+        PEESC021 -> CMAE202 /* anions */
+      /* Number of electrons less than protons = positively charged */
+        PEESC022 -> CMAE201 /* cations */
+      /* quantization */
+        PEESQ016 -> CMA105 /* quantisation of energy */
+      /* Polarization of charge */
+        PEEST006 -> CMA309 /* dipoles, quadropoles, etc */
+      /* Object is electron deficient = positive charge */
+        PEEST017 -> CMAE207 /* oxidation means loss of electrons */
+      /* Object has an excess of electrons = negative charge */
+        PEEST018 -> CMAE206 /* reduction means gain of electrons */
+      /* What is a magnet? */
+        PEM102 -> CMA238 /* miscon: all metals are magnets */
+
+
+  /* Mechanics */
+    PMDCO009 /* [type="todo",label="LINK IN:\nMechanics:\nMomentum is\n conserved in an \nelastic collision"] */
+    PMDCO010 /* [type="todo",label="LINK IN:\nMechanics:\nKE is conserved\n in an elastic\n collision"] */
+    PMK001 /* [type="todo",label="LINK IN:\nMechanics:\nDefinition\n of time"] */
+
+    /* Mechanics dependencies IN */
+      /* Momentum is conserved in an elastic collision */
+        PMDCO009 -> CMA536 /* kinetic molecular theory of gases */
+      /* KE is conserved in an elastic collision */
+        PMDCO010 -> CMA536 /* kinetic molecular theory of gases */
+      /* Definition of time */
+        PMK001 -> CMA548 /* future: heating curves */
+        PMK001 -> CMA549 /* future: cooling curves */
+
+
+  /* Optics */
+    POGO206 /* [type="todo", label="LINK IN:\nOptics:\n'Opaque'\nMeans not clear,\nLight cannot pass\nthrough"] */
+
+    /* Optics dependencies IN */
+      /* 'Opaque' Means not clear, light cannot pass through */
+        POGO206 -> CMA221 /* metals are opaque */
