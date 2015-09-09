@@ -72,9 +72,9 @@ public class Vertex implements VertexFactory<Vertex>
 		this.outgoingEdges = outgoingEdges;
 	}
 	
-	public boolean equals(Vertex v1, Vertex v2)
+	public boolean equals(Vertex v1)
 	{
-		if(v1.getId() == v2.getId())
+		if(this.getId() == v1.getId())
 		{
 			return true;
 		}

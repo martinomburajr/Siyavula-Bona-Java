@@ -1,52 +1,43 @@
-package com.bona.Driver;
-import java.io.BufferedReader;
-import java.io.FileReader;
-import java.io.IOException;
-import java.util.ArrayList;
-import java.util.List;
+package com.bona.Tests;
 
-import org.jgrapht.DirectedGraph;
+import org.junit.After;
+import org.junit.AfterClass;
+import org.junit.Before;
+import org.junit.BeforeClass;
+import org.junit.Test;
 
-import com.bona.Entity.Edge;
 import com.bona.Entity.Graph;
-import com.bona.Entity.Group;
-import com.bona.Entity.Parser;
 import com.bona.Entity.Vertex;
-import com.bona.Entity.Cycle.TarjanCycle;
-import com.bona.Entity.ShortestPathAlgorithm.BellmanFord;
 
-public class Driver {
+import junit.framework.TestCase;
 
-	final static String FILEPATH = "00-chem_matter_source.map";
+public class TarjanCycle extends TestCase {
 
-	/*
-	 * The bellmanFord shortest path algorithm will locate the shortest paths between nodes
-	 */
-	public static List<Edge> bellmanFordTest()
-	{		
-		Graph graph = (Graph) Driver.generateTestGraph();
-		
-		BellmanFord bf = new BellmanFord(graph,graph.getVertices().get(3));
-		List<Edge>shortestPath = new ArrayList<Edge>();
-				shortestPath = bf.getPathEdgeList(graph.getVertices().get(17));
-				//shortestPath = BellmanFord.findPathBetween(graph, v1, v4);
-		return shortestPath;
-	}	
-	/*
-	 * The TarjanCycle Class is responsible for identifying simple cycles within the graph
-	 */
-	public static List<List<Vertex>> tarjanCycleTest()
-	{
-		Graph graph = (Graph) Driver.generateTestGraph();
-		
-		TarjanCycle tc = new TarjanCycle(graph);
-		return tc.findSimpleCycles();
-	}
 	
-	public static DirectedGraph<Vertex,Edge> generateTestGraph()
-	{
-		DirectedGraph<Vertex,Edge> graph = (DirectedGraph<Vertex, Edge>) new Graph();
-		
+	protected static Graph graph = new Graph();
+	protected static int vertexSize;
+	protected static int edgeSize;
+	
+	
+	/**
+	 * @throws java.lang.Exception
+	 */
+	@BeforeClass
+	public static void setUpBeforeClass() throws Exception {
+	}
+
+	/**
+	 * @throws java.lang.Exception
+	 */
+	@AfterClass
+	public static void tearDownAfterClass() throws Exception {
+	}
+
+	/**
+	 * @throws java.lang.Exception
+	 */
+	@Before
+	public void setUp() throws Exception {
 		Vertex v1 = new Vertex("v1","CapeTown","CT");
 		Vertex v2 = new Vertex("v2","Joburg","JNB");
 		Vertex v3 = new Vertex("v3","Lilongwe","LNG");
@@ -130,53 +121,25 @@ public class Driver {
 		graph.addEdge(v8, v1);
 		graph.addEdge(v5, v8);		
 		
-		return graph;
+		vertexSize = 20;
+		edgeSize = 32;
 	}
-	
-	public static void main(String args[]) throws IOException{
-<<<<<<< HEAD
-	
-		Driver.runMap();
-		//Driver.runCycle();
-	}
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	public static void runMap() throws IOException{
-=======
-		long startTime = System.currentTimeMillis();
-		
->>>>>>> aa5398962df68993ca6387b9b5fd2c4e056e2b15
-		Parser.parseFile(FILEPATH);
-		
-		System.out.println("Groups Size: " + Parser.getGroups().size());
-		System.out.println("Vertices Size: " + Parser.getVertices().size());
-<<<<<<< HEAD
-=======
-		
-		long endTime = System.currentTimeMillis() - startTime;
-		
-		System.out.println("Time taken: " + endTime + "ms");
->>>>>>> aa5398962df68993ca6387b9b5fd2c4e056e2b15
-	}
-	
-	public static void runCycle(){
-		for(List<Vertex> v : Driver.tarjanCycleTest() )
-		{
-			for(Vertex a : v )
-			{
-				System.out.println(a);
-			}
-		}
-		
-	}
-	
-}
-	 	
 
+	/**
+	 * @throws java.lang.Exception
+	 */
+	@After
+	public void tearDown() throws Exception {
+	}
+
+	@Test
+	public void test() {
+		//Check vertex list size!
+		
+		System.out.println("No. of Test Case = " + this.countTestCases());		
+		
+		this.setName("Vertex and Edge Size?");
+		assertEquals(edgeSize, graph.getEdges().size());
+		assertEquals(vertexSize, graph.getVertices().size());
+	}
+}

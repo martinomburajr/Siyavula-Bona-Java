@@ -133,6 +133,8 @@ public class Parser implements Runnable {
 		 }
 	}
 	
+
+
 	
 	private static boolean hasCode(String x) {
 		x=x.trim();
@@ -150,7 +152,7 @@ public class Parser implements Runnable {
 	/*
 	 * Creates the graph
 	 */
-	public static DirectedGraph<Vertex,Edge> addVerticesToGraph()
+	public static DirectedGraph<Vertex,Edge> populateGraph()
 	{
 		DirectedGraph<Vertex,Edge> graph = (DirectedGraph<Vertex,Edge>) new Graph();
 		
