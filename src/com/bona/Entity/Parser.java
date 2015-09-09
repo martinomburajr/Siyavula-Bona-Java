@@ -32,19 +32,19 @@ public class Parser implements Runnable {
         {
         	exists = false;
        	 	x= in.readLine();
-       	// System.out.print(x + "\n");
+       	
        	 if (x == null )
 				break;
       // 	else if (x.contains("GROUPINGS")){
       	//	 adding=false;
      // 	 }
-       	else if (hasCode(x)){	
+       	else if (hasCode(x)){	   // Check is the line has an ID code.
 	       		        		 
-	       			id=getID(x);
+	       		id=getID(x);   // Extract the ID.
 	       		
-	       		 exists=exist(id);
-	       		 
-	       		 if (exists==false){
+	       		 exists=exist(id);  // Check if the node exists.
+
+	       		 if (exists==false){				// if new node add it and reap type, label.
 	       			 System.out.println(id);
 	       			 if (x.contains("type"))
 	       				 type = x.substring(x.indexOf("type") + 6, x.indexOf(",")-1);
@@ -55,22 +55,23 @@ public class Parser implements Runnable {
 	       			 n = new Vertex(id, type,label);
 	   	        	 vertices.add(n);
 	   	        	 
-	   	        	 if (type.equals("group")){
+	   	        	 if (type.equals("group")){    // if a group create new group
 	   	        		 g = new Group(id,label);
 	   	        		 groups.add(g);
 	   	        	 }
 	           	 } 
-	       		else if (x.contains("{")){
+
+	       		else if (x.contains("{")){  		// make the group recursively
 	          		 makeGroup(x,in); 
 	          	 }
-	       		else if (x.contains("->")  && !(x.contains("<->"))){
+	       		else if (x.contains("->")  && !(x.contains("<->"))){    // create edge
 	           		e = new Edge(edgeID);
 	           		edgeID++;
 	           		
-	           		id=getSource(x);
-	           		dep=getTarget(x);
+	           		id=getSource(x);									// get source node ID
+	           		dep=getTarget(x);									// get target node ID
 	           		if (exist(id)==false || exist(dep)==false)
-	           				continue;
+	           				continue;									
 	           	
 	           		for (Vertex o: vertices){
 	         			 if (id.equals(o.getId())){
@@ -84,13 +85,11 @@ public class Parser implements Runnable {
 	         				 break;
 	         			 }
 	          		}
-	           		if (edgeID>=896){
-	           			System.out.print("");
-	           		}
+	           		
 	           		edges.add(e);
 	           		System.out.print(e);
 	           	 }
-	           	 else if (x.contains("CHEMISTRY merge dependencies"))
+	           	 else if (x.contains("CHEMISTRY merge dependencies"))		// TODO
 	           		 break;
 	            }
        	
@@ -136,17 +135,17 @@ public class Parser implements Runnable {
 	
 	
 	private static boolean hasCode(String x) {
-		if(x.contains("CMA") || x.contains("PEE") || x.contains("CMA") || x.contains("CPR") 
-	       			 || x.contains("CAC") || x.contains("CBO") || x.contains("COR") 
-	       			 || x.contains("PEM") || x.contains("CRX") || x.contains("CTD")
-	       			 || x.contains("PTE") || x.contains("PTTE") || x.contains("PUN")
-	       			 || x.contains("MALG") || x.contains("MCP") || x.contains("MCG")
-	       			 || x.contains("MNUMS") || x.contains("MOPS") || x.contains("MPROB") 
-	       			 || x.contains("PM") || x.contains("POGO"))
-			return true;
-		else
-			return false;
+		x=x.trim();
+		if (x.length()<1 || !Character.isUpperCase(x.charAt(0))) return false;
+		
+		for (int p=0; p < x.length(); p++){
+			if (Character.isUpperCase(x.charAt(p)))
+				if (Character.isDigit(x.charAt(p+1))) return true;
+			else continue;				
+		}
+		return false;
 	}
+		 
 
 	/*
 	 * Creates the graph
@@ -170,80 +169,31 @@ public class Parser implements Runnable {
 	
 	public static String getID(String x){
 		
-		String code = getCode(x); 
-   		String id = x.substring(x.indexOf(code));
-		 if (id.contains(" ")){
-			 id = ( id.substring(0, id.indexOf(" ")));
-		 }
-		return id;	 
+		String code= getCode(x); 
+		return code;
+  
 	 }
 	public static String getTarget(String x){
-		 x = ( x.substring(x.indexOf("->")));
-		 String code = getCode(x);
-		 String id = x.substring(x.lastIndexOf(code));
-		 if (id.contains(" ")){
-			 id = ( id.substring(0, id.indexOf(" ")));
-		 }
-		return id;	 
+		 x = ( x.substring(x.indexOf("->")+2));
+		 String id = getCode(x);
+		 return id;
+	
 	 }
 	
 	public static String getSource(String x){
 		 x = ( x.substring(0,x.indexOf("->")));
 		
-		 String code = getCode(x);
-		 String id = x.substring(x.lastIndexOf(code));
-		 if (id.contains(" ")){
-			 id = ( id.substring(0, id.indexOf(" ")));
-		 }
-		return id;	 
+		 String id = getCode(x);
+		 return id;
+
 	 }
 	
 	
 	private static String getCode(String x) {
-		String code = null;
-		if (x.contains("CMA"))
-   			code="CMA";
-   		else if (x.contains("PEE"))
-   			code="PEE";
-   		else if (x.contains("CMA"))
-   			code="CMA";
-   		else if (x.contains("CPR"))
-   			code="CPR";
-   		else if (x.contains("CAC"))
-   			code="CAC";
-   		else if (x.contains("CBO"))
-   			code="CBO";
-   		else if (x.contains("COR"))
-   			code="COR";
-   		else if (x.contains("PEM"))
-   			code="PEM";
-   		else if (x.contains("CRX"))
-   			code="CRX";
-   		else if (x.contains("CTD"))
-   			code="CTD";
-   		else if (x.contains("PTE"))
-   			code="PTE";
-   		else if (x.contains("PTTE"))
-   			code="PTTE";
-   		else if (x.contains("PUN"))
-   			code="PUN";
-   		else if (x.contains("MALG"))
-   			code="MALG";
-   		else if (x.contains("MCP"))
-   			code="MCP";
-   		else if (x.contains("MCG"))
-   			code="MCG";
-   		else if (x.contains("MNUMS"))
-   			code="MNUMS";
-   		else if (x.contains("MOPS"))
-   			code="MOPS";
-   		else if (x.contains("MPROB"))
-   			code="MPROB";
-   		else if (x.contains("PM"))
-   			code="PM";
-   		else if (x.contains("POGO"))
-   			code="POGO";
-		return code;
+		String id = x.trim();
+		while (id.contains(" "))
+			id= ( id.substring(0,id.length()-1));
+		return id;
 	}
 
 	public static ArrayList<Vertex> getVertices() {
