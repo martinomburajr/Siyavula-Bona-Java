@@ -63,7 +63,7 @@ public class Edge implements EdgeFactory<Vertex,Edge> {
 	{
 		return "Edge Id: " + this.getId() + "\n" +
 				"SourceVertexId: " + this.getSourceVertex().getId() + "\n" +
-				"TargetVertexId: " + this.getTargetVertex().getId()+ "\n";
+				"TargetVertexId: " + this.getTargetVertex().getId()+ "\n" + "\n";
 	}
 	
 }

@@ -134,17 +134,49 @@ public class Driver {
 	}
 	
 	public static void main(String args[]) throws IOException{
+<<<<<<< HEAD
+	
+		Driver.runMap();
+		//Driver.runCycle();
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	public static void runMap() throws IOException{
+=======
 		long startTime = System.currentTimeMillis();
 		
+>>>>>>> aa5398962df68993ca6387b9b5fd2c4e056e2b15
 		Parser.parseFile(FILEPATH);
 		
 		System.out.println("Groups Size: " + Parser.getGroups().size());
 		System.out.println("Vertices Size: " + Parser.getVertices().size());
+<<<<<<< HEAD
+=======
 		
 		long endTime = System.currentTimeMillis() - startTime;
 		
 		System.out.println("Time taken: " + endTime + "ms");
+>>>>>>> aa5398962df68993ca6387b9b5fd2c4e056e2b15
 	}
+	
+	public static void runCycle(){
+		for(List<Vertex> v : Driver.tarjanCycleTest() )
+		{
+			for(Vertex a : v )
+			{
+				System.out.println(a);
+			}
+		}
+		
+	}
+	
 }
 	 	
 
