@@ -1,0 +1,96 @@
+/* Matter group */
+CMA000 [label="Matter"] {
+
+  /* ==== NODES ==== */
+
+    CMA001 [type="concept", label="pure substance"]
+    CMA002 [type="concept", label="difference between\nchemical and physical change"]
+    CMA003 [type="concept", label="what is matter?"]
+    CMA004 [type="concept", label="what does\ndiscrete mean?"]
+
+  /* Atoms */
+    CMA100 [type="group", label="Atoms"]
+    CMA101 [type="group", label="Atomic structure"]
+    CMA102 [type="group", label="Models of the atom"]
+    CMA103 [type="group", label="Radioactivity"]
+
+    CMA104 [type="concept", label="atomic mass\n(mass of an atom)"]
+    CMA105 [type="concept", label="quantisation of energy"]
+    CMA106 [type="concept", label="atoms are\npure substances"]
+    CMA107 [type="concept", label="core and valence electrons"]
+    CMA108 [type="concept", label="atomic radius"]
+    CMA109 [type="concept", label="the electrons in\nan atom are configured\nin a set way"]
+    CMA110 [type="concept", label="Aufbau principle\nbuilding up from\nlowest available level"]
+    CMA111 [type="concept", label="principle\nquantum number"]
+    CMA112 [type="concept", label="definition of\nan atomic orbital"]
+    CMA113 [type="concept", label="understanding sp\norbitals"]
+    CMA114 [type="concept", label="electron pairs"]
+    CMA116 [type="concept", label="what is an atom?"]
+    CMA117 [type="concept", label="sub-atomic\nparticles"]
+    CMA118 [type="concept", label="nucleus"]
+    CMA119 [type="concept", label="atomic number (Z)\nthe number of protons\nin an atom"]
+    CMA120 [type="concept", label="mass number (A)\nthe number of protons + neutrons\nin atomic nucleus"]
+    CMA121 [type="concept", label="calculations using\nA, Z and N"]
+    CMA122 [type="concept", label="neutral atom has Z electrons"]
+    CMA123 [type="concept", label="neutrons are neutral"]
+    CMA124 [type="concept", label="number of\nneutrons (N)"]
+    CMA125 [type="concept", label="Bohr model\n nucleus at center\n with shells of electrons"]
+    CMA126 [type="concept", label="Plum pudding model\n positive sphere\n embedded with negative electrons"]
+    CMA127 [type="concept", label="Schrodinger model\nprobability density orbitals"]
+    CMA128 [type="concept", label="Dalton model\nthe atom indivisible"]
+    CMA129 [type="concept", label="Rutherford model\n positive core (nucleus)\n with electrons orbiting"]
+    CMA130 [type="concept", label="understanding radioactivity\n(radioactive decay)"]
+    CMA131 [type="concept", label="types of radiation:\n alpha, beta and gamma"]
+    CMA132 [type="concept", label="alpha particles/\nradiation"]
+    CMA133 [type="concept", label="radiation"]
+    CMA134 [type="concept", label="beta particles/\nradiation"]
+    CMA135 [type="concept", label="gamma rays"]
+    CMA151 [type="concept", label="ground state\nof an atom"]
+    CMA156 [type="concept", label="understanding s\norbitals"]
+    CMA157 [type="concept", label="understanding p\norbitals"]
+
+
+   /* ==== DEPENDENCIES ==== */
+
+    CMA003 -> CMA001 /* what is matter? -> pure substance */
+
+  /* Atoms */
+    CMA104 -> CMA137 /* atomic mass -> atomic mass units */
+    CMA105 -> CMA111 /* quantisation of energy -> principle quantum number */
+    CMA105 -> CMA125 /* quantisation of energy -> Bohr model */
+    CMA105 -> CMA135 /* quantisation of energy -> gamma rays */
+    CMA105 -> CMA147 /* quantisation of energy -> magnetic spin quantum number */
+    CMA107 -> CMA158 /* core and valence electrons -> miscon: unpaired electrons = valenece electrons paired electrons cannot be valence electrons */
+    CMA109 -> CMA110 /* the electrons in an atom are configured in a set way -> Aufbau principle building up from lowest available level */
+    CMA110 -> CMA146 /* Aufbau principle -> future: Pauli's exclusion principle */
+    CMA112 -> CMA136 /* definition of an atomic orbital -> atomic orbitals (s, p, d, f) */
+    CMA113 -> CMA115 /* understanding sp orbitals -> future: understanding df orbitals */
+    CMA114 -> CMA109 /* electron pairs -> the electrons in an atom are configured in a set way */
+    CMA114 -> CMA138 /* electron pairs -> electron pair notation */
+    CMA114 -> CMA158 /* electron pairs -> miscon: unpaired electrons = valence electrons paired electrons cannot be valence electrons */
+    CMA116 -> CMA106 /* what is an atom? -> atoms are pure substances */
+    CMA116 -> CMA117 /* what is an atom? -> sub-atomic particles */
+    CMA116 -> CMA128 /* what is an atom? -> Dalton model of atom */
+    CMA117 -> CMA139 /* sub-atomic particles -> electrons */
+    CMA117 -> CMA140 /* sub-atomic particles -> protons */
+    CMA117 -> CMA141 /* sub-atomic particles -> neutrons */
+    CMA118 -> CMA108 /* nucleus -> atomic radius */
+    CMA118 -> CMA120 /* nucleus -> mass number (A) */
+    CMA118 -> CMA129 /* nucleus -> Rutherford model */
+    CMA118 -> CMA130 /* nucleus -> understanding radioactivity (radioactive decay) */
+    CMA118 -> CMA142 /* nucleus -> nucleons are particles in atomic nucleus (neutrons and protons) */
+    CMA119 -> CMA120 /* atomic number (Z) -> mass number (A) */
+    CMA119 -> CMA122 /* atomic number (Z) -> neutral atom has Z electrons */
+    CMA120 -> CMA104 /* mass number (A) -> atomic mass */
+    CMA120 -> CMA121 /* mass number (A) -> calculations using A, Z and N */
+    CMA120 -> CMA132 /* mass number (A) -> alpha particles/radiation */
+    CMA122 -> CMA150 /* neutral atom has Z electrons -> miscon: neutrons are negative */
+    CMA123 -> CMA122 /* neutrons are netural -> neutral atom has Z electrons */
+    CMA124 -> CMA120 /* number of neutrons (N) -> mass number (A) */
+    CMA125 -> CMA109 /* Bohr model -> electronic configuration of atom */
+    CMA125 -> CMA127 /* Bohr model -> Schrodinger model */
+    CMA125 -> CMA151 /* Bohr model -> ground state of an atom */
+    CMA127 -> CMA112 /* Schrodinger model -> atomic orbital */
+    CMA129 -> CMA125 /* Rutherford model -> Bohr model */
+    CMA130 -> CMA131 /* radioactivity/spontaneous decomposition -> types of radiation: alpha, beta, gamma */
+    
